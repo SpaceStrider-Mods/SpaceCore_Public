@@ -1,0 +1,78 @@
+VerticalLayoutWidgetClass {
+ Name "TankWeaponAzimuthInfoLayout"
+ IsPixelPerfect 0
+ {
+  TextWidgetClass "{65D8A842B1AE09A9}" : "{AFBCCA64F398482A}UI/layouts/WidgetLibrary/TextWidgets/Text_BodyExtraSmall.layout" {
+   Name "m_TxtMils"
+   Slot LayoutSlot "{5DA0E2E603408801}" {
+    HorizontalAlign 1
+    Padding 0 -150 0 0
+   }
+   IsPixelPerfect 0
+   Text "1000 mils"
+   "Min Font Size" 14
+   FontProperties FontProperties "{546AF489DFD25402}" {
+    OutlineSize 2
+    ShadowSize 8
+   }
+  }
+  TextWidgetClass "{65D8A842B1AE09AD}" : "{AFBCCA64F398482A}UI/layouts/WidgetLibrary/TextWidgets/Text_BodyExtraSmall.layout" {
+   Name "m_TxtDegrees"
+   Slot LayoutSlot "{5DA0E2E603408801}" {
+    HorizontalAlign 1
+    Padding 0 5 0 -22
+   }
+   IsPixelPerfect 0
+   Text "50°"
+   "Min Font Size" 14
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+   FontProperties FontProperties "{546AF489DFD25402}" {
+    OutlineSize 2
+    ShadowSize 8
+   }
+  }
+  ImageWidgetClass "{65D8A842B1AE09AE}" {
+   Name "Chevron"
+   Slot LayoutSlot "{5DA0E2E6FC63BEC9}" {
+    HorizontalAlign 1
+    VerticalAlign 1
+   }
+   IsPixelPerfect 0
+   Clipping True
+   Color 0.761 0.386 0.08 1
+   Texture "{87D00D95723151D3}UI/Textures/Sights/Sights-texture-notch.imageset"
+   Image "Notch_V"
+   Size 64 64
+  }
+  FrameWidgetClass "{65D8A842B1AE09AF}" {
+   Name "AzimuthRootHolder"
+   Slot LayoutSlot "{60C896D688FFB7DC}" {
+    HorizontalAlign 1
+    VerticalAlign 1
+   }
+   IsPixelPerfect 0
+   {
+    ScrollLayoutWidgetClass "{65D8A842B1AE09A0}" {
+     Name "m_HeadingTableHolder"
+     Slot FrameWidgetSlot "{60CA8E3ACC5D0906}" {
+      Anchor 0.5 0.5 0.5 0.5
+      PositionX 0
+      OffsetLeft 0
+      PositionY -38.192
+      OffsetTop -38.192
+      SizeX 500
+      OffsetRight -500
+      SizeY 100
+      OffsetBottom -61.808
+      Alignment 0.5 0.5
+     }
+     IsPixelPerfect 0
+     style Blank
+     "no focus" 1
+     ScrollDirection Horizontal
+    }
+   }
+  }
+ }
+}

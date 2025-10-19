@@ -1,0 +1,15 @@
+GenericEntity : "{1E29CFA773A85605}Prefabs/Weapons/Ammo/Warhead_AP_Spall_Base.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    SubmunitionEffect "{65D744DB44382968}" {
+     Prefab "{EDC9C1FB7F55A32D}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433_Spall.et"
+    }
+    SpawnDecalEffect "{66776D9FF7CD1243}" {
+     Scale 1
+    }
+   }
+  }
+ }
+}

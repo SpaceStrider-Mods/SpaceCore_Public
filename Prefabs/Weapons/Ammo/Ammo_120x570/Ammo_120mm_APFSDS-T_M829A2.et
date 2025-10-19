@@ -1,0 +1,32 @@
+TracerProjectile : "{5D7DDA86F9AC9505}Prefabs/Weapons/Ammo/Ammo_120x570/Ammo_120mm_APFSDS-T_M829A1.et" {
+ ID "476AE74C1F2F140D"
+ components {
+  CollisionTriggerComponent "{65B54151E7C9F87A}" {
+   PROJECTILE_EFFECTS {
+    SpawnPrefabEffect "{65D744DA4DE161F6}" {
+     EffectPrefab "{B13B12EAE67D8276}Prefabs/Weapons/Ammo/Ammo_120x570/Warhead_AP_Spall_M829A2.et"
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 1680
+   Mass 4.92
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 37000
+    }
+    ProjectileDamage "{65A76C8143FF5417}" {
+    }
+    SubmunitionEffect "{65D65B22DE3AB609}" {
+     Prefab "{EAB8223ADBB2AA24}Prefabs/Weapons/Ammo/Ammo_120x570/Ammo_APFSDS_M829A2_Spall.et"
+    }
+   }
+   BallisticTableConfig "{417CCB34B85BF7A8}Configs/Weapons/AIBallisticTables/AIBT_120mm_APFSDS_M829A2.conf"
+   Diameter 21
+   Length 782
+   PenetrationDepth 630
+   PenetrationSpeed 1680
+  }
+ }
+ coords 70.396 1 1276.154
+}

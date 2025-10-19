@@ -1,0 +1,80 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  ImageWidgetClass "{610E48919EDF3E8F}" {
+   Name "ImageTriplex"
+   Slot FrameWidgetSlot "{605D7B822E348D14}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -960
+    OffsetLeft -960
+    PositionY -540
+    OffsetTop -540
+    SizeX 1920
+    OffsetRight -960
+    SizeY 1080
+    OffsetBottom -540
+   }
+   Texture "{04A7A725E7BF04E6}UI/Textures/Sights/RAM_TriplexView.edds"
+   Size 960 540
+  }
+  ImageWidgetClass "{610E48919EDF3E8B}" {
+   Name "ImageBorderLeft"
+   Slot FrameWidgetSlot "{605D7B83F403BEC2}" {
+    Anchor 0 0 0.5 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX -960
+    OffsetRight 960
+    SizeY 0
+    OffsetBottom 0
+   }
+   Color 0 0 0 1
+  }
+  ImageWidgetClass "{610E48919EDF3E8A}" {
+   Name "ImageBorderTop"
+   Slot FrameWidgetSlot "{605D7B83F403BEC2}" {
+    Anchor 0 0 1 0.5
+    PositionX 1920
+    PositionY 0
+    OffsetTop 0
+    SizeX -1920
+    OffsetRight 0
+    SizeY 540
+    OffsetBottom 540
+   }
+   Color 0 0 0 1
+  }
+  ImageWidgetClass "{610E48919EDEA2DD}" {
+   Name "ImageBorderRight"
+   Slot FrameWidgetSlot "{605D7B83F403BEC2}" {
+    Anchor 0.5 0 1 1
+    PositionX -960
+    OffsetLeft 960
+    PositionY 0
+    OffsetTop 0
+    SizeX -960
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   Color 0 0 0 1
+  }
+  ImageWidgetClass "{610E48919EDEA2C3}" {
+   Name "ImageBorderDown"
+   Slot FrameWidgetSlot "{605D7B83F403BEC2}" {
+    Anchor 0 0.5 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY -540
+    OffsetTop 540
+    SizeX 0
+    OffsetRight 0
+    SizeY -540
+    OffsetBottom 0
+   }
+   Color 0 0 0 1
+  }
+ }
+}

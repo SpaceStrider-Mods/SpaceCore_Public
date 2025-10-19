@@ -1,0 +1,12 @@
+Projectile : "{4396C04E60BBF7F5}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_SPC.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  TimerTriggerComponent "{62EC37ED708C1AAB}" {
+   TIMER 0.8
+  }
+  ShellMoveComponent "{20FB66C5FA209A29}" {
+   InitSpeed 30
+  }
+ }
+ coords 61.089 1 1215.238
+}

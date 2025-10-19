@@ -1,0 +1,30 @@
+TracerProjectile : "{9A278C5AC7235C6E}Prefabs/Weapons/Ammo/Ammo_23x152/Ammo_23x152_base.et" {
+ ID "476AE74AA8E99E2E"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 184
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+     Filename "{B9C658F858BD06BC}Sounds/Weapons/_SharedData/BulletHits/Weapons_BulletHits_25x137_APDST.acp"
+    }
+    SpawnParticleEffect "{650D091D757EA381}" {
+     TriggerOnce 1
+     ParticleEffect "{36DB8CF2DAB471DD}Particles/Weapon/Explosion_APDS.ptc"
+    }
+   }
+   BallisticTableConfig "{913AAB235D166172}Configs/Weapons/AIBallisticTables/AIBT_23x152_APIT_BZT.conf"
+   Diameter 23
+   Length 152
+   DeflectionCriticalAngle 5
+   DeflectionDirDistribution 0.2
+   PenetrationDepth 50
+   PenetrationSpeed 970
+  }
+ }
+ coords 102.226 1.674 1239.765
+ ProjectileModel "{141B6A1F89173504}Assets/Weapons/Ammo/Tracers/Tracer_green.xob"
+ CartridgeModel "{3A1C0915F7269C10}Assets/Weapons/Ammo/Bullets/25x137/Cartridge_25x137_M791.xob"
+ "Tracer Burn Time" 5
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FDFA64D04F9C445C}Prefabs/Vehicles/Generic/VehParts/US_Domelight_01/US_Domelight_Red_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

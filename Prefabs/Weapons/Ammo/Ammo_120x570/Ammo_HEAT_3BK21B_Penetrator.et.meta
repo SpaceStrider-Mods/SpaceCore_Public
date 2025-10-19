@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F9BC06E8B7803E0D}Prefabs/Weapons/Ammo/Ammo_120x570/Ammo_HEAT_3BK21B_Penetrator.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

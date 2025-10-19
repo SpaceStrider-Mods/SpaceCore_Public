@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9F5F3FEE4273CAE2}Prefabs/Weapons/Ammo/Spall/Ammo_Missile_9M119_Penetrator.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

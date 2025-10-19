@@ -1,0 +1,242 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef M82_Smoke {
+   ShapeSize 1 1 1
+   ConeAngle 360 -90 360
+   ConeAngleMinDist 2
+   ConeAngleRndRange 30
+   Occlusion 24
+   MaxNum 15
+   BirthRate 8000
+   BirthRateRND 0.3
+   BirthRateVel 0.7
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{8FDD14C58C7E06E5}Particles/_Materials/Gas/Smoke_RPG7_black_N_01.emat"
+   StretchMultiplier 1
+   StreakFullUV 0
+   SizeMultiplier 5.5
+   SizeRND 7
+   ScaleX 1
+   RotMultiplier 4
+   RotRND 12
+   RandomRotDir 1
+   BillboardingType Full
+   VelAngle 0
+   RandomAngle 1
+   FlipU Random
+   FlipV On
+   VelocityRND 3
+   AirResistance 2
+   AirResistanceRND 0.6
+   WindInfluence 0.35
+   GravityMultiply 0.098
+   GravityMultiplyRND -0.098
+   EnableCollisions 1
+   CollisionDistThresh 0
+   NormalRestitution 0.15
+   TagentialRestitution 0.9
+   Friction 0.95
+   AnimOnce 1
+   AnimFPS 60
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 60
+   LifetimeVelFactor 0.1
+   Color {
+    0 1 1 1
+   }
+   Alpha {
+    0 0.52 0.1 1 0.7 1 1 0
+   }
+   RotationSpeed {
+    0 0.25 0.1 0.8 0.45 0.6 1 0.3
+   }
+   Size {
+    0 0 0.0111 0.3167 0.0294 0.5697 0.0592 0.7273 0.1007 0.8812 0.3657 1 1 1
+   }
+   EmittingTime 1
+   Repeat 0
+   AlphaMast {
+    0 0 0.02 1 0.7 1 1 0
+   }
+  }
+  EmitterDef M82_11 {
+   ShapeSize 1 1 1
+   ConeAngle 360 -90 360
+   ConeAngleMinDist 2
+   ConeAngleRndRange 30
+   Occlusion 24
+   BirthRate 8000
+   BirthRateRND 0.3
+   BirthRateVel 0.7
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{8FDD14C58C7E06E5}Particles/_Materials/Gas/Smoke_RPG7_black_N_01.emat"
+   StretchMultiplier 1
+   StreakFullUV 0
+   SizeMultiplier 8
+   SizeRND 7
+   ScaleX 1
+   RotMultiplier 4
+   RotRND 12
+   RandomRotDir 1
+   BillboardingType Full
+   VelAngle 0
+   RandomAngle 1
+   FlipU Random
+   FlipV On
+   VelocityRND 3
+   AirResistance 1
+   AirResistanceRND 0.6
+   WindInfluence 0.25
+   GravityMultiply 0.098
+   GravityMultiplyRND -0.098
+   EnableCollisions 1
+   CollisionDistThresh 0
+   NormalRestitution 0.15
+   TagentialRestitution 0.9
+   Friction 0.95
+   AnimOnce 1
+   AnimFPS 60
+   LifetimeByAnim 0
+   RandomFrame 1
+   Lifetime 60
+   LifetimeVelFactor 0.1
+   Color {
+    0 1 1 1
+   }
+   Alpha {
+    0 0.52 0.1 1 0.7 1 1 0
+   }
+   RotationSpeed {
+    0 0.25 0.1 0.8 0.45 0.6 1 0.3
+   }
+   Size {
+    0 0 0.0986 0.5115 0.3657 1 1 1
+   }
+   EmittingTime 1
+   Repeat 0
+   AlphaMast {
+    0 0 0.02 1 0.7 1 1 0
+   }
+  }
+  EmitterDef M82_IgnitionFlash {
+   Material "{6E033C070B32B17C}Particles/_Materials/Fire/Explosion_Base_03.emat"
+   SizeRND 3
+   RandomAngle 1
+   Velocity 0
+   AnimFPS 0
+   Lifetime 0.15
+   Alpha {
+    0.001 0.8
+   }
+   Size {
+    0 0 0.2 1 0.5 1 0.75 1 1 0
+   }
+   EmittingTime 0.05
+   Repeat 0
+   EnableLight 1
+   MaxLV 3.5
+   LightColorMast {
+    0.2 1 0.2 0.6 0.5 1 0.5 0.1
+   }
+   LightIntensityMast {
+    0 0 0.6 1 1 0
+   }
+   LightIntensityResponse 6
+  }
+  EmitterDef M82_Burst {
+   ConeAngle 360 0 360
+   ConeAngleMinDist 180
+   MaxNum 15
+   BirthRate 2500
+   Material "{84C6C29E227A50FB}Particles/_Materials/Gas/Smoke_Base_Pillar_01.emat"
+   Prefab "{29FBEC1991810EEF}system/wbdata/ParticleEditor/defaultPrefab.et"
+   SizeMultiplier 3
+   SizeRND 7
+   ScaleX 0.25
+   ScaleY 1
+   VelAngle 1
+   Velocity 5
+   VelocityRND 8
+   AirResistance 3
+   Lifetime 1
+   LifetimeRND 1
+   Alpha {
+    0.0021 1 0.4975 0.5084 1 0
+   }
+   RotationSpeed {
+    0 0.3636 0.0509 0.8727
+   }
+   Size {
+    0 0 0.2508 0.5093 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+  }
+  EmitterDef M82_Sparks {
+   ShapeType Ellipse
+   ShapeSize 2 2 2
+   ConeAngle 360 0 360
+   MaxNum 15
+   BirthRate 8000
+   BirthRateRND 0
+   LodMin 0
+   LodMax 2
+   Material "{4392655F611C4B81}Particles/_Materials/Fire/Explosion_Base_03_Rocket.emat"
+   SizeMultiplier 0.025
+   SizeRND 0.25
+   ScaleX 0.6
+   ScaleY 0.6
+   VelAngle 1
+   FlipU Random
+   Velocity 28
+   VelocityRND 18
+   AirResistance 5.5
+   AirResistanceRND 8
+   WindInfluence 0.35
+   GravityMultiply 2
+   GravityMultiplyRND 3
+   EnableCollisions 1
+   NormalRestitution 0
+   TagentialRestitution 0.5
+   Friction 1
+   RotDampBySliding 0.15
+   Spring 0
+   RandomFrame 1
+   Lifetime 5
+   LifetimeRND 4
+   Color {
+    0 0.8 0.903 1 0.5015 0.7879 0.503 1 1 0.703 0 1
+   }
+   Alpha {
+    0 1 0.0324 0.5152 0.0978 0.9879 0.2399 0 1 0
+   }
+   Emissivity {
+    0 0.509 0.054 0.97 0.508 1 1 0.114
+   }
+   Size {
+    0 0.85 0.125 1 1 0
+   }
+   EmittingTime 0.5
+   Repeat 0
+   VelocityMast {
+    0 1 0.4748 0.5044 1 0
+   }
+   MaxLV 5.5
+   RelativeLV 1
+   LightColorMast {
+    0 1 0.501 0
+   }
+   LightIntensityMast {
+    0 0 0.46 1 1 0
+   }
+   LightIntensityResponse 10
+  }
+ }
+ MinFPS 30
+ LightClipEV -12
+ LightRadius 40
+}

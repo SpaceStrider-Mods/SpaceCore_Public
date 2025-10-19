@@ -1,0 +1,38 @@
+TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{65E90564E471814A}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{65E90564E4718141}" {
+     EffectPrefab "{E18D499FCA38F0B5}Prefabs/Weapons/Warheads/Warhead_HEAT_3BK18M.et"
+     ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+    AIExplosionEffect "{65E90564E4718179}" {
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 850
+   Mass 23
+   TimeToLive 100
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 1600
+    }
+   }
+   BallisticTableConfig "{0699BB12344776F3}Configs/Weapons/AIBallisticTables/AIBT_125mm_HE_3OF26.conf"
+   SonicCracks "{911B8A52417F1E62}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_100mm.acp"
+   SubsonicFlybys "{FD5AFE7E151777B2}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_100mm.acp"
+   AirDrag 0.016
+   Diameter 125
+   PenetrationDepth 35
+   PenetrationSpeed 1750
+  }
+ }
+ coords 68.259 4.185 1280.509
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{141B6A1F89173504}Assets/Weapons/Ammo/Tracers/Tracer_green.xob"
+ CartridgeModel "{37DB2EB44F8872AA}Assets/Weapons/Ammo/125mm/Cartridge_125_HEAT_BK14M.xob"
+ CartridgeLayerPreset "ItemFireView"
+}

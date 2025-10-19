@@ -1,0 +1,65 @@
+Turret : "{1D23A07249D7EB18}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/CROWS2_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  WCS_Armament_LoadoutComponent "{64502E2639D24D03}" {
+   m_ArmamentGroups {
+    WCS_ArmamentSlotGroup "{64EA65DADADF67A3}" {
+     slotIndex 0
+    }
+    WCS_ArmamentSlotGroup "{64EA79B775898E63}" {
+     slotIndex 1
+    }
+    WCS_ArmamentWeaponGroup "{64502E2639D24D1A}" {
+     prefab "{9D46A9BC88B46B38}Prefabs/Weapons/AircraftWeapons/MissilePods/AIM92/Pod_AIM92.et"
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{64502E2639D24D1C}" {
+       Position PointInfo "{64502E2639D24D11}" {
+        PivotID "v_gun_01"
+        Offset 0.1623 0.1413 -0.0675
+        Angles 0 0 -90
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{64502E2639D24D12}" {
+      }
+     }
+     slotIndex 2
+    }
+   }
+   m_sPilotCompartmentUniqueName "gunner"
+  }
+  WCS_Armament_VehicleWeaponStationComponent "{64502E2639D24CE9}" {
+   components {
+    WCS_Armament_InfraredMissileWeaponStationModuleComponent "{64502E261E0ED69A}" {
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponSlotIndex 0
+  }
+  WeaponSlotComponent "{64502E2639D24CE8}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{64502E2639D24CEA}" {
+    signalsSuffix "Turret"
+   }
+   useAimingType MainTurret
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot empty {
+    PivotID "v_gun_01"
+    Offset 0.117 -0.0226 -0.0964
+    Angles 0 0 45
+   }
+   WeaponTemplate "{4DD8C4F0F6EAA050}Prefabs/Weapons/MachineGuns/M240/MG_M240_CROWS2.et"
+   WeaponSlotIndex 1
+  }
+  WeaponSlotComponent "{64EA53E5E8E670D2}" {
+   Enabled 1
+   AttachType InventoryStorageSlot "{64EA53E5E59C0315}" {
+    Prefab ""
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 2
+  }
+ }
+ coords -10.7 9.098 9.441
+}

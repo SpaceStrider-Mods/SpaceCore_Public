@@ -1,0 +1,66 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 25
+   PriorityAgainstVehicles 35
+   UsedAgainst 7
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "RPG Vehicle Magazine"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5E583361800BCADC}" {
+     Weight 20
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 100
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5E583361800BCADA}" {
+      CameraPreset Right
+      CameraOrbitAngles 25 -25 0
+      CameraDistanceToItem 4
+      ItemRenderRotation 0 0 180
+      FOV 30
+      AspectRatio 1
+     }
+    }
+    m_Size SLOT_2x1
+   }
+   WeightPerAmmo 0
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "#AR-Magazine_PG7VM_Name"
+    Description ""
+    m_sAmmoType "HEAT"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags HEAT
+   }
+   ItemModel "{CA305BDAD273478A}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM_item.xob"
+   MaxAmmo 1
+   AmmoMapping {
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{CA305BDAD273478A}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM_item.xob"
+  }
+  SCR_SoundDataComponent "{5B18D200EBB5EA25}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{5B18D209080A5D15}" {
+     m_sSoundProject "{EE729B0CFB7CBF61}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_HMG_Magazine.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D2091B885AE6}" {
+     m_sSoundProject "{EE729B0CFB7CBF61}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_HMG_Magazine.acp"
+    }
+    SCR_AudioSourceConfiguration "{5B18D20930D9E274}" {
+     m_sSoundProject "{2DBF1C67021E3DA9}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_HMG_Magazine.acp"
+    }
+   }
+  }
+ }
+ coords 4.427 2.334 2.588
+}

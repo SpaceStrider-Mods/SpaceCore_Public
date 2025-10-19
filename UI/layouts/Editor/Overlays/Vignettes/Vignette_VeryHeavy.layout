@@ -1,0 +1,324 @@
+FrameWidgetClass {
+ Name "VignetteLow"
+ {
+  FrameWidgetClass "{631853528D537108}" {
+   Name "rootFrame"
+   Slot FrameWidgetSlot "{5D8C7A22087C1047}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+    Alignment 0 0
+   }
+   {
+    ImageWidgetClass "{631853528D53710D}" {
+     Name "ImgCover"
+     Slot FrameWidgetSlot "{559C82AAAEFF3E73}" {
+      Anchor 0.5 0.5 0.5 0.5
+      OffsetLeft 0
+      OffsetTop 0
+      SizeX 4096
+      OffsetRight -4096
+      SizeY 4096
+      OffsetBottom -4096
+      Alignment 0.5 0.5
+     }
+     "Is Visible" 0
+     Color 0 0 0 1
+    }
+    HorizontalLayoutWidgetClass "{631853528D53710C}" {
+     Name "HFrontObjective"
+     Slot FrameWidgetSlot "{5244728BA4970E86}" {
+      Anchor 0 0 1 1
+      PositionX 960
+      PositionY 540
+      SizeX 0
+      OffsetRight 0
+      SizeY 0
+      OffsetBottom 0
+      Alignment 0 0
+     }
+     Color 0 0 0 1
+     "Fill Origin" Center
+     {
+      SizeLayoutWidgetClass "{631853528D53710F}" {
+       Name "SizePaddingLeft"
+       Slot LayoutSlot "{5D8ACCEFE2E01B46}" {
+        FillWeight 1
+       }
+       AllowWidthOverride 1
+       {
+        ImageWidgetClass "{631853528D53710E}" {
+         Name "ImgPaddingLeft"
+         Slot AlignableSlot "{5D8ACCEFE211EC15}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         Color 0 0 0 1
+         Size 0 0
+         "Mask Mode" "Include Below"
+         Range 0.341
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{631853528D537101}" {
+       Name "VerticalLayout"
+       Slot LayoutSlot "{5244728BA4970E13}" {
+       }
+       Color 0 0 0 1
+       "Fill Origin" Center
+       {
+        SizeLayoutWidgetClass "{631853528D537100}" {
+         Name "SizePaddingTop"
+         Slot LayoutSlot "{5D8ACCEFAB571188}" {
+          FillWeight 1
+         }
+         AllowHeightOverride 1
+         {
+          ImageWidgetClass "{631853528D537103}" {
+           Name "ImgPaddingTop"
+           Slot AlignableSlot "{5D8ACCEFAB44914D}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           Color 0 0 0 1
+           Size 0 0
+          }
+         }
+        }
+        SizeLayoutWidgetClass "{631853528D537102}" {
+         Name "SizeFrontObjective"
+         Slot LayoutSlot "{561AC3FE672BFBDA}" {
+         }
+         Color 0 0 0 1
+         AllowWidthOverride 1
+         WidthOverride 2000
+         AllowHeightOverride 1
+         HeightOverride 2000
+         AllowAspectRatioForce 1
+         {
+          OverlayWidgetClass "{631853528D537105}" {
+           Name "Overlay"
+           Slot LayoutSlot "{5244728BA4970E27}" {
+           }
+           Color 0 0 0 1
+           {
+            ImageWidgetClass "{631853528D537104}" {
+             Name "ImgFilter"
+             Slot OverlayWidgetSlot "{5244728BA4970E54}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+              Padding -0.1 0 0 0
+             }
+             Opacity 0.01
+             Image ""
+             Size 2048 2048
+             "Blend Mode" Additive
+             Mask "{FFCDEB9793720A1C}UI/Textures/Sights/binocular_vignette2_ca.edds"
+            }
+            ImageWidgetClass "{631853528D537107}" {
+             Name "ImgVignette"
+             Slot OverlayWidgetSlot "{5244728BA4970E54}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+              Padding -800 450 -800 450
+             }
+             Color 0 0 0 1
+             Texture "{FFCDEB9793720A1C}UI/Textures/Sights/binocular_vignette2_ca.edds"
+             Size 1024 1024
+             Mask "{FFCDEB9793720A1C}UI/Textures/Sights/binocular_vignette2_ca.edds"
+            }
+            ImageWidgetClass "{631853528D537106}" {
+             Name "ImgScratches"
+             Slot OverlayWidgetSlot "{520907035DEC8730}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             Color 0.05 0.05 0.05 0.627
+             Texture "{24049DED768215A0}UI/Textures/Sights/binocular_scratches_ca.edds"
+             Image ""
+             Size 250 250
+             "Blend Mode" Blend
+            }
+            ImageWidgetClass "{631853528D537119}" {
+             Name "ImgDust"
+             Slot OverlayWidgetSlot "{520907035DEC8730}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             Color 0.05 0.05 0.05 0.627
+             Texture "{2FFD11B7CA828E52}UI/Textures/Sights/Effects/Reticle_dust_UI.edds"
+             Image ""
+             Size 2048 2048
+             "Blend Mode" Blend
+            }
+            BlurWidgetClass "{631853528D537118}" {
+             Name "BlurObjective"
+             Slot OverlayWidgetSlot "{561AC3FD3F5AC13C}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             Intensity 1
+             Mask "{53717FF249638366}UI/Textures/Sights/binocular_vignette_ca.edds"
+            }
+           }
+          }
+         }
+        }
+        ImageWidgetClass "{631853528D53711B}" {
+         Name "ImgPaddingBottom"
+         Slot LayoutSlot "{5244728BA49709A1}" {
+          SizeMode Fill
+          FillWeight 1
+         }
+         Color 0 0 0 1
+         Size 0 0
+         "Shadow Color" 1 1 1 1
+        }
+       }
+      }
+      ImageWidgetClass "{631853528D53711A}" {
+       Name "ImgPaddingRight"
+       Slot LayoutSlot "{5244728BA49709D0}" {
+        SizeMode Fill
+       }
+       Color 0 0 0 1
+       Size 0 0
+      }
+     }
+    }
+    HorizontalLayoutWidgetClass "{631853528D53711D}" {
+     Name "HRearEyePiece"
+     Slot FrameWidgetSlot "{5244728BA4970E86}" {
+      Anchor 0 0 1 1
+      PositionX 960
+      PositionY 540
+      SizeX 0
+      OffsetRight 0
+      SizeY 0
+      OffsetBottom 0
+      Alignment 0 0
+     }
+     Color 0 0 0 1
+     "Inherit Color" 1
+     "Fill Origin" Center
+     {
+      SizeLayoutWidgetClass "{631853528D50FA54}" {
+       Name "SizePaddingLeft"
+       Slot LayoutSlot "{5D8ACCE8A74BD968}" {
+       }
+       AllowWidthOverride 1
+       {
+        ImageWidgetClass "{631853528D50FA58}" {
+         Name "ImgPaddingLeft"
+         Slot AlignableSlot "{5D8ACCE8A77BEC6F}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         Color 0 0 0 1
+         Size 0 0
+         "Mask Mode" "Include Below"
+         Range 0.341
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{631853528D50FA59}" {
+       Name "VerticalLayout"
+       Slot LayoutSlot "{5244728BA4970E13}" {
+       }
+       Color 0 0 0 1
+       "Inherit Color" 1
+       "Fill Origin" Center
+       {
+        SizeLayoutWidgetClass "{631853528D50FA5A}" {
+         Name "SizePaddingTop"
+         Slot LayoutSlot "{5D8ACCE8AA14564A}" {
+          FillWeight 1
+         }
+         AllowHeightOverride 1
+         {
+          ImageWidgetClass "{631853528D50FA5B}" {
+           Name "ImgPaddingTop"
+           Slot AlignableSlot "{5D8ACCE8AA0595A5}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           Color 0 0 0 1
+           Size 0 0
+          }
+         }
+        }
+        SizeLayoutWidgetClass "{631853528D50FA5C}" {
+         Name "SizeRear"
+         Slot LayoutSlot "{561AC3FDE25A0E45}" {
+          HorizontalAlign 1
+          VerticalAlign 1
+         }
+         AllowWidthOverride 1
+         WidthOverride 2048
+         AllowHeightOverride 1
+         HeightOverride 2048
+         AllowAspectRatioForce 1
+         {
+          OverlayWidgetClass "{631853528D50FA5D}" {
+           Name "Overlay"
+           Slot LayoutSlot "{5244728BA4970E27}" {
+           }
+           {
+            ImageWidgetClass "{631853528D50FA5E}" {
+             Name "ImgVignette"
+             Slot OverlayWidgetSlot "{5244728BA4970E54}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             Color 0 0 0 1
+             Texture "{162604F7455FB99E}UI/Textures/Sights/binocular_vignetteFront.edds"
+             Size 2048 2048
+             "Blend Mode" Blend
+            }
+            ImageWidgetClass "{63185D463A394E0A}" {
+             Name "ImgVignette0"
+             Slot OverlayWidgetSlot "{5244728BA4970E54}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+              Padding -800 450 -800 450
+             }
+             Color 0 0 0 1
+             Texture "{162604F7455FB99E}UI/Textures/Sights/binocular_vignetteFront.edds"
+             Size 2048 2048
+             "Blend Mode" Blend
+            }
+           }
+          }
+         }
+        }
+        ImageWidgetClass "{631853528D50FBA0}" {
+         Name "ImgPaddingBottom"
+         Slot LayoutSlot "{5244728BA49709A1}" {
+          SizeMode Fill
+          FillWeight 1
+         }
+         Color 0 0 0 1
+         Size 0 0
+        }
+       }
+      }
+      ImageWidgetClass "{631853528D50FBA1}" {
+       Name "ImgPaddingRight"
+       Slot LayoutSlot "{5244728BA49709D0}" {
+        SizeMode Fill
+       }
+       Color 0 0 0 1
+       Size 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,25 @@
+GenericEntity : "{9B5FF7EECAD376FA}Prefabs/Weapons/Warheads/Warhead_Base.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{F0D094B3E4F35FCA}Sounds/Weapons/Ammo/Smoke/Ammo_Smoke_3D17_Deployed.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    SpawnDecalEffect "{62EC37EC770556F4}" {
+     Enabled 0
+     Scale 0.2
+     Material "{2A3A7B73C1EF6936}Assets/Decals/Logistics/Impact/Data/Decal_Logistics_RPG_01.emat"
+    }
+    SpawnParticleEffect "{62EC37EC770556C5}" {
+     ParticleEffect "{A41F67E64A6F615B}Particles/Weapon/Smoke_3D17_Impact.ptc"
+    }
+   }
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   SoundStopOffset 500
+  }
+ }
+}

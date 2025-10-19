@@ -1,0 +1,22 @@
+Turret : "{A43CF2F4D1E3CB17}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/CROWS_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{5B24B3A9B2859837}" {
+   components {
+    SCR_2DSightsComponent "{5B24B3A9B2859831}" {
+     SightsPosition PointInfo "{5B24B3A9B2859832}" {
+      Angles -0.32 0 0
+     }
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -0.0009 -0.094 -0.105
+    Angles 0 0 45
+   }
+   WeaponTemplate "{4DD8C4F0F6EAA050}Prefabs/Weapons/MachineGuns/M240/MG_M240_CROWS2.et"
+  }
+ }
+ coords 75.599 1 1226.165
+}

@@ -1,0 +1,8 @@
+AnimSetInstanceSource "{632D45691B72F97C}" {
+ Template "{4EB3147FA1ED89BD}Assets/Weapons/MachineGuns/workspaces/M249.ast"
+ Lines {
+  AnimSetInstanceSource_Line "Reload.Erc.Fire" {
+   Resource "{3930E2D98419B34B}Assets/Weapons/HeavyWeapons/Cannon/anim/cannon_fire.anm"
+  }
+ }
+}

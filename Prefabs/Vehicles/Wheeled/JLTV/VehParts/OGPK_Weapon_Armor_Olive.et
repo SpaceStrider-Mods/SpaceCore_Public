@@ -1,0 +1,17 @@
+GenericEntity : "{CAA4CF69CE9E5A47}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_Weapon_Armor.et" {
+ ID "5C8881729E7FAF5A"
+ components {
+  MeshObject "{5C8881729E7FAF54}" {
+   Materials {
+    MaterialAssignClass "{63395E52F69566C0}" {
+     SourceMaterial "Cabin"
+     AssignedMaterial "{4D954914AEE9FE02}Assets/Vehicles/Common/Turrets/OGPK/data/Cabin_Olive.emat"
+    }
+    MaterialAssignClass "{63395E5280B92F1F}" {
+     SourceMaterial "Windows"
+     AssignedMaterial "{F5FACE064A61EF7C}Assets/Vehicles/Common/Turrets/OGPK/data/Windows.emat"
+    }
+   }
+  }
+ }
+}

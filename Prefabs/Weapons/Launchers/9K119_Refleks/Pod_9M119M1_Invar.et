@@ -1,0 +1,20 @@
+GenericEntity : "{E5992ABCA52B4CFE}Prefabs/Weapons/Launchers/9K119_Refleks/Pod_9M119M_RefleksM.et" {
+ ID "629D11C8BD6AE717"
+ components {
+  WCS_Armament_WeaponComponent "{629D11C992611C79}" {
+   m_sName "#SPC-Weapon_9M119M1_Name"
+   m_DefaultProjectile "{67EE9620ADCD764C}Prefabs/Weapons/Magazines/9K119_Refleks/Ammo_Magazine_9K119M1_Invar.et"
+  }
+  ActionsManagerComponent "{629D11CAB6B28AE6}" {
+   additionalActions {
+    WCS_RearmPodAtRepairStationAction "{629D11D464DEC282}" {
+     UIInfo SCR_ActionUIInfo "{629D11CB1C21D168}" {
+      Name "Rearm #SPC-Weapon_9M119M1_Name"
+     }
+     m_sProjectileToRearm "{67EE9620ADCD764C}Prefabs/Weapons/Magazines/9K119_Refleks/Ammo_Magazine_9K119M1_Invar.et"
+    }
+   }
+  }
+ }
+ coords 66.818 1 1288.149
+}

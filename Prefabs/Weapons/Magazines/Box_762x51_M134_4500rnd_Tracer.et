@@ -1,0 +1,8 @@
+GenericEntity : "{452F569291FEC21A}Prefabs/Weapons/Magazines/M134/Box_762x51_M134_500rnd_Tracer.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MaxAmmo 4000
+  }
+ }
+}

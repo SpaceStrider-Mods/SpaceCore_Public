@@ -1,0 +1,79 @@
+GenericEntity : "{2BAC695816860421}Prefabs/Weapons/Core/Armament_Dispenser_Smoke.et" {
+ ID "62A8D6FA317E0E04"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{7DB4C815E9664CE5}Assets/Weapons/Countermeasures/M6/M6.xob"
+   Materials {
+    MaterialAssignClass "{652F1718C7E77FFE}" {
+     SourceMaterial "STYKER_base_exterior_Turret"
+     AssignedMaterial "{53CCD67B58C87270}Assets/Weapons/Countermeasures/M6/Data/M6_Green.emat"
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Dispenser {
+    }
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{62DB0A13234C2E8C}" {
+   m_Projectile "{55C7FB182B04C654}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_M6.et"
+   m_IdlePosition PointInfo "{62E81A5F2E651DE0}" {
+    PivotID "Barrel_Chamber_16"
+   }
+   m_FirePosition PointInfo "{62E81A5F2F276566}" {
+    PivotID "Barrel_Muzzle_16"
+    Offset 0 0 0
+   }
+   m_iNumProjectiles 1
+  }
+  WCS_Armament_SmokeDispenserComponent "{652F171920712392}" {
+   m_Projectile "{55C7FB182B04C654}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_M6.et"
+   m_IdlePosition PointInfo "{652F171956BB5B7C}" {
+    PivotID "Barrel_Chamber_15"
+   }
+   m_FirePosition PointInfo "{652F17194C147BA2}" {
+    PivotID "Barrel_Muzzle_15"
+   }
+   m_vDispersion 2 2 2
+   m_iNumProjectiles 1
+   m_iShakeAmount 1
+   m_iId 1
+  }
+  WCS_Armament_SmokeDispenserComponent "{652F171922414E64}" {
+   m_Projectile "{55C7FB182B04C654}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_M6.et"
+   m_IdlePosition PointInfo "{652F171948185618}" {
+    PivotID "Barrel_Chamber_14"
+   }
+   m_FirePosition PointInfo "{652F17194F303B7F}" {
+    PivotID "Barrel_Muzzle_14"
+   }
+   m_vDispersion 2 2 2
+   m_iNumProjectiles 1
+   m_iId 2
+  }
+  WCS_Armament_SmokeDispenserComponent "{652F171925939C93}" {
+   m_Projectile "{55C7FB182B04C654}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_M6.et"
+   m_IdlePosition PointInfo "{652F17194B0096D8}" {
+    PivotID "Barrel_Chamber_13"
+   }
+   m_FirePosition PointInfo "{652F17194EEC0062}" {
+    PivotID "Barrel_Muzzle_13"
+   }
+   m_vDispersion 2 2 2
+   m_iNumProjectiles 1
+   m_iShakeAmount 1
+   m_iId 3
+  }
+  ActionsManagerComponent "{62A957B2374C324C}" {
+   ActionContexts {
+    UserActionContext "{62A957B22D79F4B1}" {
+     Radius 0.3
+     Omnidirectional 0
+     VisibilityAngle 75
+    }
+   }
+  }
+ }
+ coords 61.894 1.821 1215.847
+}

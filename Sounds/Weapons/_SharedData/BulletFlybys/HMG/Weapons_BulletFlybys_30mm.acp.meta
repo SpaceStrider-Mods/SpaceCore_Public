@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{629BB197A5BFB686}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_30mm.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

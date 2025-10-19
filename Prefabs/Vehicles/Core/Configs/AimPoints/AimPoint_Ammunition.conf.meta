@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A1DAEC172F74D498}Prefabs/Vehicles/Core/Configs/AimPoints/AimPoint_Ammo.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

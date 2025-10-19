@@ -1,0 +1,51 @@
+VerticalLayoutWidgetClass {
+ Name "rootFrame"
+ IsPixelPerfect 0
+ {
+  OverlayWidgetClass "{64DD48EDC38874F0}" {
+   Name "Frame0"
+   Slot LayoutSlot "{64DD48EDC38874AF}" {
+    HorizontalAlign 0
+    VerticalAlign 0
+    Padding 64 64 0 0
+   }
+   IsPixelPerfect 0
+   {
+    ImageWidgetClass "{64DD295F5AE7A98B}" {
+     Name "ComTurret"
+     Slot OverlayWidgetSlot "{64DD48ECB8AC1B8F}" {
+     }
+     "Z Order" 2
+     IsPixelPerfect 0
+     Clipping True
+     Color 0.0458 0.755 0.125 1
+     Texture "{EA1CEB56B9D0D158}UI/Textures/RadialMenu/RadialLineThin.edds"
+     Size 100 100
+    }
+    ImageWidgetClass "{64DD295AFBDEEE55}" {
+     Name "Hull"
+     Slot OverlayWidgetSlot "{64DD48ECB8AC1B91}" {
+     }
+     IsPixelPerfect 0
+     Clipping True
+     Color 0.3278 0.3278 0.3278 1
+     Texture "{8479B3B5347DF5CF}UI/Imagesets/MilitarySymbol/ID_D.imageset"
+     Image "Hostile_Air_Focus"
+     Size 128 128
+    }
+    ImageWidgetClass "{64DD295DC1BEFF4C}" {
+     Name "MainTurret"
+     Slot OverlayWidgetSlot "{64DD48ECB8AC1B6A}" {
+     }
+     "Z Order" 1
+     IsPixelPerfect 0
+     Clipping True
+     Color 0.695 0.0131 0.0131 1
+     Pivot 0.5 0.5
+     Texture "{EA1CEB56B9D0D158}UI/Textures/RadialMenu/RadialLineThin.edds"
+     Size 128 128
+    }
+   }
+  }
+ }
+}

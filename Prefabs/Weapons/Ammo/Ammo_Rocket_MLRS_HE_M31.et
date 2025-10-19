@@ -1,0 +1,13 @@
+EjectableProjectile : "{CB3C0B576E04C9AC}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS2.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{64D357FD4C35F8E8}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{64D357FD4C35F8FB}" {
+     EffectPrefab "{0D25E6415C3202B2}Prefabs/Weapons/Warheads/Warhead_M31.et"
+     ParticleEffect "{023BFC20EC903357}Particles/Weapon/Explosion_M31_HE.ptc"
+    }
+   }
+  }
+ }
+}

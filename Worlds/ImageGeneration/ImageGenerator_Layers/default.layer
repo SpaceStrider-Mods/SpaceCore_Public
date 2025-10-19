@@ -1,0 +1,340 @@
+$grp SCR_EditorImagePositionEntity : "{6827E4D6141D8F9F}Prefabs/Editor/Common/AssetImagePosition.et" {
+ Position_Truck2 {
+  coords 7386.479 192.857 4014.459
+  angleX 1.167
+  angleY -158.241
+  angleZ 4.312
+  m_Labels {
+   3 54 1001
+  }
+  m_fDelay 4
+  m_PreviewMesh "{06C865EC0B9277E5}Assets/Vehicles/Wheeled/Ural4320/Ural_4320_base.xob"
+  m_aCameraNames {
+   "Camera_Truck2"
+  }
+  m_fLatitude 47.685
+  m_fLongitude -27.311
+  m_fTime 0.684
+  m_iYear 1989
+  m_iMonth 8
+  {
+   SCR_CameraBase Camera_Truck2 {
+    components {
+     SCR_PostProcessCameraComponent "{5588E6EB486814E8}" {
+      m_Effects {
+       SCR_CameraPostProcessEffect "{55AEBA61F9C18F5B}" {
+        m_Type DepthOfFieldBokeh
+        m_MaterialPath "{C45E4BB64FAF52AE}UI/Materials/Editor/AssetImages/Blur_Truck.emat"
+       }
+      }
+     }
+    }
+    coords 9.214 0.93 13.44
+    angleX 3.861
+    angleY -140.548
+    angleZ 4.465
+    FOV 20
+   }
+  }
+ }
+ Position_Helicopter2 {
+  coords 4782.353 24.164 12012.06
+  angleX 3.273
+  angleY -156.059
+  angleZ 1.452
+  m_Labels {
+   3 51 1001
+  }
+  m_fDelay 4
+  m_PreviewMesh "{2254BE61BC85D56E}Assets/Structures/BuildingsParts/Electrical/DieselGenerator_01/Dst/DieselGenerator_01_wreck.xob"
+  m_aCameraNames {
+   "Camera_Helicopter2"
+  }
+  m_fLatitude 47.685
+  m_fLongitude -27.311
+  m_fTime 0.75
+  {
+   SCR_CameraBase Camera_Helicopter2 {
+    components {
+     SCR_PostProcessCameraComponent "{5588E6EB486814E8}" {
+      m_Effects {
+       SCR_CameraPostProcessEffect "{55ACFC3A284D2CCE}" {
+        m_Type DepthOfFieldBokeh
+        m_MaterialPath "{2F0A8C8D45532DB8}UI/Materials/Editor/AssetImages/Blur_Helicopter.emat"
+       }
+      }
+     }
+    }
+    coords 8.874 0.142 22.656
+    angleX 5.945
+    angleY -158.566
+    angleZ 2.391
+    FOV 20
+   }
+  }
+ }
+ Position_Offroad_Armed2 {
+  coords 7420.275 9.689 6735.325
+  angleX 0
+  angleY -115.234
+  angleZ 0
+  m_Labels {
+   3 50 21 1001
+  }
+  m_fDelay 4
+  m_PreviewMesh "{6E1168054FC83085}Assets/Vehicles/Wheeled/M151A2/m151a2_base.xob"
+  m_aCameraNames {
+   "Camera_Offroad_Armed2"
+  }
+  m_fLatitude 47.685
+  m_fLongitude -27.311
+  m_fTime 0.722
+  m_iYear 1989
+  m_iMonth 8
+  {
+   SCR_CameraBase Camera_Offroad_Armed2 {
+    components {
+     SCR_PostProcessCameraComponent "{5588E6EB486814E8}" {
+      m_Effects {
+       SCR_CameraPostProcessEffect "{55AEC210A44A9F04}" {
+        m_Type DepthOfFieldBokeh
+        m_MaterialPath "{B92ADD4EBC042B4E}UI/Materials/Editor/AssetImages/Blur_Offroad_Armed.emat"
+       }
+      }
+     }
+    }
+    coords 11.53 0.512 7.71
+    angleX 5.966
+    angleY -117.647
+    angleZ 0.453
+    FOV 20
+   }
+  }
+ }
+ Position_Apc2 {
+  coords 8116.026 8.264 1242.167
+  angleX 4.898
+  angleY -53.464
+  angleZ -4.898
+  m_Labels {
+   3 53 1001
+  }
+  m_fDelay 4
+  m_PreviewMesh "{89447B8C503232EA}Assets/Vehicles/Wheeled/BTR70/BTR70_body.xob"
+  m_aCameraNames {
+   "Camera_Apc2"
+  }
+  m_fLatitude 47.685
+  m_fLongitude -27.311
+  m_fTime 0.6
+  m_iYear 1989
+  m_iMonth 8
+  {
+   SCR_CameraBase Camera_Apc2 {
+    components {
+     SCR_PostProcessCameraComponent "{5588E6EB486814E8}" {
+      m_Effects {
+       SCR_CameraPostProcessEffect "{55AEC21096DF6149}" {
+        m_Type DepthOfFieldBokeh
+        m_MaterialPath "{970DBD0D380ED648}UI/Materials/Editor/AssetImages/Blur_Apc.emat"
+       }
+      }
+     }
+    }
+    coords -12.373 1.227 11.325
+    angleY 128.522
+    FOV 20
+   }
+  }
+ }
+ Position_Amphibious_Apc {
+  coords 5978.833 2.994 9544.616
+  angleX 0
+  angleY -10.495
+  angleZ 0
+  m_Labels {
+   3 26 20
+  }
+  m_fDelay 4
+  m_PreviewMesh "{89447B8C503232EA}Assets/Vehicles/Wheeled/BTR70/BTR70_body.xob"
+  m_aCameraNames {
+   "Camera_Amphibious_Apc"
+  }
+  m_fLatitude 47.685
+  m_fLongitude -27.311
+  m_fTime 0.6
+  m_iYear 1989
+  m_iMonth 8
+  {
+   SCR_CameraBase Camera_Amphibious_Apc {
+    components {
+     SCR_PostProcessCameraComponent "{5588E6EB486814E8}" {
+      m_Effects {
+       SCR_CameraPostProcessEffect "{55AEC21096DF6149}" {
+        m_Type DepthOfFieldBokeh
+        m_MaterialPath "{970DBD0D380ED648}UI/Materials/Editor/AssetImages/Blur_Apc.emat"
+       }
+      }
+     }
+    }
+    coords -12.622 2.645 13.593
+    angleX -3
+    angleY 135.869
+    FOV 17
+   }
+  }
+ }
+ Position_Tank {
+  coords 4544.157 15.998 10487.338
+  angleX 0
+  angleY 171.887
+  angleZ 0
+  m_Labels {
+   3 1285538991
+  }
+  m_fDelay 4
+  m_PreviewMesh "{89447B8C503232EA}Assets/Vehicles/Wheeled/BTR70/BTR70_body.xob"
+  m_aCameraNames {
+   "Camera_Tank"
+  }
+  m_fLatitude 47.685
+  m_fLongitude -27.311
+  m_fTime 0.6
+  m_iYear 1989
+  m_iMonth 8
+  {
+   SCR_CameraBase Camera_Tank {
+    components {
+     SCR_PostProcessCameraComponent "{5588E6EB486814E8}" {
+      m_Effects {
+       SCR_CameraPostProcessEffect "{55AEC21096DF6149}" {
+        m_Type DepthOfFieldBokeh
+        m_MaterialPath "{970DBD0D380ED648}UI/Materials/Editor/AssetImages/Blur_Apc.emat"
+       }
+      }
+     }
+    }
+    coords 7.107 0.929 11.91
+    angleX 1.381
+    angleY -144.961
+    angleZ -0.026
+    FOV 25
+   }
+  }
+ }
+ Position_Boat {
+  coords 4524.263 50.708 6134.695
+  angleX -1.322
+  angleY -44.517
+  angleZ 0.84
+  m_Labels {
+   3 26 1285533891
+  }
+  m_fDelay 4
+  m_PreviewMesh "{89447B8C503232EA}Assets/Vehicles/Wheeled/BTR70/BTR70_body.xob"
+  m_aCameraNames {
+   "Camera_Boat"
+  }
+  m_fLatitude 47.685
+  m_fLongitude -27.311
+  m_fTime 0.6
+  m_iYear 1989
+  m_iMonth 8
+  {
+   SCR_CameraBase Camera_Boat {
+    components {
+     SCR_PostProcessCameraComponent "{5588E6EB486814E8}" {
+      m_Effects {
+       SCR_CameraPostProcessEffect "{55AEC21096DF6149}" {
+        m_Type DepthOfFieldBokeh
+        m_MaterialPath "{970DBD0D380ED648}UI/Materials/Editor/AssetImages/Blur_Apc.emat"
+       }
+      }
+     }
+    }
+    coords -11.553 2.517 8.979
+    angleX -6.078
+    angleY 122.242
+    angleZ 1.741
+    FOV 29
+   }
+   $grp GenericEntity : "{872D5AEDB4E19A1D}Prefabs/Structures/BuildingParts/Bridges/BridgeRailingConcrete_01_railing.et" {
+    {
+     components {
+      MeshObject "{5111E74D5E891458}" {
+       Materials {
+        MaterialAssignClass "{64F443DA18FB537E}" {
+         SourceMaterial "Concrete_pillar_big_concrete"
+         AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+        }
+        MaterialAssignClass "{64F443DA18FB5360}" {
+         SourceMaterial "Concrete_slopes_MLOD"
+         AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+        }
+       }
+      }
+     }
+     coords 2.179 -0.089 1.143
+     angleX 8.983
+     angleY -94.342
+     {
+      GenericEntity {
+       ID "591671318EF34490"
+       components {
+        MeshObject "{5111E74D5E891458}" {
+         Materials {
+          MaterialAssignClass "{64F443DA554D9B61}" {
+           SourceMaterial "Concrete_slopes_MLOD"
+           AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+          }
+          MaterialAssignClass "{64F443DA554D9B14}" {
+           SourceMaterial "Metal_rails"
+           AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+    {
+     components {
+      MeshObject "{5111E74D5E891458}" {
+       Materials {
+        MaterialAssignClass "{64F443DAE7807CA4}" {
+         SourceMaterial "Concrete_pillar_big_concrete"
+         AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+        }
+        MaterialAssignClass "{64F443DAE7807C57}" {
+         SourceMaterial "Concrete_slopes_MLOD"
+         AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+        }
+       }
+      }
+     }
+     coords -2.752 0 1.21
+     angleY -89.539
+     {
+      GenericEntity {
+       ID "591671318EF34490"
+       components {
+        MeshObject "{5111E74D5E891458}" {
+         Materials {
+          MaterialAssignClass "{64F443DA5607F37E}" {
+           SourceMaterial "Concrete_slopes_MLOD"
+           AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+          }
+          MaterialAssignClass "{64F443DA5607F36F}" {
+           SourceMaterial "Metal_rails"
+           AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

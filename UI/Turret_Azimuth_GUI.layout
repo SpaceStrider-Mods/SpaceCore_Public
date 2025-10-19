@@ -1,0 +1,29 @@
+FrameWidgetClass "{5DF6BE044328054F}" {
+ Name "rootFrame"
+ {
+  RichTextWidgetClass "{5DF6BE0443280549}" {
+   Name "Bearing"
+   Slot FrameWidgetSlot "{596AE4AD4B716C91}" {
+    PositionX 1428
+    OffsetLeft 1428
+    PositionY 78
+    OffsetTop 78
+    OffsetRight -1528
+    OffsetBottom -108
+   }
+  }
+  RichTextWidgetClass "{5DF6BE044328054B}" {
+   Name "Elevation"
+   Slot FrameWidgetSlot "{596AE4ACB66D2313}" {
+    PositionX 1429
+    OffsetLeft 1429
+    PositionY 124
+    OffsetTop 124
+    SizeX 100
+    OffsetRight -1529
+    SizeY 30
+    OffsetBottom -154
+   }
+  }
+ }
+}

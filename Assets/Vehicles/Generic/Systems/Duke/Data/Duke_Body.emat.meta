@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FEF01F96BDCB7331}Assets/Vehicles/Generic/Systems/Duke/Data/Duke_Body.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D89BD1E822F11B7A}Prefabs/Weapons/Core/RocketArtilleryBallisticTableGeneratorConfig.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

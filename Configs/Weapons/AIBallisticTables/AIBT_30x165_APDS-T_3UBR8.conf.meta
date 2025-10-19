@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{566B6A7D32984217}Configs/Weapons/AIBallisiticTables/AIBT_30x165_APDS-T_3UBR8.et.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,6 @@
+ProjectileSoundsManager {
+ ID "51BC6E0712242953"
+ Filenames + {
+  "{629BB197A5BFB686}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_30mm.acp" "{FFFE923592BD201D}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_30mm.acp" "{FD5AFE7E151777B2}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_100mm.acp" "{911B8A52417F1E62}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_100mm.acp"
+ }
+}

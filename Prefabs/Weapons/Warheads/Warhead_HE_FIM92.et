@@ -1,0 +1,17 @@
+GenericEntity : "{7DA2AFFC7B4BE844}Prefabs/Weapons/Warheads/Warhead_Grenade_HE.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{6FC67D2C9BF229AB}Sounds/Weapons/Ammo/RPG7/Explosion/Weapons_Ammo_Rocket_RPG7.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{567CBC1CFBB064A8}" {
+     ChargeWeight 3000
+    }
+   }
+  }
+ }
+}

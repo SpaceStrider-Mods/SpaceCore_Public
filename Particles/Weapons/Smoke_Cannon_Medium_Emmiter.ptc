@@ -1,0 +1,57 @@
+EffectDef {
+ Version 1
+ Emitters {
+  EmitterDef Emitter_01 {
+   ConeAngle 360 0 5
+   MaxNum 1
+   BirthRate 1
+   Angles 180 0 0
+   ParticleType Prefab
+   Prefab "{B3011FF0A73854AA}Prefabs/Particles/Blasts/Large_Cannon_Smoke.et"
+   RotMultiplier_3D 0 0 0
+   RotRND_3D 0 0 0
+   Velocity 255
+   VelocityRND 25
+   VelAffect 3
+   AirResistance 2
+   AirResistanceRND 1
+   WindInfluence 0.5
+   GravityMultiply 10
+   EnableCollisions 1
+   NormalRestitution 0
+   TagentialRestitution 0.174
+   Friction 1
+   Lifetime 2
+   LifetimeRND 1
+   LifetimeShortening 0.98
+   EmittingTime 0.1
+   Repeat 0
+  }
+  EmitterDef Emitter_1 {
+   ConeAngle 360 0 5
+   MaxNum 1
+   BirthRate 1
+   Angles 230 0 0
+   ParticleType Prefab
+   Prefab "{B3011FF0A73854AA}Prefabs/Particles/Blasts/Large_Cannon_Smoke.et"
+   RotMultiplier_3D 0 0 0
+   RotRND_3D 0 0 0
+   Velocity 255
+   VelocityRND 25
+   VelAffect 3
+   AirResistance 2
+   AirResistanceRND 1
+   WindInfluence 0.5
+   GravityMultiply 10
+   EnableCollisions 1
+   NormalRestitution 0
+   TagentialRestitution 0.174
+   Friction 1
+   Lifetime 2
+   LifetimeRND 1
+   LifetimeShortening 0.98
+   EmittingTime 0.1
+   Repeat 0
+  }
+ }
+}

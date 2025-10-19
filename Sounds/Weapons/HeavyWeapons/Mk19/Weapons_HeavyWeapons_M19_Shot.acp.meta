@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{ACD1E3C439BC774F}Sounds/Weapons/HeavyWeapons/M2/Weapons_HeavyWeapons_M19_Shot.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

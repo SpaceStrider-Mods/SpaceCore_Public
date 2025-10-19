@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FCDDC6F33C7CB8B7}Prefabs/Weapons/Launchers/9K119_Refleks/Pod_9M119_Refleks.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

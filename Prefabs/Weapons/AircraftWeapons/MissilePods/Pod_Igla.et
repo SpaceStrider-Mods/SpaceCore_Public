@@ -1,0 +1,48 @@
+GenericEntity : "{CD609D6F3A054B14}Prefabs/Weapons/Core/Armament_Pod_Base.et" {
+ ID "629D11C8BD6AE717"
+ components {
+  MeshObject "{629D11CADAD0C383}" {
+   Object "{6507EBEA2184BD9C}Assets/Weapons/MissileRacks/Igla/Igla_Launcher.xob"
+  }
+  WCS_Armament_WeaponComponent "{629D11C992611C79}" {
+   m_sName "9M120"
+   m_DefaultProjectile "{8AC6A179638299D2}Prefabs/Weapons/Ammo/Ammo_Missile_9M313.et"
+   m_fLaunchOffset 2
+  }
+  SlotManagerComponent "{629D11C99AEE634A}" {
+   Slots {
+    EntitySlotInfo W_0 {
+     PivotID "missile_muzzle_1"
+     Offset 0 0 -0.91
+    }
+    EntitySlotInfo W_1 {
+     PivotID "missile_muzzle_2"
+     Offset 0 0 -0.91
+    }
+    EntitySlotInfo W_2 {
+     PivotID "missile_muzzle_3"
+     Offset 0 0 -0.91
+    }
+    EntitySlotInfo W_3 {
+     PivotID "missile_muzzle_4"
+     Offset 0 0 -0.91
+    }
+   }
+  }
+  ActionsManagerComponent "{629D11CAB6B28AE6}" {
+   ActionContexts {
+    UserActionContext "{629D11D46C8F2AA6}" {
+     Position PointInfo "{6152B772E6638695}" {
+      Offset 0 -0.0769 0.8414
+     }
+    }
+   }
+   additionalActions {
+    WCS_RearmPodAtRepairStationAction "{629D11D464DEC282}" {
+     m_fSupplyCostPerProjectile 100
+     m_sProjectileToRearm "{2CABB9A60865834E}Prefabs/Weapons/Ammo/Ammo_Missile_9M120_WCS.et"
+    }
+   }
+  }
+ }
+}

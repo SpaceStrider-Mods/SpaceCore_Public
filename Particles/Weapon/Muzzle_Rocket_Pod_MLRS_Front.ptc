@@ -1,0 +1,66 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef glowcore {
+   ShapeType Sphere
+   ShapeSize 0 0 0
+   ConeAngle 360 0 2
+   MaxNum 2
+   BirthRate 100
+   BirthRateRND 0
+   BirthRateVel 0
+   Angles -90 0 0
+   LocalTransform 1
+   LodMin 0
+   LodMax 2
+   Material "{6E033C070B32B17C}Particles/_Materials/Fire/Explosion_Base_03.emat"
+   StretchMultiplier 1
+   SizeMultiplier 0.3
+   SizeRND 0.05
+   ScaleX 1
+   ScaleY 1
+   RotMultiplier 0
+   RandomRotDir 0
+   BillboardingType Full
+   VelAngle 0
+   RandomAngle 1
+   Velocity 0.6
+   VelocityRND 1
+   AirResistance 0
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 0
+   AnimFPS 150
+   Lifetime 0.1
+   LifetimeRND 0.1
+   LifetimeShortening 0
+   Alpha {
+    0 1 0.469 0.234 1 0
+   }
+   Size {
+    0 0.905 1 1
+   }
+   EmittingTime 0.2
+   Repeat 0
+   AlphaMast {
+    0 0.4
+   }
+   VelocityMast {
+    0 1 0.441 0
+   }
+   EnableLight 1
+   MaxLV 7
+   RelativeLV 1
+   LightColorMast {
+    0 1 0.4508 0.0529 1 1 0.0758 0.0194
+   }
+   LightIntensityMast {
+    0 1 1 0
+   }
+  }
+ }
+ MinFPS 30
+ LightClipEV -20
+ LightRadius 8
+}

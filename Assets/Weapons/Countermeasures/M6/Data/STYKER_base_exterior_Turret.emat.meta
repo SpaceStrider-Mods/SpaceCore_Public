@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BD4469D0A23E94DE}Assets/Weapons/Countermeasures/M6/Data/STYKER_base_exterior_Turret.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

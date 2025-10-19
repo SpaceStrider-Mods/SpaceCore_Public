@@ -1,0 +1,17 @@
+GenericEntity {
+ ID "6056559A73C6B89A"
+ components {
+  MeshObject "{6056559A73C6B8A0}" {
+   Enabled 0
+   Object "{0A04F02D30BA8459}Assets/Props/Debris/Metal/FragmentMechanical_dbr_03.xob"
+  }
+  SCR_ParticleContactComponent "{6056559A73C6B8AE}" {
+   m_bPlayParticle 1
+   m_Particle "{B83A7BC75C7387CB}Particles/Weapons/Smoke_Cannon_Down.ptc"
+   m_iGameMaterialEffect BLAST
+   m_bFirstContactOnly 1
+   m_bParticleOriented 1
+  }
+ }
+ coords 267.246 5.268 266.649
+}

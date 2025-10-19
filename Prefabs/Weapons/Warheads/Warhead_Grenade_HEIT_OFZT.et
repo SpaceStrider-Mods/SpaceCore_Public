@@ -1,0 +1,32 @@
+GenericEntity : "{D584F2FFFDC7DE49}Prefabs/Weapons/Warheads/Warhead_Shell_HE.et" {
+ ID "520EA1D2A9E0B759"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{DB39A785FAA82E94}Sounds/Weapons/Grenades/Weapons_Grenade_Generic.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5D38C8F8C6A477C7}" : "{0CE1927888BD98BA}Prefabs/Weapons/Core/Damage/ExplosionContainer_HEF.conf" {
+     ExplosionEffects {
+      BaseExplosionDamage "{5D8D1EB3EBB36077}" : "{C0665807EA84EC41}Prefabs/Weapons/Core/Damage/IncendiaryDamageEffect_HEI.conf" {
+      }
+      ExplosionFragmentationEffect "{567CBC1D7AB652C7}" {
+       DamageFragmentCount 160
+       GurneyConstant 2830
+       CaseWeight 160
+      }
+     }
+     ChargeWeight 13.2
+     TntEquivalent 1.54
+    }
+    SpawnDecalEffect "{5D5727F06F70F2E3}" {
+     Scale 0.4
+    }
+   }
+   TriggerOffset -0.05
+  }
+ }
+ coords 102.611 1.529 1239.6
+}

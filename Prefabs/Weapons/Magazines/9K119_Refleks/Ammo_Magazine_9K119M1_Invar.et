@@ -1,0 +1,24 @@
+Projectile : "{65CDB9FEFCF751DE}Prefabs/Weapons/Magazines/9M133_Kornet/Ammo_Magazine_Kornet.et" {
+ ID "629D11C7F7353F80"
+ components {
+  CollisionTriggerComponent "{629D11CF3EC02C68}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{629D11CF3A8AB144}" {
+     EffectPrefab "{A1E9B341BCA89277}Prefabs/Weapons/Warheads/9M119/Warhead_HEAT_9M119M1.et"
+    }
+   }
+  }
+  MissileMoveComponent "{62EB07A083C43107}" {
+   InitSpeed 350
+   ThrustInitTime 0.04
+  }
+  WCS_Armament_ProjectileUIInfoComponent "{62E8F0D3EA114200}" {
+   m_Name "#SPC-Ammo_9K119M1_Name"
+  }
+  WCS_Armament_RocketTraceEffectComponent "{62E8F0D3EA114201}" {
+   m_ExitParticlePosition 0 -0.014 1.979
+  }
+ }
+ coords 63.105 1 1285.071
+ CartridgeModel "{33BD787620C4E7D6}Assets/Weapons/Ammo/125mm/Cartridge_125_HE_OF19.xob"
+}

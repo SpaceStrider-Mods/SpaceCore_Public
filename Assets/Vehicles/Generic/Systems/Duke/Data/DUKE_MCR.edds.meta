@@ -1,0 +1,23 @@
+MetaFileClass {
+ Name "{08FA6A25F9A6620A}Assets/Vehicles/Generic/Systems/Duke/Data/DUKE_MCR.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A6CC0A2F9DB86CBE}Configs/System/ResourceTypes/PC/TextureMCRMap.conf" {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_ONE : "{224B78299A038E4A}Configs/System/ResourceTypes/XBOX_ONE/TextureMCRMap.conf" {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_SERIES : "{B5FA7506CF384E79}Configs/System/ResourceTypes/XBOX_SERIES/TextureMCRMap.conf" {
+   MaxSize "1024"
+  }
+  TIFFResourceClass PS4 : "{E7A6FCCE55593073}Configs/System/ResourceTypes/PS4/TextureMCRMap.conf" {
+   MaxSize "1024"
+  }
+  TIFFResourceClass PS5 : "{E3BE705DB85AD3CA}configs/ResourceTypes/PS5/TextureMCRMap.conf" {
+   MaxSize "1024"
+  }
+  TIFFResourceClass HEADLESS : "{D49C34F7354B6F47}Configs/System/ResourceTypes/HEADLESS/TextureMCRMap.conf" {
+   MaxSize "1024"
+  }
+ }
+}

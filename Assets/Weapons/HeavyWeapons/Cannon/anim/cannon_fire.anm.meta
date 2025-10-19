@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3930E2D98419B34B}Assets/Weapons/HeavyWeapons/M1A1Cannon/anim/cannon_fire.anm"
+ Configurations {
+  TXAResourceClass PC {
+   SourcePath "m1a1_abrams.blend"
+   SourceProfile "726_Weapon_Bolt_trigger"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass XBOX_SERIES : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass HEADLESS : PC {
+  }
+ }
+}

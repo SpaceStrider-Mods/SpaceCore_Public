@@ -1,0 +1,17 @@
+GenericEntity : "{1CC8DD9D7F92ED2A}Prefabs/Props/Core/VehiclePart_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{84B85FE9726C1E6F}Assets/Vehicles/Common/TriplexPlaceholder/Triplex.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ModelGeometry 1
+   Static 0
+  }
+  RplComponent "{610E4895A0BC2659}" {
+  }
+  Hierarchy "{610E4895DE0CCAD6}" {
+  }
+ }
+ coords 2.495 2.374 2.006
+}

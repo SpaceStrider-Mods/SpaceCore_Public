@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{EBDA4B3E6EA40D9E}Assets/Vehicles/Generic/Lights/Data/Domelight_base_BCR.edds"
+ NMOMap "{D302F0ACB7D35F00}Assets/Vehicles/Generic/Lights/Data/Domelight_base_NMO.edds"
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C29A5AAEE13B3DE9}UI/layouts/Sights/SPC_Optic_Triplex.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+  LayoutResourceClass PS5 : PC {
+  }
+ }
+}

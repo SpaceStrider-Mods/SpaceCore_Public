@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C039239C9E058EB9}Assets/Vehicles/Tracked/T-72A/anim/proc/turret_commander.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

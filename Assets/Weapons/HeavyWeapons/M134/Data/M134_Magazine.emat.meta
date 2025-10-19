@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6C4459BCC763A771}Assets/Weapons/HeavyWeapons/M134/Data/M134_Magazine.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

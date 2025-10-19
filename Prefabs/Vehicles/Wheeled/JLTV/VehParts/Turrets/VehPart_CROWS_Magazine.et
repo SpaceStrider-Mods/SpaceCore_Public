@@ -1,0 +1,15 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{F93126DC0ED7C92D}Assets/Vehicles/Wheeled/SPC_Stryker/STRYKER_Turret_Magazine.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    HitZone Default {
+     HZDefault 1
+    }
+   }
+  }
+ }
+}

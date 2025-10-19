@@ -1,0 +1,22 @@
+MatPBRBasic {
+ Color 0.091 0.091 0.091 1
+ DiffuseIBL 0.474 0.474 0.474 1
+ Diffuse 0.171 0.162 0.136 1
+ Emissive 0 0.171 0.047 1
+ EmissiveLV -3
+ Specular 0.209 0.209 0.209 1
+ SpecularMul 0.05
+ MetalnessScale 0
+ DielectricReflectance 0.16
+ CavityFromAO 0
+ EmissiveMap "{5DF75BD2997302BC}Assets/_SharedData/Glass/ST_Glass_Dirt_02_BCR.edds"
+ BCRMap "{5DF75BD2997302BC}Assets/_SharedData/Glass/ST_Glass_Dirt_02_BCR.edds"
+ NormalPower 0.025
+ NMOMap "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ GlobalMapsUVTransform MatUVTransform "{664B53858F8D55BE}" {
+  TilingU 2
+  TilingV 1.05
+  OffsetU 0.059
+  OffsetV -0.059
+ }
+}

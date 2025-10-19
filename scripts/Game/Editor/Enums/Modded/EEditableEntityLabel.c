@@ -1,0 +1,5 @@
+modded enum EEditableEntityLabel
+{
+	VEHICLE_TANK = 1285538991,
+	VEHICLE_BOAT = 1285533891
+}

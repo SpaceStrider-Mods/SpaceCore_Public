@@ -1,0 +1,16 @@
+Projectile : "{83505EE551837781}Prefabs/Weapons/Magazines/9K119_Refleks/Ammo_Magazine_9M119_Refleks.et" {
+ ID "629D11C7F7353F80"
+ components {
+  CollisionTriggerComponent "{629D11CF3EC02C68}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{629D11CF3A8AB144}" {
+     EffectPrefab "{50C6F0EBF5FCE23E}Prefabs/Weapons/Warheads/9M119/Warhead_HEAT_9M119M.et"
+    }
+   }
+  }
+  WCS_Armament_ProjectileUIInfoComponent "{62E8F0D3EA114200}" {
+   m_Name "#SPC-Ammo_9K119M_Name"
+  }
+ }
+ coords 63.105 1 1285.071
+}

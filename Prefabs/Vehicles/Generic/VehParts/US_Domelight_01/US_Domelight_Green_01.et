@@ -1,0 +1,12 @@
+GameEntity : "{A50B7F75B249F351}Prefabs/Vehicles/Core/Lights/VehicleEmissiveSurface_Base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{BA97FD9449CB50C4}Assets/Vehicles/Generic/Lights/US_Domelight_Square.xob"
+  }
+  RigidBody "{607AF91C6961EB71}" {
+   ModelGeometry 0
+  }
+ }
+ coords -17.577 0.997 -18.016
+}

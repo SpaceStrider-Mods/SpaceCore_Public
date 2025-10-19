@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F5FACE064A61EF7C}Assets/Vehicles/Common/Turrets/OGPK/data/Windows.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

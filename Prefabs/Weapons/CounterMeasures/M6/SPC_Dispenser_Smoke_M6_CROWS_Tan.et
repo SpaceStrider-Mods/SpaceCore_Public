@@ -1,0 +1,13 @@
+GenericEntity : "{3CB2C0FD968CDD73}Prefabs/Weapons/CounterMeasures/M6/SPC_Dispenser_Smoke_M6_CROWS.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{63397511DF02631C}" {
+     SourceMaterial "STYKER_base_exterior_Turret"
+     AssignedMaterial "{A1E725BC4E6C777A}Assets/Vehicles/Wheeled/SPC_Stryker/data/STYKER_base_exterior_Turret_Tan.emat"
+    }
+   }
+  }
+ }
+}

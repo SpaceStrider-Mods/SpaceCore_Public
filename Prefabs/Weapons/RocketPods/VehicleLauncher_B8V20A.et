@@ -1,0 +1,126 @@
+GenericEntity : "{D14EC0B3BFCE1A8D}Prefabs/Weapons/Core/VehicleLauncher_Base_01.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{6DEEA4A04995A517}Assets/Weapons/RocketPods/B-8B20A/B-8V20A_Pod.xob"
+  }
+  RigidBody "{60C431D55FBDBE81}" {
+   Mass 50
+   ModelGeometry 1
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{60C431D55FBDBE88}" {
+     Name "B8-V20A"
+     Description "#AR-Weapon_RPG7V1_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{60C431D55FBDBE95}" {
+     Weight 6
+     SizeSetupStrategy Manual
+     ItemDimensions 30 30 30
+     ItemVolume 4000
+     DimensionScaler 1
+     RestingUP Right
+     RestingAdditiveRotationLS 0 1.8 -12.2
+     RestingAdditiveOffsetLS 0.075 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{60C431D55FBDBE97}" {
+     IkSettings {
+      ItemIKSettings "{60C431D55FBDBE91}" {
+      }
+      ItemIKSettings "{60C431D55FBC6080}" {
+      }
+      ItemIKSettings "{60C431D55FBC6081}" {
+      }
+      ItemIKSettings "{60C431D55FBC6082}" {
+       Lowered 1
+       InAds 0
+       OutAds 0
+       MovementSpeedRange 0 0
+      }
+     }
+     AnimationInstance "{81E91C367B2A22D6}anims/workspaces/player/player_main_rpg.asi"
+     AnimationIKPose "{9DFCB6A3FD16B13D}Assets/Weapons/Launchers/RPG7/anims/anm/p_rpg7_ik.anm"
+     AllowInspection 1
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      CrouchLimitsVertical -50 50
+      ProneLimitsVertical -10 20
+      DeploymentAimSpeedMultiplier 1 1
+      DeploymentHorizontalAimSensitivityMax 120
+     }
+     ItemMovementSwayAttributes "{58B9009CD03086A9}" {
+      BobDamper 0.95 0.95 1
+      BobMagnitudeAngular -6.25 10 0
+      BobSpeed 16
+      MaxMagnitude 1
+      DefaultMagnitudeLinear 0 0.04 0
+      DefaultMagnitudeAngular 35 3 -40
+      LoweredMagnitudeLinear 0 0.125 0
+      LoweredMagnitudeAngular 90 7.5 -45
+      OneHandMagnitudeLinear 0 0.065 0
+      OneHandMagnitudeAngular 35 5 -40
+      ADSMagnitudeLinear -0.023 0 0
+      ADSMagnitudeAngular 8.84 10.6 20
+      InjuredMagnitudeLinear 0 0.065 0
+      InjuredMagnitudeAngular 35 5 -40
+      TargetVelocityLimit 3
+      MaxVelocity 2
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+      m_fRecoilTarget 0.038
+     }
+     PreviewRenderAttributes "{60C431D55FBC6089}" {
+      CameraPreset Right
+      CameraDistanceToItem 1.4
+      FOV 30
+      AspectRatio 1
+      AnimationInstance "{C6CE144E13008635}anims/workspaces/player/player_inventory_launcher.asi"
+     }
+     CharacterModifierAttributes "{60C431D55FBC60B4}" {
+      AllowReloadingWithRoll 0
+     }
+    }
+   }
+   Priority 0
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{5E5833608CBE399E}" {
+     components {
+      CaseEjectingEffectComponent "{5E58B4534C658B62}" {
+       EffectPosition EntitySlotInfo Muzzle {
+        Offset 0 -0.239 0.9513
+       }
+      }
+      SCR_MuzzleEffectComponent "{5E5833608CBE3998}" {
+       EffectPosition EntitySlotInfo Muzzle {
+        Offset 0 -0.3109 -0.7623
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{5E5833606476A7F9}" {
+       Offset 0 -0.239 0.9515
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{5E5833606B7819A8}" {
+       Offset 0 -0.239 0
+      }
+     }
+     FireModes {
+      BaseFireMode "{5E5833608CBF39C1}" {
+       RoundsPerMinute 300
+      }
+     }
+     MagazineWell MagazineWellSPC_9K11 "{6556118704CFC6F2}" {
+     }
+     MagazineTemplate "{B12CD6280BC6ADB8}Prefabs/Weapons/Magazines/9K11/Rocket_B-8V20A_20rnd_Base.et"
+    }
+   }
+   shouldHandleObstruction 0
+  }
+ }
+}

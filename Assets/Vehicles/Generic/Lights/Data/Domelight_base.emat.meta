@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AE3AD9B72D41CF31}Assets/Vehicles/Generic/Lights/Data/Domelight_base.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

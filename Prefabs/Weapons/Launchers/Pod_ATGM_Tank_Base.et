@@ -1,0 +1,95 @@
+GenericEntity : "{CD609D6F3A054B14}Prefabs/Weapons/Core/Armament_Pod_Base.et" {
+ ID "629D11C8BD6AE717"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{218D4E6555DD7ECA}Sounds/Weapons/HeavyWeapons/2A46/Weapons_HeavyWeapons_2A46_Shot.acp"
+   }
+   DistanceManagement 0
+  }
+  MeshObject "{629D11CADAD0C383}" {
+   Object "{A4048C2AA75EF832}Common/Models/Default.xob"
+  }
+  RigidBody "{629D11CA43ADFC85}" {
+   Mass 0
+   SimState None
+  }
+  SCR_VisibleInventoryItemComponent "{65A092E71B057EC7}" {
+   Enabled 0
+  }
+  WCS_Armament_WeaponBlastComponent "{65A4CC8404B80C0F}" {
+   m_aBlastEffects {
+    SCR_WeaponBlastEffect "{65DAA43B2BF21679}" {
+     m_eDamageType COLLISION
+     m_fDamageValue 200
+     m_aDistanceDamageFalloff {
+      0 1 0.151 0.942 0.394 0.32 1 0
+     }
+     m_aAngleDamageFalloff {
+      0 0 0.436 0.391 0.699 0.958 1 1
+     }
+    }
+    SCR_WeaponBlastEffect "{65DAA43B2BA246E4}" {
+     m_eDamageType EXPLOSIVE
+     m_DamageEffect SCR_BackBlastDamageEffect "{6262C5CDA676872D}" {
+      m_fResilienceDamageValueMultiplier 5
+     }
+     m_fDamageValue 3
+     m_aDistanceDamageFalloff {
+      0 1 0.305 0.958 0.569 0.255 1 0
+     }
+     m_aAngleDamageFalloff {
+      0 0 0.335 0.673 0.526 0.926 1 1
+     }
+    }
+   }
+   m_BlastOrigin PointInfo "{65A4CC840B9C4E83}" {
+    PivotID "barrel_muzzle"
+    Offset 0 0 0.1331
+    Angles 0 0 0
+   }
+   m_fBlastLength 25
+   m_fBlastConeAngle 45
+  }
+  WCS_Armament_WeaponComponent "{629D11C992611C79}" {
+   m_sName "ATGM"
+   m_DefaultProjectile "{59ECACE2F2D72161}Prefabs/Weapons/Magazines/9K112_Kobra/Ammo_Magazine_9K112_Kobra.et"
+   m_fLaunchOffset 2
+   m_ExitParticle "{77DE802E372BCD3C}Particles/Weapons/Smoke_2a46.ptc"
+   m_sExitParticleSlotName "Backblast"
+   m_EjectablePrefab ""
+  }
+  SlotManagerComponent "{629D11C99AEE634A}" {
+   Slots {
+    EntitySlotInfo Backblast {
+     PivotID "barrel_muzzle"
+     Offset 0 0 4.7263
+     Angles 0 0 0
+    }
+   }
+  }
+  ActionsManagerComponent "{629D11CAB6B28AE6}" {
+   ActionContexts {
+    UserActionContext "{629D11D46C8F2AA6}" {
+     Position PointInfo "{6152B772E6638695}" {
+      Offset 0 0.2847 0.3315
+     }
+     Omnidirectional 0
+    }
+   }
+   additionalActions {
+    WCS_RearmPodAtRepairStationAction "{629D11D464DEC282}" {
+     ParentContextList {
+      "rearm_pod_01"
+     }
+     UIInfo SCR_ActionUIInfo "{629D11CB1C21D168}" {
+      Name "Rearm 9M119"
+     }
+     m_sProjectileToRearm "{67EE9620ADCD764C}Prefabs/Weapons/Magazines/9K119_Refleks/Ammo_Magazine_9K119M1_Invar.et"
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+ }
+ coords 64.911 1 1294.33
+}

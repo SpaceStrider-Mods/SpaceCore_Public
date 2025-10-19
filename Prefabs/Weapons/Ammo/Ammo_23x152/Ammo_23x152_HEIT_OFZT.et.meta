@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{04BC915B3DD4AA84}Prefabs/Weapons/Ammo/Ammo_23x152/Ammo_23x152_HEIT_OFZT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

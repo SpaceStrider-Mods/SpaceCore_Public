@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F05B94976915C241}Assets/Vehicles/Common/Turrets/OGPK/data/Cabin_VFX.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,6 @@
+LightEntity : "{4FCA594DEA0E741C}Prefabs/Vehicles/Core/Lights/VehicleLight_Dashboard_Base.et" {
+ ID "514ED7499ABC27FE"
+ Color 1 0 0 1
+ LV 1
+ Type Point
+}

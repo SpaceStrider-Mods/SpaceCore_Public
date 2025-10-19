@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{57BC8604B5314A0B}Prefabs/Weapons/Warheads/Explosions/Explosion_Tank_AmmoRack_Large_Secondary.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

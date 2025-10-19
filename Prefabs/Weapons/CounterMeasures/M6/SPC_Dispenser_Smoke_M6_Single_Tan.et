@@ -1,0 +1,13 @@
+GenericEntity : "{E2EDEA437BEBDB3D}Prefabs/Weapons/CounterMeasures/M6/SPC_Dispenser_Smoke_M6_Single_Green.et" {
+ ID "62A8D6FA317E0E04"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{652F1718C7E77FFE}" {
+     SourceMaterial "STYKER_base_exterior_Turret"
+     AssignedMaterial "{5745AFFF3574D7D1}Assets/Weapons/Countermeasures/M6/Data/M6_Tan.emat"
+    }
+   }
+  }
+ }
+}

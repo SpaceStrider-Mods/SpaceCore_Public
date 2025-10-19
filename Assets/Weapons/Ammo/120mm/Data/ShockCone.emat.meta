@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7E01BDB5AA93C85F}Assets/Weapons/Ammo/120mm/Data/ShockCone.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

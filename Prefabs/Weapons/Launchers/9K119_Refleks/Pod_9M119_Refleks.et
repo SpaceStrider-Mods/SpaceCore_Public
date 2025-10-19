@@ -1,0 +1,20 @@
+GenericEntity : "{CD897795FA0188DE}Prefabs/Weapons/Launchers/Pod_ATGM_Tank_Base.et" {
+ ID "629D11C8BD6AE717"
+ components {
+  WCS_Armament_WeaponComponent "{629D11C992611C79}" {
+   m_sName "#SPC-Weapon_9M119_Name"
+   m_DefaultProjectile "{83505EE551837781}Prefabs/Weapons/Magazines/9K119_Refleks/Ammo_Magazine_9K119_Refleks.et"
+  }
+  ActionsManagerComponent "{629D11CAB6B28AE6}" {
+   additionalActions {
+    WCS_RearmPodAtRepairStationAction "{629D11D464DEC282}" {
+     UIInfo SCR_ActionUIInfo "{629D11CB1C21D168}" {
+      Name "Rearm #SPC-Weapon_9M119M_Name"
+     }
+     m_sProjectileToRearm "{83505EE551837781}Prefabs/Weapons/Magazines/9K119_Refleks/Ammo_Magazine_9K119_Refleks.et"
+    }
+   }
+  }
+ }
+ coords 66.818 1 1288.149
+}

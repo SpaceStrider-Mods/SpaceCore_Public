@@ -1,0 +1,73 @@
+FrameWidgetClass {
+ Name "TankInfoLayout"
+ Slot FrameWidgetSlot "{64DAB54E28200DB8}" {
+  Anchor 0 0 1 1
+  SizeX 0
+  OffsetRight 0
+  SizeY 0
+  OffsetBottom 0
+ }
+ components {
+  SCR_WidgetExportRuleRoot "{5DA0E2E1CF09FB42}" {
+   DestinationPath "{E8C55F819D1FD8D0}scripts/Game/UI/HUD/MortarInfo"
+   ScriptAddon "$Mortars:"
+  }
+ }
+ {
+  FrameWidgetClass "{65D8A842A55DB7D1}" {
+   Name "Overlay"
+   Slot FrameWidgetSlot "{5DA0E2E515F386B2}" {
+    Anchor 0 0 1 1
+    PositionX 960
+    PositionY 540
+    SizeX 0
+    OffsetRight 0
+    SizeY 0
+    OffsetBottom 0
+   }
+   {
+    OverlayWidgetClass "{65D8A842A55DB7D3}" {
+     Name "m_Elevation"
+     Slot FrameWidgetSlot "{5DA0E2E7C6D6111A}" {
+      Anchor 0.5 0.5 0.5 0.5
+      PositionX -600
+      OffsetLeft -600
+      OffsetTop 0
+      SizeX 200
+      OffsetRight 400
+      SizeY 200
+      OffsetBottom -200
+      Alignment 0.5 0.5
+     }
+    }
+    OverlayWidgetClass "{65D8A842A55DB7D4}" {
+     Name "m_Azimuth"
+     Slot FrameWidgetSlot "{5DA0E2E7C6D611F5}" {
+      Anchor 0.5 0.5 0.5 0.5
+      OffsetLeft 0
+      OffsetTop 0
+      SizeX 200
+      OffsetRight -200
+      SizeY 200
+      OffsetBottom -200
+      Alignment 0.5 0
+     }
+    }
+    OverlayWidgetClass "{65D8A842A55D8D7C}" {
+     Name "m_Range"
+     Slot FrameWidgetSlot "{5DA0E2E7C6D611F8}" {
+      Anchor 0.5 0.5 0.5 0.5
+      PositionX 600
+      OffsetLeft 600
+      OffsetTop 0
+      SizeX 200
+      OffsetRight -800
+      SizeY 200
+      OffsetBottom -200
+      Alignment 0.5 0.5
+     }
+    }
+   }
+  }
+ }
+}
