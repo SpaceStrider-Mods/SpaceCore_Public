@@ -1,0 +1,39 @@
+MetaFileClass {
+ Name "{34A726DC4FD45891}Assets/Weapons/MissileRacks/9M120/9M120_Missile.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{60FE345DCBF79084}" {
+     SourceMaterial "helicopter_weapons_ru"
+     AssignedMaterial "{1060BEA3AA2616E6}Assets/Weapons/MissileRacks/Data/helicopter_weapons_ru.emat"
+    }
+   }
+   MeshParams {
+    MeshParam ataka_missile_01 {
+    }
+   }
+   Common TXOCommonClass "{60FE345DCBCF1F2F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{60FE345DCBCF1FA9}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{60FE345DCBCF1FCA}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{60FE345DCBCF1FF5}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{60FE345DCBCF180F}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{60FE345DCBCF182C}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

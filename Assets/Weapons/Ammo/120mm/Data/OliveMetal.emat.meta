@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BE005A3B8196FAE7}Assets/Weapons/Ammo/120mm/Data/OliveMetal.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

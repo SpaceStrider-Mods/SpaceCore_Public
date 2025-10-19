@@ -1,0 +1,56 @@
+MatPBRMulti {
+ GlobalMCRMap "{08FA6A25F9A6620A}Assets/Vehicles/Generic/DUKE/Data/DUKE_MCR.edds"
+ GlobalMCRMode Multiply
+ MCRBrightness 0.4
+ MaskMap "{B5B8C4CAF5312470}Assets/Vehicles/Generic/DUKE/Data/DUKE_GLOBAL_MASK.edds"
+ MaskRedScale 1
+ VFXMap "{BC3B5E8E0E4B1126}Assets/Vehicles/Generic/DUKE/Data/DUKE_VFX.edds"
+ GlobalNMOMap "{CC495B26522FA04A}Assets/Vehicles/Generic/DUKE/Data/DUKE_NMO.edds"
+ DirtOpacity 0.3
+ DirtLayerSharpness 1.977
+ DirtColor 0.25 0.231 0.196 1
+ DirtRoughness 1.5
+ DirtBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ DirtMaskMap "{82A0289C4982ADA1}Assets/_SharedData/DetailMask/ST_Dirt_Rock_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{654712A42FADC15F}" {
+  TilingU 10
+  TilingV 10
+ }
+ Enabled_3 1
+ Color_3 0.04 0.036 0.031 1
+ BCR_3 "{8EADB31D864DD0FC}Assets/_SharedData/Metal/ST_MetalBare_01_BCR.edds"
+ NMO_3 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ MaskSharpness_3 4
+ Mask_3 "{AF3EED70E19D46AB}Assets/_SharedData/DetailMask/ST_Scratches_02_MASK1.edds"
+ MaskUVScale_3 10
+ UVTransform_3 MatUVTransform "{654712A4D7EFD8F0}" {
+  TilingU 10
+  TilingV 10
+ }
+ Roughness_3 1.5
+ Metalness_3 4
+ Enabled_2 1
+ Color_2 0.038 0.047 0.034 1
+ BCR_2 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_2 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ MaskSharpness_2 1.301
+ Mask_2 "{A3B4218CCE57A275}Assets/_SharedData/DetailMask/ST_Paint_peeling_03_Mask1.edds"
+ MaskUVScale_2 10
+ UVTransform_2 MatUVTransform "{654712BFA1EA4ED5}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_2 0.405
+ Roughness_2 1.6
+ Metalness_2 0.029
+ Color_1 0.067 0.061 0.051 1
+ BCR_1 "{8EADB31D864DD0FC}Assets/_SharedData/Metal/ST_MetalBare_01_BCR.edds"
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{654712B23CFE2E11}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_1 0.5
+ Roughness_1 1.36
+ Metalness_1 0
+}

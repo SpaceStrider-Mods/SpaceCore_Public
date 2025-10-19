@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{880253AEBA395CD4}Configs/Weapons/AIBallisiticTables/AIBT_120mm_HE.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

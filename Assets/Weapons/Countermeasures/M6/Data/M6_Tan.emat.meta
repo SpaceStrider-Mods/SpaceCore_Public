@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5745AFFF3574D7D1}Assets/Weapons/Countermeasures/M6/Data/M6_Tan.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

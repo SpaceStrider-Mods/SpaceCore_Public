@@ -1,0 +1,69 @@
+MetaFileClass {
+ Name "{BE8E6D974E6B4D65}Assets/Vehicles/Generic/DUKE/DUKE_Display.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportMorphs 1
+   ExportSceneHierarchy 1
+   Scale 0.06 0.06 0.06
+   MaterialAssigns {
+    MaterialAssignClass "{65A4AE1147FC61A2}" {
+     SourceMaterial "Duke"
+     AssignedMaterial "{ACB3F98EE197F6FC}Assets/Vehicles/Generic/DUKE/DukeDisplay/Duke.emat"
+    }
+    MaterialAssignClass "{65A4AE1147FC618F}" {
+     SourceMaterial "Glass"
+     AssignedMaterial "{AF8C6E1C135C7923}Assets/Vehicles/Generic/DUKE/DukeDisplay/Glass.emat"
+    }
+    MaterialAssignClass "{65A4AE1147FC6189}" {
+     SourceMaterial "Lights"
+     AssignedMaterial "{BD592BAABEAA38E0}Assets/Vehicles/Generic/DUKE/DukeDisplay/Lights.emat"
+    }
+    MaterialAssignClass "{65A4AE1147FC618B}" {
+     SourceMaterial "Button_Faces"
+     AssignedMaterial "{E3FFE396301DAD42}Assets/Vehicles/Generic/DUKE/DukeDisplay/Button_Faces.emat"
+    }
+    MaterialAssignClass "{65A4AE1147FC6187}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{BBC8D740AB4742B4}Assets/Vehicles/Generic/DUKE/DukeDisplay/DefaultGeneratedMaterial.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "Cylinder.006" {
+    }
+    MeshParam "Cylinder.007" {
+    }
+    MeshParam "Duke Base" {
+    }
+    MeshParam "Duke Mid Plate" {
+    }
+    MeshParam "Duke Top" {
+    }
+    MeshParam "Screen Glass" {
+    }
+   }
+   Common TXOCommonClass "{65A4AE1147E1C2AC}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{65A4AE1147E1BD45}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{65A4AE1147E1BDB2}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{65A4AE1147E1BC56}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{65A4AE1147E1BCED}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{65A4AE1147E1BCB1}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

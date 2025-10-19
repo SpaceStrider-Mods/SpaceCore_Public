@@ -1,0 +1,93 @@
+GameProject {
+ ID "SpaceCore"
+ GUID "5E389BB9F58B79A6"
+ TITLE "SpaceCore"
+ Dependencies {
+  "58D0FB3206B6F859" "629B2BA37EFFD577"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{64856C1722AA9FE7}" {
+      StringTableSource "{F002AD6C09B36E51}Language/SpaceCore_Localization.st"
+      Languages {
+       LanguageDefinition "{64856C172C950152}" {
+        Code "cs_cz"
+        StringTableRuntime "{4F40672FB3ECCEAE}Language/SpaceCore_Localization.cs_cz.conf"
+       }
+       LanguageDefinition "{64856C172C9500FB}" {
+        Code "de_de"
+        StringTableRuntime "{9A3E7D1CA04FDF8E}Language/SpaceCore_Localization.de_de.conf"
+       }
+       LanguageDefinition "{64856C172C9500D2}" {
+        Code "en_us"
+        StringTableRuntime "{C4CEF757CABCDA90}Language/SpaceCore_Localization.en_us.conf"
+       }
+       LanguageDefinition "{64856C172C95008B}" {
+        Code "es_es"
+        StringTableRuntime "{0182BADE24BEB190}Language/SpaceCore_Localization.es_es.conf"
+       }
+       LanguageDefinition "{64856C172C95007F}" {
+        Code "fr_fr"
+        StringTableRuntime "{BA2A4FE9C23D5292}Language/SpaceCore_Localization.fr_fr.conf"
+       }
+       LanguageDefinition "{64856C172C95005F}" {
+        Code "it_it"
+        StringTableRuntime "{3A36C0DD6F1FD16B}Language/SpaceCore_Localization.it_it.conf"
+       }
+       LanguageDefinition "{64856C172C95002E}" {
+        Code "ja_jp"
+        StringTableRuntime "{2A2D7D4F516EE1C0}Language/SpaceCore_Localization.ja_jp.conf"
+       }
+       LanguageDefinition "{64856C172C95003E}" {
+        Code "ko_kr"
+        StringTableRuntime "{8A9355E3C243E2FF}Language/SpaceCore_Localization.ko_kr.conf"
+       }
+       LanguageDefinition "{64856C172C95000F}" {
+        Code "pl_pl"
+        StringTableRuntime "{D6E2F3197CAC7E83}Language/SpaceCore_Localization.pl_pl.conf"
+       }
+       LanguageDefinition "{64856C172C95001E}" {
+        Code "pt_br"
+        StringTableRuntime "{039569D54752B439}Language/SpaceCore_Localization.pt_br.conf"
+       }
+       LanguageDefinition "{64856C172C9503E4}" {
+        Code "ru_ru"
+        StringTableRuntime "{56D47D7DDA2BD14F}Language/SpaceCore_Localization.ru_ru.conf"
+       }
+       LanguageDefinition "{64856C172C95035E}" {
+        Code "uk_ua"
+        StringTableRuntime "{DC8C288BB6056F1A}Language/SpaceCore_Localization.uk_ua.conf"
+       }
+       LanguageDefinition "{64856C172C950325}" {
+        Code "zh_cn"
+        StringTableRuntime "{063C46B68FA5BF07}Language/SpaceCore_Localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+   PlatformHardware PS5
+   DefaultSettings EngineUserSettings "{5702F087A781A9FC}" {
+    VideoUserSettings VideoUserSettings "{B272A67DB18E04F9}" {
+     FsrEnabled 1
+    }
+   }
+   ChimeraGlobalConfig ChimeraGlobalConfig "{6F12664687156A7B}" {
+    "Maximum View Distance" 2000
+    "Minimum View Distance" 2000
+   }
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

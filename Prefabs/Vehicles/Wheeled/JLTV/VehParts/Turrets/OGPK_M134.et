@@ -1,0 +1,36 @@
+Turret : "{8D9DD29EBFA08DA5}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/OGPK_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      Offset 0 0.05 0.069
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{64F2A812F1046A68}" {
+   Slots {
+    EntitySlotInfo Magazine {
+     PivotID "v_turret_01"
+     Offset 0.6084 0.8532 -0.587
+     Angles 0 90 -90
+     MergePhysics 0
+     Prefab "{3C82C59F9CC9B90B}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/VehPart_OGPK_Magazine_M134.et"
+     DisablePhysicsInteraction 1
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   shouldHandleObstruction 1
+   obstructionTestCharacterOffset 0 0 0
+   obstructionTestAddedLength 0
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 0.0434 0
+   }
+   WeaponTemplate "{D495DCDE5D8148B8}Prefabs/Weapons/HeavyWeapons/M134/M134_Turret_Base.et"
+  }
+ }
+ coords 80.198 1 1219.052
+}

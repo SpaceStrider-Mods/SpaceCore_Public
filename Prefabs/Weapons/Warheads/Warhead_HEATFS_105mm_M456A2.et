@@ -1,0 +1,33 @@
+GenericEntity : "{8C3C62C58D2DBEDA}Prefabs/Weapons/Warheads/Warhead_HEAT.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{567CBC1D0F5B4AEA}" : "{D81CF255115BB767}Prefabs/Weapons/Core/Damage/ExplosionContainer_HEAT.conf" {
+     ExplosionEffects {
+      BaseExplosionDamage "{61DAF5E24D9CA168}" {
+       DamageDistance 1
+      }
+      BaseExplosionDamage "{5D8D1EB3EBB36077}" {
+       DamageValue 10
+      }
+      ExplosionFragmentationEffect "{567CBC1D7AB652C7}" : "{9264AB458027FBA7}Prefabs/Weapons/Core/Damage/FragmentationDamageEffect_AT.conf" {
+       DamageFragmentCount 2000
+       GurneyConstant 2440
+       CaseWeight 15500
+      }
+     }
+     ChargeWeight 1730
+     TntEquivalent 1.33
+    }
+    SubmunitionEffect "{567CB8E002C26D97}" {
+     Prefab "{0E9EE6B2082BA4CE}Prefabs/Weapons/Ammo/Ammo_105x617/Ammo_HEAT_M456A2_Penetrator.et"
+    }
+    SpawnDecalEffect "{5E24CB0410DA8EC3}" {
+     Material "{BCC269C099CD1B52}Assets/Decals/Logistics/Impact/Data/Decal_Logistics_APDS_01.emat"
+    }
+   }
+  }
+ }
+ coords 93.715 1 1267.401
+}

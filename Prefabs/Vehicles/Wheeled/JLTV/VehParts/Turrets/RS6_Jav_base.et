@@ -1,0 +1,66 @@
+Turret : "{1D23A07249D7EB18}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/CROWS2_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  WCS_Armament_LoadoutComponent "{633A37525CB3871C}" {
+   m_ArmamentGroups {
+    WCS_ArmamentSlotGroup "{64EA65DAD1AADCE0}" {
+     slotIndex 0
+    }
+    WCS_ArmamentSlotGroup "{64EA79B77EE3C6D9}" {
+     slotIndex 1
+    }
+    WCS_ArmamentWeaponGroup "{633A37524771E2DE}" {
+     prefab "{F44E301781489297}Prefabs/Weapons/AircraftWeapons/MissilePods/Pod_Javelin_CROWS.et"
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{633A37527F74B565}" {
+       Position PointInfo "{633A375272CD018D}" {
+        PivotID "v_turret_01"
+        Offset 0.6027 0.5978 -0.1439
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{633A375394FEB4A4}" {
+      }
+     }
+     slotIndex 2
+    }
+   }
+   m_sPilotCompartmentUniqueName "gunner"
+  }
+  WCS_Armament_VehicleWeaponStationComponent "{644D39AC1DF95A3B}" {
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    MergePhysics 1
+   }
+   WeaponTemplate "{02C9C79B56106DFD}Prefabs/Weapons/HeavyWeapons/M230/HMG_M230LF.et"
+   WeaponSlotIndex 0
+  }
+  WeaponSlotComponent "{644D39AC6E1ED7B6}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{644D39AC539D0923}" {
+    signalsSuffix "Turret"
+   }
+   useAimingType MainTurret
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot empty {
+    PivotID "v_gun_01"
+    Offset 0.117 -0.0226 -0.0964
+    Angles 0 0 45
+    MergePhysics 1
+   }
+   WeaponTemplate "{4DD8C4F0F6EAA050}Prefabs/Weapons/MachineGuns/M240/MG_M240_CROWS2.et"
+   WeaponSlotIndex 1
+  }
+  WeaponSlotComponent "{64EA53E5E8E670D2}" {
+   Enabled 1
+   AttachType InventoryStorageSlot "{64EA53E5E59C0315}" {
+    MergePhysics 1
+    Prefab ""
+   }
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 2
+  }
+ }
+ coords 91.842 1 1231.334
+}

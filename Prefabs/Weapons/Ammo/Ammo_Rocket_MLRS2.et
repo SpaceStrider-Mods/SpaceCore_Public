@@ -1,0 +1,81 @@
+EjectableProjectile : "{C0BDA86B5AA5648C}Prefabs/Weapons/Core/Ammo_Rocket_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  SCR_ShellSoundComponent "{60C2960B45ABE97D}" {
+   Filenames {
+    "{D52579E00CC5B2ED}Sounds/Weapons/_SharedData/ProjectileTravelling/Weapons_ProjectileTravelling_Large_Rocket_Generic.acp"
+   }
+  }
+  CollisionTriggerComponent "{64D357FD4C35F8E8}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{64D357FD4C35F8FB}" {
+     EffectPrefab "{3562F141F39D1093}Prefabs/Weapons/Warheads/Warhead_Hydra70_HEDP_M247.et"
+     ParticleEffect "{636C188C0D4E6074}Particles/Weapon/Explosion_S5KO.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+   SafetyDistance 4
+  }
+  InventoryItemComponent "{526E87778842822F}" {
+   Attributes SCR_ItemAttributeCollection "{526E87778ACB229F}" {
+    ItemDisplayName UIInfo "{526E8777859BAACF}" {
+     Name "#AR-Magazine_Hydra70_M247_Name"
+     Description "#AR-Magazine_Hydra70_M247_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{64D357FD4C35F8C1}" {
+     Weight 10.2
+     SizeSetupStrategy Manual
+     ItemDimensions 35 35 35
+     ItemVolume 10000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D6F6A5FB82EE10}" {
+      CameraPreset Right
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 2
+      CameraOffset 0 0 0
+      ItemRenderRotation 0 0 -20
+      FOV 22
+      AspectRatio 1
+     }
+    }
+    m_SlotType SLOT_BACKPACK
+    m_bVisible 0
+   }
+  }
+  MagazineComponent "{50F6614BB5D5B0A8}" {
+   UIInfo MagazineUIInfo "{560AE4EBFA0176D4}" {
+    m_eAmmoTypeFlags HEAT
+   }
+   ItemModel "{5E92E56795047A2F}Assets/Weapons/Ammo/Rockets/Hydra/Hydra70_M247_item.xob"
+  }
+  MeshObject "{851AA4A2AE0A56BF}" {
+   Object "{18B98EDA283BCEC2}Assets/Weapons/Ammo/Rocket_M26.xob"
+  }
+  MissileMoveComponent "{0EF36690881261EF}" {
+   InitSpeed 50
+   InitSpeedVariation 0
+   Mass 100
+   TimeToLive 600
+   BallisticTableConfig "{C6DEBC591F4D8989}Configs/Weapons/AIBallisticTables/AIBT_Rocket_MLRS.conf"
+   BallisticTableGenerationConfig "{D89BD1E822F11B7A}Prefabs/Weapons/Core/RocketArtilleryBallisticTableGeneratorConfig.conf"
+   SonicCracks "{C3A0B35219284289}Sounds/Weapons/_SharedData/BulletSonicCracks/HeliRocket/Weapons_BulletSonicCracks_HeliRocket.acp"
+   ThrustInitTime 0.1
+   ThrustTime 2.7
+   ThrustForce 10000
+   AlignTorque 1
+   DistanceEnableGravitation 0.7
+  }
+  RigidBody "{529E88841E9EDFB4}" {
+   Mass 10.1
+  }
+  RocketTraceEffectComponent "{64D357FD4C35F848}" {
+   ParticleEffect "{215EB9A02938F2E2}Particles/Weapons/Trail_MLRS.ptc"
+  }
+ }
+ coords 4.138 2.907 3.456
+ ProjectileModel "{18B98EDA283BCEC2}Assets/Weapons/Ammo/Rocket_M26.xob"
+ CartridgeModel "{681FFEAAEDDF3E17}Assets/Weapons/Magazines/MLRS/M26_Loaded.xob"
+ EjectorInterface EjectorInterfaceMLRS "{64D357FD4C35F842}" {
+ }
+}

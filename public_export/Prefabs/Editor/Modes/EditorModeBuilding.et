@@ -1,0 +1,26 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "518A34314C7CB324"
+ components {
+  SCR_ContentBrowserEditorComponent "{597071D8310A282F}" {
+   m_aContentBrowserTabStates {
+    SCR_EditorContentBrowserSaveStateDataUI "{64F175EB2D87B98B}" {
+     m_iSavedLabels {
+      1285538991
+     }
+     m_iPageIndex 0
+     m_BrowserStateUIInfo SCR_UIInfo "{64F17ECBF4C90EC1}" {
+      Icon "{6E1FAA4903D09A37}UI/Textures/Editor/ContentBrowser/ContentBrowser_Vehicle_Tank.edds"
+     }
+    }
+    SCR_EditorContentBrowserSaveStateDataUI "{64F443D9393E26B9}" {
+     m_iSavedLabels {
+      1285533891
+     }
+     m_iPageIndex 0
+     m_BrowserStateUIInfo SCR_UIInfo "{64F443D9393E267D}" {
+     }
+    }
+   }
+  }
+ }
+}

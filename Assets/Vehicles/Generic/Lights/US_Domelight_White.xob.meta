@@ -1,0 +1,57 @@
+MetaFileClass {
+ Name "{8A02F38BF5B5102D}Assets/Vehicles/Generic/Lights/US_Domelight_White.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{64C722262C505F3B}" {
+     SourceMaterial "M113_lights_parabola"
+     AssignedMaterial "{22280D208CE6B87B}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_lights_parabola.emat"
+    }
+    MaterialAssignClass "{64C722262C505F0C}" {
+     SourceMaterial "M113_lights_in"
+     AssignedMaterial "{40586D7C71A04F4C}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_lights_in.emat"
+    }
+    MaterialAssignClass "{64C722262C505F00}" {
+     SourceMaterial "M113_lights_out"
+     AssignedMaterial "{A002EC0440C6FE63}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_lights_out.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Domelightwhite {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Whitelight {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{94B76D276C6A1DE3}Common/Materials/Game/Glass/glass_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{64C722262C243019}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{64C722262C243353}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{64C722262C243302}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{64C722262C2432FE}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{64C722262C2432A8}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{64C722262C243287}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

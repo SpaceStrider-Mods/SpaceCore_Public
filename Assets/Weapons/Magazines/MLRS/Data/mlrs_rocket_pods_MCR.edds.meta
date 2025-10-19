@@ -1,0 +1,28 @@
+MetaFileClass {
+ Name "{DA233A385A665F40}Assets/Weapons/Magazines/MLRS/Data/mlrs_rocket_pods_MCR.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS5 : PC {
+   MaxSize "1024"
+  }
+ }
+}

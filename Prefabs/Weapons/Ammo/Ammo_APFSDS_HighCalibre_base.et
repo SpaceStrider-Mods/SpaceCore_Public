@@ -1,0 +1,45 @@
+Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{65B54151E7C9F87A}" {
+   PROJECTILE_EFFECTS {
+    SpawnPrefabEffect "{65D744DA4DE161F6}" {
+     TriggerOnce 1
+     EffectPrefab "{1E29CFA773A85605}Prefabs/Weapons/Ammo/Warhead_AP_Spall_Base.et"
+    }
+   }
+   DELETE_ON_TRIGGER 0
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+     TriggerOnce 1
+     Filename "{B9C658F858BD06BC}Sounds/Weapons/_SharedData/BulletHits/Weapons_BulletHits_25x137_APDST.acp"
+    }
+    ProjectileDamage "{65A76C8143FF5417}" {
+     DamageValue 4
+     DamageType Incendiary
+     DamageEffects {
+      SCR_IncendiaryDamageEffect "{65D35AD86A78D53A}" {
+      }
+     }
+    }
+    SpawnParticleEffect "{65A76C8143FF57EA}" {
+     TriggerOnce 1
+     UseFrameEvent 1
+     ParticleEffect "{C822E2D7D3D46C22}Particles/Weapons/Explosion_APFSDS.ptc"
+    }
+   }
+   SonicCracks "{911B8A52417F1E62}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_100mm.acp"
+   SubsonicFlybys "{FD5AFE7E151777B2}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_100mm.acp"
+   AirDrag 0.001
+   DeflectionCriticalAngle 5
+   DeflectionDirDistribution 0.1
+  }
+ }
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{917152B9509B6118}Assets/Weapons/Ammo/120mm/M829A3_Projectile.xob"
+ CartridgeModel "{AEFCDCB3A4882310}Assets/Weapons/Ammo/120mm/M829A3_Cartridge.xob"
+}

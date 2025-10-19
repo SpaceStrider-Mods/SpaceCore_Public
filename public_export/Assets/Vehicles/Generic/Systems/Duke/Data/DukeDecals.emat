@@ -1,0 +1,10 @@
+MatPBRDecal {
+ BlendMode AlphaBlend
+ OpacityMap "{8CE6AA5B59D2A224}Assets/Vehicles/Wheeled/M923A1/Data/M923A1_COM_Decals_A.edds"
+ NormalPower 0.39
+ NMOMap "{EB5EC7FDB1832284}Assets/Vehicles/Wheeled/M923A1/Data/M923A1_COM_Decals_N.edds"
+ GBufferAlbedo 1
+ GBufferRoughness 1
+ GBufferMetalness 1
+ GBufferAO 1
+}

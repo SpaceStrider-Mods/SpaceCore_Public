@@ -1,0 +1,55 @@
+MetaFileClass {
+ Name "{FE3F1A8247D9B9F0}Assets/Vehicles/Generic/Lights/US_Domelight.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{64C72227F52EB861}" {
+     SourceMaterial "Domelight_base"
+     AssignedMaterial "{AE3AD9B72D41CF31}Assets/Vehicles/Generic/Lights/Data/Domelight_base.emat"
+    }
+    MaterialAssignClass "{64C72227F52EB84B}" {
+     SourceMaterial "LAV_int_decals"
+     AssignedMaterial "{0CAB12D406BF728F}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_int_decals.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Domelight {
+    }
+    MeshParam "Domelight_LOD0.001" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Domelight {
+     LayerPreset "InteractionFireGeo"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{64C72227F53F6EE5}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{64C72227F53F158E}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{64C72227F53F2A1A}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{64C72227F53F2FFC}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{64C72227F53F2EC9}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{64C72227F53F2E69}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

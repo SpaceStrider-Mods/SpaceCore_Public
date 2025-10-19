@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9A67C2A08E88CDC0}Assets/Vehicles/Generic/Turrets/data (1)/Textures/M230_LF_GLOBAL_MASK.edds"
+ Configurations {
+  TIFFResourceClass PC {
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+  }
+  TIFFResourceClass PS4 : PC {
+  }
+  TIFFResourceClass HEADLESS : PC {
+  }
+  TIFFResourceClass PS5 : PC {
+  }
+ }
+}

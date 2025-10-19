@@ -1,0 +1,20 @@
+MetaFileClass {
+ Name "{F9E23D4B39607896}Assets/Weapons/Magazines/MLRS/Data/mlrs_rocket_pods_GLOBAL_MASK.edds"
+ Configurations {
+  TIFFResourceClass PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_ONE : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass XBOX_SERIES : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass PS4 : PC {
+   MaxSize "1024"
+  }
+  TIFFResourceClass HEADLESS : PC {
+   MaxSize "1024"
+  }
+ }
+}

@@ -1,0 +1,9 @@
+GenericEntity : "{22234681D85DA4B7}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/VehPart_CROWS_Magazine.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{7ADC3DCD5171DB11}Assets/Weapons/HeavyWeapons/M134/M134_BOX.xob"
+  }
+ }
+ coords -0.301 2.531 0.159
+}

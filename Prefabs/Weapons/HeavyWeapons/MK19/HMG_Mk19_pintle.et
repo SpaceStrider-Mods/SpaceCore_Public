@@ -1,0 +1,235 @@
+GenericEntity : "{F54F6C453A8CB478}Prefabs/Weapons/Core/MachineGun_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{ACD1E3C439BC774F}Sounds/Weapons/HeavyWeapons/Mk19/Weapons_HeavyWeapons_M19_Shot.acp" "{4928189A8BCB7932}Sounds/Vehicles/Wheeled/M998/Vehicles_M998_Turret.acp" "{EC7E8631CBC17F15}Sounds/Weapons/HeavyWeapons/M2/Weapons_HeavyWeapons_M2_Handling.acp"
+   }
+   IncludeInactive 1
+  }
+  AITurretAimingComponent "{646A560823C6B2C4}" {
+  }
+  BaseWeaponManagerComponent "{646A560823C6B2D8}" {
+  }
+  ControllersManagerComponent "{646A560823C6B311}" {
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{0125871D8C41FE83}Assets/Weapons/HeavyWeapons/MK19/Mk19.xob"
+   Materials {
+    MaterialAssignClass "{64F45727C0B0D1A9}" {
+     SourceMaterial "rhib"
+     AssignedMaterial "{9A5AB5FC0F60E76F}Assets/Weapons/HeavyWeapons/MK19/MK19_Mount.emat"
+    }
+   }
+   PixelSizeScale 10
+  }
+  RigidBody "{646A560823C6B2DC}" {
+   Mass 58
+   ModelGeometry 1
+  }
+  ProcAnimComponent "{646A560823C6B2D0}" {
+   Parameters {
+    ProcAnimParams "{646A560823C6B2D4}" {
+     ResourceName "{F41BA441BB78161D}anims/proc/turret.pap"
+     BoneNames {
+      "w_root" "w_turret_vertical"
+     }
+     SimulationDistance 500
+     AlwaysSimulateOwner 1
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07E1D123E9}" {
+     Name "#SPC-Weapon_MK19_Name"
+     Description "#AR-Weapon_M2HB_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{646A560823C6B2A3}" {
+     Weight 38.1
+     SizeSetupStrategy Volume
+     ItemVolume 12000
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5534BB9B9A3E369E}" {
+      CameraPreset Right
+      CameraDistanceToItem 1.9
+      CameraOffset 0 0 0
+     }
+    }
+   }
+  }
+  TurretComponent "{646A560823C6B2BA}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{646A560823C6B2BF}" {
+    signalsSuffix "Turret"
+   }
+   InitAiming 0 5
+   AimingSpeedControls 0.1 0.1
+   ikTargets {
+    AnimationIKTargetInfo "{646A560823C6B2B0}" {
+     BindingName "LHandIKTarget"
+     PositionInfo PointInfo "{646A560823C6B2B2}" {
+      PivotID "w_turret_vertical"
+      Offset -0.125 -0.0527 -0.6984
+      Angles 0 -90 90
+     }
+    }
+    AnimationIKTargetInfo "{646A560823C6B2B7}" {
+     BindingName "RHandIKTarget"
+     PositionInfo PointInfo "{646A560823C6B2B6}" {
+      PivotID "w_turret_vertical"
+      Offset 0.1315 -0.0675 -0.6634
+      Angles -5 -90 -90
+     }
+    }
+   }
+   TurretSpeed 100 120
+   TurretAcceleration 343.77 343.77
+   TurretDeceleration 687.54 687.54
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{646A560823C6B286}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "slot_optics"
+      ChildPivotID "snap_weapon"
+      Enabled 0
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "w_sight"
+      Offset 0 -0.006 -0.1746
+      Angles 3.2131 0 0
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{CF2C245B4373FD86}Particles/Weapon/Casing_GrenadeLauncher.ptc"
+       EffectPosition EntitySlotInfo "{513A938439231378}" {
+        PivotID "barrel_chamber"
+        Offset 0.0696 0.0453 0.0352
+        Angles -83 0 0
+        AutoTransform 1
+       }
+      }
+      CaseEjectingEffectComponent "{646A560823C6B261}" {
+       ParticleEffect "{E7ACDE0ACCBCB07A}Particles/Weapon/Casing_Holder.ptc"
+       EffectPosition EntitySlotInfo casing_holder {
+        PivotID "barrel_chamber"
+        Offset 0.0696 0.0453 0.0352
+        Angles 0 90 0
+       }
+       HasSound 0
+      }
+      CaseEjectingEffectComponent "{646A560823C6B26B}" {
+       ParticleEffect "{45D764EF557E02B4}Particles/Weapon/Smoke_M2.ptc"
+       EffectPosition EntitySlotInfo "{52D4A6D19A301391}" {
+        PivotID "barrel_muzzle"
+       }
+       HasSound 0
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{254588526C5E861A}Particles/Weapon/Muzzle_KPVT.ptc"
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       Offset 0 0.0022 0.0219
+       Angles 0 0 0
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "barrel_muzzle"
+       Offset 0 0.0022 0.0219
+       Angles 0.45 0 0
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{A512F292D96BCB9F}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Auto.conf" {
+       RoundsPerMinute 300
+      }
+     }
+     MagazineWell MagazineWellSPC_Mk19 "{65561187C0D85F64}" {
+     }
+     BulletInitSpeedCoef 3.2
+     DispersionDiameter 0.4
+     DispersionRange 400
+     WeaponAimModifiers {
+      RecoilWeaponAimModifier "{646A560823C6B27F}" {
+       LinearData RecoilData "{646A560823C6B271}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+       }
+       AngularData RecoilData "{646A560823C6B272}" {
+        "Curve X" {
+         0 0.5 0.019 0.411 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.034 0.431 0.045 0.85 0.095 0.7 0.238 0.487 0.443 0.5 0.7 0.5 1 0.5
+        }
+        "Curve Magnitudes" 2 2 1
+        "Curve Mins" -0.001 0.3 -4
+        "Curve Maxs" 0.001 0.6 4
+       }
+       TurnOffsetData RecoilData "{646A560823C6B277}" {
+        "Curve X" {
+         0 0.5 0.019 0.411 0.055 0.539 0.11 0.474 0.216 0.497 1 0.5
+        }
+        "Curve Magnitudes" 0.65 5 0
+        "Curve Mins" -0.5 0.3 0
+        "Base Recoil Scale" 1
+       }
+      }
+     }
+     UIInfo MuzzleUIInfo "{2FBBA72C906C627E}" {
+      m_bShowCaliber 1
+      m_sCaliber "#SPC-AmmunitionID_40x53mm-SR"
+     }
+     ReloadDuration 12.5
+     AllowWeaponDeployment 0
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "w_turret_vertical"
+      Offset 0 -0.2443 0.1488
+     }
+     MagazineTemplate "{7722EC1EE2143694}Prefabs/Weapons/Magazines/MK19/Box_40x53_Mk19_32rnd_Base.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     Enabled 0
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#SPC-Weapon_MK19_Name"
+    Description "#AR-Weapon_M2HB_Description"
+    Icon "{646A560823C6B2A3}"
+    m_bShowWeaponName 1
+   }
+   WeaponSlotType "hmg"
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   Enabled 0
+  }
+  WeaponGamepadEffectsManagerComponent "{61A2E5C3F4458F86}" {
+   "Default ADS Trigger effect" GamepadTriggerEffect "{61B129618F212411}" : "{0DE3E1891C66DCEB}Prefabs/Weapons/Core/Configs/TriggerEffects/ADS/TriggerEffect_ADSMedium.conf" {
+   }
+   "Default Firing Trigger effect" GamepadTriggerEffect "{61D30BF7F81F8C61}" : "{5A67879DEFFDBD73}Prefabs/Weapons/Core/Configs/TriggerEffects/Fire/TriggerEffect_FireHMG.conf" {
+   }
+  }
+  RplComponent "{E052E71DCB007AF2}" {
+   "Parent Node From Parent Entity" 1
+  }
+ }
+ coords 99.304 2.031 1235.699
+}

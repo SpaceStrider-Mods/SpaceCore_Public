@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9631C572D789DC62}Assets/Weapons/Ammo/125mm/Data/125mm_Casing.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

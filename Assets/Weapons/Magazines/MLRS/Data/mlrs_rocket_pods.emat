@@ -1,0 +1,28 @@
+MatPBRMulti {
+ GlobalMCRMap "{DA233A385A665F40}Assets/Weapons/Magazines/MLRS/Data/mlrs_rocket_pods_MCR.edds"
+ MaskMap "{F9E23D4B39607896}Assets/Weapons/Magazines/MLRS/Data/mlrs_rocket_pods_GLOBAL_MASK.edds"
+ GlobalNMOMap "{1E900B3BF1EF9D00}Assets/Weapons/Magazines/MLRS/Data/mlrs_rocket_pods_NMO.edds"
+ Enabled_2 1
+ Color_2 0.089 0.105 0.082 1
+ BCR_2 "{8A0C885766CAD60D}Assets/_SharedData/Metal/ST_Rust_01_Aluminium_V2_BCR.edds"
+ NMO_2 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ MaskSharpness_2 6
+ Mask_2 "{490DFFF4475F7EC7}Assets/_SharedData/DetailMask/ST_Dirt_09_Mask1.edds"
+ MaskUVScale_2 4
+ UVTransform_2 MatUVTransform "{5E041A295B0754D3}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_2 0.2
+ Metalness_2 0
+ Color_1 0.456 0.456 0.456 1
+ BCR_1 "{8A0C885766CAD60D}Assets/_SharedData/Metal/ST_Rust_01_Aluminium_V2_BCR.edds"
+ NMO_1 "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{5E041A29533F9F6B}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_1 0.3
+ Roughness_1 1.035
+ Metalness_1 0
+}

@@ -1,0 +1,36 @@
+TracerProjectile : "{AB7BB1272DA3F564}Prefabs/Weapons/Ammo/Ammo_25x137/Ammo_25x137_base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{62B111F49DDC4331}" {
+   Enabled 1
+   PROJECTILE_EFFECTS {
+    SubmunitionEffect "{62B111F48E36EB03}" {
+     Enabled 0
+    }
+    SubmunitionEffect "{62B111F5A3192F67}" {
+     Enabled 0
+    }
+    SpawnParticleEffect "{62DEE9ECE5504CC7}" {
+     Enabled 0
+    }
+    SpawnPrefabEffect "{65D744D4B0241814}" {
+     TriggerOnce 1
+     EffectPrefab "{2E62269E8449716B}Prefabs/Weapons/Ammo/Ammo_25x137/Warhead_AP_Spall_M791.et"
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   ProjectileEffects {
+    SubmunitionEffect "{64789DA39D1BCD30}" {
+     Enabled 0
+    }
+    SubmunitionEffect "{64789DA38D43C156}" {
+     Enabled 0
+    }
+    SpawnParticleEffect "{64CADCF4941076D7}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+GenericEntity : "{5006A3819389FC3D}Prefabs/Weapons/HeavyWeapons/MK19/HMG_Mk19_pintle.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SlotManagerComponent "{64F452EA8F16612B}" {
+   Slots {
+    EntitySlotInfo Shield {
+     PivotID "w_root"
+     Offset 0 0.0839 0.1698
+     Prefab "{CAA4CF69CE9E5A47}Prefabs/Vehicles/Wheeled/JLTV/VehParts/OGPK_Weapon_Armor.et"
+    }
+   }
+  }
+ }
+ coords 1.633 2.428 0.047
+}

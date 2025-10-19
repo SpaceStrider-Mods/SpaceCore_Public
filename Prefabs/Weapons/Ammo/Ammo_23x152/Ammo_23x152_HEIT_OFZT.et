@@ -1,0 +1,20 @@
+TracerProjectile : "{9A278C5AC7235C6E}Prefabs/Weapons/Ammo/Ammo_23x152/Ammo_23x152_base.et" {
+ ID "476AE74AA8E99E2E"
+ components {
+  CollisionTriggerComponent "{62EAC20082EEDA25}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{62EAC20FC782CE1E}" {
+     EffectPrefab "{6A0992CACA58E209}Prefabs/Weapons/Warheads/Warhead_Grenade_HEIT_OFZT.et"
+     ParticleEffect "{BE8CB9E52630B352}Particles/Weapon/Explosion_UPK23.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   DeflectionCriticalAngle 0
+   PenetrationDepth 0.1
+  }
+ }
+ coords 101.717 1.674 1239.984
+ CartridgeModel "{A302B08CEAC1AD80}Assets/Weapons/Ammo/Bullets/25x137/Cartridge_25x137_M792.xob"
+}

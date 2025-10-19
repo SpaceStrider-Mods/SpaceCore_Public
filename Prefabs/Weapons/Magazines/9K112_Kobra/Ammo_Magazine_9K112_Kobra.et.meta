@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{59ECACE2F2D72161}Prefabs/Weapons/Magazines/9K119_Refleks/Ammo_Magazine_9M112_Kobra.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

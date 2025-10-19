@@ -1,0 +1,9 @@
+Projectile : "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et" {
+ ID "50C6F965BA00FAAC"
+ components {
+  ShellMoveComponent "{20FB66C5FA209A29}" {
+   InitSpeed 241
+   TimeToLive 50
+  }
+ }
+}

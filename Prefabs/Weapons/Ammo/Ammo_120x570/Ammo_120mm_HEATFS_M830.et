@@ -1,0 +1,39 @@
+Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "476AE74C1F2F140D"
+ components {
+  CollisionTriggerComponent "{5D1AB3B5099C0DC2}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5D1AB3B57575A1B8}" {
+     EffectPrefab "{3F34529D9BAA3513}Prefabs/Weapons/Warheads/Warhead_HEATFS_M830.et"
+     ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+    AIExplosionEffect "{611CB637F9349757}" {
+    }
+   }
+   SafetyDistance 1
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 1140
+   Mass 13.1
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 1650
+    }
+    HitSoundEffect "{2FC22748C7ABD466}" {
+     Filename "{70BE55084354B6D5}Sounds/Weapons/_SharedData/RocketHits/Weapons_RocketHits.acp"
+    }
+   }
+   BallisticTableConfig "{CF58E6492024FDCA}Configs/Weapons/AIBallisticTables/AIBT_120mm_HEAT_M830.conf"
+   SonicCracks "{911B8A52417F1E62}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_100mm.acp"
+   SubsonicFlybys "{FD5AFE7E151777B2}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_100mm.acp"
+   AirDrag 0.01
+   Diameter 120
+   Length 760
+   PenetrationDirDistribution 0.05
+  }
+ }
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{5481680FA3AB539B}Assets/Weapons/Ammo/120mm/M830_Projectile.xob"
+ CartridgeModel "{62CE86C408FE8A42}Assets/Weapons/Ammo/120mm/M830_Cartridge.xob"
+}

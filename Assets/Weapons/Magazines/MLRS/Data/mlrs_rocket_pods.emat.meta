@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{53C2B383E848B9BA}Assets/Weapons/Magazines/MLRS/Data/mlrs_rocket_pods.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

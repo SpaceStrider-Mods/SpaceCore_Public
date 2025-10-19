@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CACD32CD0BC64B41}Prefabs/Weapons/HeavyWeapons/MK19/HMG_Mk19_CROWS.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

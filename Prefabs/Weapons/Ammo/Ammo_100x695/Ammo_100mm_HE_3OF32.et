@@ -1,0 +1,32 @@
+TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "476AE74C1F2F140D"
+ components {
+  CollisionTriggerComponent "{5CC2ABE088EAB58D}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5CC2ABE096870204}" {
+     EffectPrefab "{337C73A00F6A9389}Prefabs/Weapons/Warheads/Warhead_HE_3OF32.et"
+     ParticleEffect "{318510C6FB1633D9}Particles/Weapon/Explosion_Mortar_Base.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+   TriggerOffset -0.5
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 407
+   Mass 3
+   TriggerWhenTimeout 1
+   SonicCracks "{911B8A52417F1E62}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_100mm.acp"
+   SubsonicFlybys "{FD5AFE7E151777B2}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_100mm.acp"
+   AirDrag 0.0000002
+   Diameter 100
+   Length 200
+   PenetrationDirDistribution 0.05
+  }
+ }
+ coords 93.802 3.564 1249.038
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{141B6A1F89173504}Assets/Weapons/Ammo/Tracers/Tracer_green.xob"
+ CartridgeModel "{F977B12D68012E95}Assets/Weapons/Ammo/Shells/82mm_Mortar_2B14/Shell_82mm_HE_O832DU.xob"
+ "Tracer Burn Start After" 0.02
+ "Tracer Burn Time" 3.5
+}

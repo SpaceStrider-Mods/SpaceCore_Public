@@ -1,0 +1,42 @@
+GenericEntity : "{7389EEB43FC3386B}Prefabs/Weapons/Core/Rocket_RPG_1rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "9K11 Vehicle Magazine"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellSPC_9K11 "{6556118757747AD3}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "9K11"
+   }
+   ItemModel "{670F36600529D92D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Launcher_01.xob"
+   MaxAmmo 20
+   AmmoConfig "{2D1AC37537D54B72}Configs/Weapons/Ammo/Ammo_S-8.conf"
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{E456C18BFCA95E0D}Assets/Weapons/RocketPods/B-8B20A/B-8V20A_Magazine.xob"
+  }
+  MagazineAnimationComponent "{613818374F6736FC}" {
+   AnimGraph "{6E94E275C76E7E3C}Assets/Weapons/Magazines/workspaces/M249_magazine.agr"
+   AnimInstance "{83FEB7AEDB672CD2}Assets/Weapons/Magazines/workspaces/M249_Magazine.asi"
+   AnimCommandsToBind {
+    "" ""
+   }
+   AutoVariablesBind 1
+   AnimVariablesToBind {
+    "" ""
+   }
+   DeactivationDelay 0
+   AnimatedMesh "{E456C18BFCA95E0D}Assets/Weapons/RocketPods/B-8B20A/B-8V20A_Magazine.xob"
+   BulletMeshesToHide {
+    "" "LAU_missile_01" "LAU_missile_02" "LAU_missile_03" "LAU_missile_04" "LAU_missile_05" "LAU_missile_06" "LAU_missile_07" "LAU_missile_08" "LAU_missile_09" "LAU_missile_10" "LAU_missile_11" "LAU_missile_12" "LAU_missile_13" "LAU_missile_14" "LAU_missile_15" "LAU_missile_16" "LAU_missile_17" "LAU_missile_18" "LAU_missile_19" "LAU_missile_20"
+   }
+  }
+ }
+ coords -0.252 -0.336 -0.395
+}

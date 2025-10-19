@@ -1,0 +1,15 @@
+GenericEntity : "{8F84F33B46DBA2CA}Prefabs/Weapons/Warheads/Explosions/Explosion_Tank_AmmoRack_Large.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Enabled 0
+  }
+  TimerTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5D8D1EB3E2893B43}" {
+    }
+   }
+   TIMER 0.1
+  }
+ }
+}

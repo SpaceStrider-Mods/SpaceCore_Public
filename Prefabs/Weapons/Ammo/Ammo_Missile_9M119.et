@@ -1,0 +1,92 @@
+Projectile : "{21B44D28139D0A14}Prefabs/Weapons/Core/Armament_Ammo_Missile_Base.et" {
+ ID "62EB07A083C431D2"
+ components {
+  CollisionTriggerComponent "{64A4A67317187466}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{64A4A67317187412}" {
+     EffectPrefab "{D7A8F44A34CAF64F}Prefabs/Weapons/Warheads/9M119/Warhead_HEAT_9M119.et"
+     ParticleEffect "{5D84CBFD5BA355A1}Particles/Weapon/Explosion_9M133.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+   SafetyDistance 20
+  }
+  MeshObject "{62EB07A083C43105}" {
+   Object "{1DE054A5BC560442}Assets/Weapons/Ammo/Missiles/BGM71/BGM-71_item.xob"
+  }
+  MissileMoveComponent "{62EB07A083C43107}" {
+   InitSpeed 50
+   InitSpeedVariation 0
+   Mass 18.9
+   TimeToLive 60
+   ProjectileEffects {
+    AIHitEffect "{64A4A67317187438}" {
+    }
+   }
+   BallisticTableConfig "{04AC3D52618E810C}Configs/Weapons/AIBallisiticTables/AIBT_Rocket_PG7VM.conf"
+   ThrustInitTime 0.1
+   ThrustTime 1.6
+   ThrustForce 3650
+   ForwardAirFriction 0.12
+   SideAirFriction 0.08
+   AlignTorque 0.35
+   DistanceEnableGravitation 2
+  }
+  RigidBody "{62EB07A083C43117}" {
+   Mass 14
+  }
+  RocketTraceEffectComponent "{64A4A67317187430}" {
+   Enabled 0
+   ParticleEffect "{D116F91880C1A218}Particles/Weapon/Trail_AGM-114.ptc"
+   EffectOrientUp 0
+  }
+  WCS_Armament_MWSInfoComponent "{64A4A67317187436}" {
+   Enabled 0
+   m_eThreatSize MEDIUM
+  }
+  WCS_Armament_MissileMovementComponent "{64A4A67317187428}" {
+   m_fMaxDeflection 1
+   m_fDisplacementFactor 2
+  }
+  WCS_Armament_OpticalGroundMissileFlightComputerComponent "{64A4A67317187429}" {
+  }
+  WCS_Armament_OpticalSeekerComponent "{64A4A6731718742B}" {
+   m_iSensitivity 0.65
+   m_fTargetCheckInterval 0.1
+  }
+  WCS_Armament_ProjectileUIInfoComponent "{64A4A6731718742D}" {
+   m_Name "9M119 \"Svir\""
+   m_eAmmoTypeFlags HEAT
+  }
+  WCS_Armament_RocketTraceEffectComponent "{64A4A6731718742E}" {
+   m_Phases {
+    WCS_Armament_RocketTracePhase "{64A4A67317187424}" {
+     m_fDuration 2
+     m_Particles {
+      WCS_Armament_RocketTracePhaseParticle "{64A4A67317187427}" {
+       m_Particle "{0D7D59C2ED73AADB}Particles/Weapon/Trail_BGM-71.ptc"
+       m_vPosition 0 0 -0.038
+       m_vRotation 0 0 0
+      }
+     }
+    }
+    WCS_Armament_RocketTracePhase "{64A4A673171877DA}" {
+     m_fDuration -1
+     m_Particles {
+      WCS_Armament_RocketTracePhaseParticle "{64A4A673171877D5}" {
+       m_Particle "{F661F8187E7CF661}Particles/Weapon/Beacon_BGM71.ptc"
+       m_vPosition 0.019 -0.055 -0.499
+      }
+     }
+    }
+   }
+   m_ExitParticle "{360953945B4D418D}Particles/Weapon/Smoke_IGLA.ptc"
+   m_ExitParticlePosition 0 0 -0.619
+  }
+  ActionsManagerComponent "{62EB07A083C43169}" {
+   Enabled 0
+  }
+ }
+ ProjectileModel "{DB6E48BCDC97261B}Assets/Weapons/Ammo/Missiles/BGM71/BGM-71.xob"
+ CartridgeModel "{1DE054A5BC560442}Assets/Weapons/Ammo/Missiles/BGM71/BGM-71_item.xob"
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3BAD41B84BDF6C64}Prefabs/Weapons/RocketPods/VehicleLauncher_LAU68.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

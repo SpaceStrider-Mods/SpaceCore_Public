@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6E950F35D72EE305}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/VehPart_CROWS_Magazine_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,34 @@
+Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{5E9E8AD8D9E48F59}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5E9E8AD8A726DA58}" {
+     EffectPrefab "{7D969E6B3209529C}Prefabs/Weapons/Warheads/Warhead_Grenade_HEDP_M433.et"
+     ParticleEffect "{728768DE31C8D1DE}Particles/Weapon/Explosion_VOG25.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+   SafetyDistance 15
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 805
+   InitSpeedVariation 10
+   Mass 0.34
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 375
+    }
+   }
+   AirDrag 0.000033
+   Diameter 30
+   PenetrationDepth 10
+   PenetrationSpeed 780
+   SonicCracks "{FFFE923592BD201D}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_30mm.acp"
+   SubsonicFlybys "{629BB197A5BFB686}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_30mm.acp"
+  }
+ }
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{788167B347FFA4A6}Assets/Weapons/Ammo/Bullets/145x114/Bullet_145x114.xob"
+ CartridgeModel "{C00282D92734C535}Assets/Weapons/Ammo/Bullets/145x114/Cartridge_145x114.xob"
+}

@@ -1,0 +1,21 @@
+GenericEntity : "{E471FB3713727B86}Prefabs/Weapons/HeavyWeapons/M134/M134_Weapon_Base.et" {
+ ID "629D584AB4B5971F"
+ components {
+  WeaponComponent "{629D584A845F8B28}" {
+   components {
+    MuzzleComponent "{629D584A80C39F75}" {
+     DispersionDiameter 0.4
+     DispersionRange 250
+     MagazineTemplate "{5171AE0C9EC4C784}Prefabs/Weapons/Magazines/Box_762x51_M134_4500rnd_Tracer.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{629D584571B44007}" {
+   additionalActions {
+    WCS_RearmWeaponAtRepairStationAction "{629D5845DBA97865}" {
+     m_iSupplyCostPerRound 0.1
+    }
+   }
+  }
+ }
+}

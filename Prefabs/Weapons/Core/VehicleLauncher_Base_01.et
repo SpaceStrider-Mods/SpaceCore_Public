@@ -1,0 +1,127 @@
+GenericEntity : "{E1F14DB52DBFBC57}Prefabs/Weapons/Core/Weapon_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{95AA0243F9DEAB1C}Sounds/Weapons/Launchers/RPG7/Weapons_Launchers_RPG7_Shot.acp" "{B359BCB5C00F9FFC}Sounds/Weapons/Launchers/RPG7/Weapons_Launchers_RPG7_Handling.acp"
+   }
+   IncludeInactive 1
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{3FEA69583FF46E3F}Assets/Weapons/Launchers/RPG7/RPG7_body.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    m_bDraggable 0
+    m_bStackable 0
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E5833608CBE3994}" {
+     AttachmentSlot InventoryStorageSlot gun {
+      PivotID "slot_optics"
+      ChildPivotID "snap_weapon"
+      Enabled 0
+     }
+    }
+    MuzzleComponent "{5E5833608CBE399E}" {
+     components {
+      CaseEjectingEffectComponent "{5E58B4534C658B62}" {
+       ParticleEffect "{6FBF925362CD6AAD}Particles/Weapon/Muzzle_RPG7V1_02.ptc"
+       EffectPosition EntitySlotInfo Muzzle {
+       }
+      }
+      SCR_MuzzleEffectComponent "{5E5833608CBE3998}" {
+       ParticleEffect "{F6A12BCA7F2A5B3D}Particles/Weapon/Muzzle_RPG7V1_01.ptc"
+       EffectPosition EntitySlotInfo Muzzle {
+        Offset 0 0 -0.4884
+        Angles 0 180 0
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{5E5833606476A7F9}" {
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{5E5833606B7819A8}" {
+      }
+     }
+     FireModes {
+      BaseFireMode "{5E5833608CBF39C1}" {
+       MaxBurst -1
+       MaxSalvo 1
+       RoundsPerMinute 100
+      }
+      BaseFireMode "{5E5833608CBF39C0}" {
+       MaxBurst 0
+       MaxSalvo 0
+       RoundsPerMinute 0
+       UIName "Safe"
+      }
+     }
+     MagazineWell MagazineWellRPG7 "{5E5833608CBF39C2}" {
+     }
+     DispersionRange 100
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{5E5833608CBF39BC}" {
+       Name "SWAY"
+       "Linear Damping" 0.85 0.5 0.825
+       "Linear Magnitude" 1
+       "Angular Damping" 0.95 0.3 0.4
+       "Angular Magnitude" 1
+       "ADS Multiplier" 0.3
+       "Focus Multiplier" 0.2
+       "Stamina Magnitude Curve" {
+        0 1 0.491 0.961 0.722 0.867 0.828 0.727 0.947 0.518 1 0.087
+       }
+       "Stamina Scale Mins" 0.4 0.5 0
+       "Stamina Scale Maxs" 1.4 1.4 0
+       "Linear Inertia Magnitude" 0.0015 0.02 0
+       "Angular Inertia Magnitude" 5 4 14
+       "Angular Inertia Magnitude ADS" 4 2 12
+       "Linear Inertia Decay Speed" 10
+       "Angular Inertia Decay Speed" 12
+       DamageToSway 2
+       OneHandMultiplier 2
+      }
+      OnHitAimModifier "{5E5833608CBF39BE}" {
+       IsEnabled 0
+      }
+      RecoilWeaponAimModifier "{5E5833608CBF39B8}" {
+       LinearData RecoilData "{5E5833608CBF39BB}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.022
+        "Curve Maxs" 0 -0.005 -0.018
+        "Base Recoil Scale" 3
+        "OneHand Scale" 2
+       }
+      }
+     }
+     UIInfo MuzzleUIInfo "{5E5833608CBF39B4}" {
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{5E5833608CBF39B1}" {
+      }
+     }
+     ReloadDuration 8
+     AllowWeaponDeployment 0
+     MagazinePosition InventoryStorageSlot Mag {
+      PivotID "slot_magazine"
+     }
+     MagazineTemplate "{7389EEB43FC3386B}Prefabs/Weapons/Core/Rocket_RPG_1rnd_Base.et"
+    }
+   }
+   shouldHandleObstruction 0
+  }
+ }
+}

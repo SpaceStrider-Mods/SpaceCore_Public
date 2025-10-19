@@ -1,0 +1,68 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef s0_smoke {
+   ConeAngle 360 0 30
+   MaxNum 300
+   BirthRate 20
+   BirthRateRND 0
+   BirthRateVel 1
+   Offset 0 0 0
+   Angles 90 0 0
+   LocalTransform 0
+   LodMin 0
+   LodMax 2
+   Material "{C6F4DCD7DC66D027}Particles/_Materials/Gas/Smoke_Weapons_01.emat"
+   SizeMultiplier 10
+   SizeRND 8
+   RotMultiplier 2
+   RandomRotDir 1
+   RandomAngle 1
+   FlipU Random
+   Velocity 15
+   VelocityRND 5
+   AirResistance 1
+   AirResistanceRND 0
+   WindInfluence 0.3
+   ParentVelRelToAir 0.4
+   GravityMultiply 0.01
+   GravityMultiplyRND 0
+   AnimFPS 0.01
+   Lifetime 0.5
+   LifetimeRND 0.5
+   LifetimeVelFactor 0.01
+   LifetimeVelSmoothing 1
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 1 0.06 1 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.3 1 1
+   }
+   EmittingTime 20
+   Repeat 0
+   MaxLV 3
+   LightColorMast {
+    0.004 1 0.25 0
+   }
+  }
+  EmitterDef s0_0 {
+   MaxNum 1
+   BirthRate 6
+   ParticleType Prefab
+   Prefab "{541CE4EFB03AB3D5}Prefabs/Structures/Airport/LightRunway_01/Missile_01_light.et"
+   VelAngle 1
+   VelAngleCatchUp 1
+   Velocity 0
+   Spring 0.5
+  }
+ }
+ LightClipEV -8
+ LightRadius 10
+ CastShadow 1
+}

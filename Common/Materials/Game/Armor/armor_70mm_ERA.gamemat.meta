@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A50ED6B9BB7AC977}Common/Materials/Game/Armor/armor_70mm_ERA.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+ }
+}

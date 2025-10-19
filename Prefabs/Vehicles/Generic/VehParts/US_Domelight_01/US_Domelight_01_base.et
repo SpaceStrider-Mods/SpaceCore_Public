@@ -1,0 +1,113 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  EventHandlerManagerComponent "{64C746CDDBE2BF07}" {
+  }
+  SignalsManagerComponent "{64C746CDD30CCB27}" {
+  }
+  BaseLightManagerComponent "{64C72226D236134F}" {
+   LightSlots {
+    SCR_LightSlot "{64C72238127D0F3A}" : "{50D459CD2CEC9DAD}Prefabs/Vehicles/Core/Lights/Light_Dashboard.conf" {
+     LightType HiBeam
+     LightPositionInfo EntitySlotInfo "{51E2210D04212E5A}" {
+      Offset -0.0355 0 0.0122
+      Angles 90 0 0
+     }
+     LightRadiusOverride 1.5
+     LightConeAngleOverride 160
+     LightCastShadowsOverride 1
+     ParentSurface "Brightlight"
+    }
+    SCR_LightSlot "{64C722381C4529CF}" : "{50D459CD2CEC9DAD}Prefabs/Vehicles/Core/Lights/Light_Dashboard.conf" {
+     LightPositionInfo EntitySlotInfo "{51E2210D04212E5A}" {
+      Offset 0.0215 0 0.0309
+      Angles 90 0 0
+     }
+     LightPrefab "{4FCA594DEA0E741E}Prefabs/Vehicles/Generic/VehParts/US_Domelight_01/VehicleLight_Dashboard_Dim_Green.et"
+     LightRadiusOverride 1.5
+     LightConeAngleOverride 160
+     LightCastShadowsOverride 1
+     ParentSurface "DimLight"
+    }
+   }
+   EmissiveSurfaceSlots {
+    EmissiveLightSurfaceSlot DimLight : "{3D89FA31E5926C94}Prefabs/Vehicles/Core/EmissiveSurfaces/EmissiveSurface_Interior.conf" {
+     Prefab "{FDFA64D04F9C445C}Prefabs/Vehicles/Generic/VehParts/US_Domelight_01/US_Domelight_Red_01.et"
+     LightType 128
+     LightSide 0
+     ConfigurationsOverride {
+      SurfaceLightConfigItem "{64C72239D809E17D}" {
+       EmissiveColorTint 0.624 0.1596 0.157 1
+      }
+     }
+    }
+    EmissiveLightSurfaceSlot Brightlight : "{3D89FA31E5926C94}Prefabs/Vehicles/Core/EmissiveSurfaces/EmissiveSurface_Interior.conf" {
+     Prefab "{5A2DB9A58CF2FD7D}Prefabs/Vehicles/Generic/VehParts/US_Domelight_01/US_Domelight_White_01.et"
+     LightType 514
+     ConfigurationsOverride {
+      SurfaceLightConfigItem "{64C72239C77BB01D}" {
+       EmissiveColorTint 0.157 0.275 0.624 1
+      }
+     }
+    }
+   }
+   LightAction {
+    SCR_LightsHiBeamsUserAction "{64C746CD671D4F2D}" {
+     ParentContextList {
+      "domelightinteraction"
+     }
+     UIInfo SCR_ActionUIInfo "{64C746CD5658C7AE}" {
+      Name "#AR-UserAction_DashboardLight Bright "
+      m_sIconName "light"
+     }
+     CanAggregate 1
+     m_eLightType HiBeam
+     m_bPilotOnly 0
+    }
+    SCR_LightsDashboardUserAction "{64C7523B02AC0888}" {
+     ParentContextList {
+      "domelightinteraction"
+     }
+     UIInfo SCR_ActionUIInfo "{64C7523B751605F0}" {
+      Name "#AR-UserAction_DashboardLight Dim "
+      m_sIconName "light"
+     }
+     CanAggregate 1
+     "Sort Priority" 0
+     m_eLightType Dashboard
+     m_bPilotOnly 0
+    }
+   }
+  }
+  ColliderHistoryComponent "{6132A72CCF77E788}" {
+   Enabled 1
+  }
+  ControllersManagerComponent "{64C746CC3F6B431F}" {
+  }
+  MeshObject "{4B42E716914465B9}" {
+   Object "{FE3F1A8247D9B9F0}Assets/Vehicles/Generic/Lights/US_Domelight.xob"
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Mass 4
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone LicensePlate : "{20D6C595AE450F55}Prefabs/Vehicles/Core/Configs/HitZones/VehiclePart_HZ.conf" {
+    }
+   }
+  }
+  ActionsManagerComponent "{64C72226C6DEE0AA}" {
+   ActionContexts {
+    UserActionContext "{64C7223B36352562}" {
+     ContextName "domelightinteraction"
+     Position PointInfo "{64C7223B30080EE5}" {
+      Offset 0 0.0407 0
+     }
+     Radius 0.1
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+ }
+ coords 0.008 0 0
+}

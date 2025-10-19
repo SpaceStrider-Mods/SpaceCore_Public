@@ -1,0 +1,14 @@
+GenericEntity : "{068683E6F3F399C9}Prefabs/Weapons/AircraftWeapons/MissilePods/AIM92/Pod_AIM92_base.et" {
+ ID "629D11C8BD6AE717"
+ components {
+  ActionsManagerComponent "{629D11CAB6B28AE6}" {
+   ActionContexts {
+    UserActionContext "{629D11D46C8F2AA6}" {
+     Position PointInfo "{6152B772E6638695}" {
+      Offset 0 -0.1451 0.7897
+     }
+    }
+   }
+  }
+ }
+}

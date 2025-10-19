@@ -1,0 +1,92 @@
+Tank : "{62F416029692CE40}Prefabs/Vehicles/Core/Wheeled_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  ChimeraAIPathfindingComponent "{5676B7807269CA5B}" {
+   "Turn radius" 10
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    NoiseSteerSensitivity 0.1
+    RoughnessSensitivity 0.3
+   }
+  }
+  BaseVehicleNodeComponent "{20FB66C5B2237133}" {
+   components {
+    SCR_CarControllerComponent "{20FB66C5BC92275B}" {
+     TransmissionRND 1
+     SteeringForwardSpeed {
+      0 21 2 18 16 24 40 21 60 18 80 12 100 3
+     }
+     SteeringBackwardSpeed {
+      0 21 2 18 16 33 40 40 60 41 80 35 100 26
+     }
+     SteeringCenterSpeed {
+      2 0 16 9 40 19 60 23
+     }
+     BrakingCurve {
+      0 0 0.3 0.4 0.7 0.4 1 0.7 1.7 0.7 2 1
+     }
+    }
+   }
+  }
+  ChimeraAIVehicleControlComponent "{61C2E46781A66E82}" {
+   components {
+    AICarMovementComponent "{61C2E46796C28D80}" {
+     "Max Speed" 100
+     "Min Prediction Distance" 2.3
+     "Max Distance to Path" 1
+     "Search box area distance" 10
+     "Max Simple Steering Distance" 50
+     CruiseVehicleSpeedKmh 60
+     FrictionCoefficient 0.15
+     StopDistanceCoefficient 15
+     MaxBreakAt 15
+     MaxBumpSpeed 10
+     SteeringPIDOnWater 15 0 0
+     SteeringPID 5 0.08 0.5
+     ThrottlePID 5 0.1 0
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5E9CA34FC44515C4}" {
+     ContextName "hood_front"
+     Position PointInfo "{5E9CA34FD40638ED}" {
+      Offset 0 1 2
+     }
+    }
+    UserActionContext "{5E9CA34C85B96E73}" {
+     ContextName "fuel_cap"
+     Position PointInfo "{5E9CA34C97806753}" {
+     }
+    }
+   }
+   additionalActions {
+    SCR_RefuelAtSupportStationAction "{5B02B547EDCF6F99}" {
+     CanAggregate 1
+    }
+    SCR_ResourceEntityRefundAction "{5D5EC6128E6342C0}" : "{5AFBAF53711899E9}Configs/Resources/Supplies/Actions/Supplies_Entity_Refund.conf" {
+    }
+    SCR_RepairAtSupportStationAction "{5B02B547E8F16AF2}" {
+     ParentContextList {
+      "hood_front"
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5E20D2E3B055B082}" {
+     ParentContextList {
+      "hood_front"
+     }
+    }
+    SCR_RepairAtSupportStationAction "{5E1CB6DF63753AD9}" {
+     CanAggregate 1
+    }
+    SCR_RepairAtSupportStationAction "{5E3ACC1CF6F95044}" {
+     ParentContextList {
+      "hood_front"
+     }
+    }
+   }
+  }
+ }
+}

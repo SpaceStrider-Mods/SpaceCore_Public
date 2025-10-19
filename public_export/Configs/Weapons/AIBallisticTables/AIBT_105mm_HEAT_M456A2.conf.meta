@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1670F2CAF5D784A9}Configs/Weapons/AIBallisiticTables/AIBT_105mm_HEAT_M456A2.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

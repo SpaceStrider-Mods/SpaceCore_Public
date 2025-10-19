@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Emissive 1 0.991 0.991 1
+ EmissiveLV 2.703
+ ApplyAlbedoToEmissive 1
+ EmissiveMap "{0E727BEC6FAE84BE}Assets/Vehicles/Generic/Systems/Duke/Data/Duke2_Lights_BCR.edds"
+ BCRMap "{0E727BEC6FAE84BE}Assets/Vehicles/Generic/Systems/Duke/Data/Duke2_Lights_BCR.edds"
+}

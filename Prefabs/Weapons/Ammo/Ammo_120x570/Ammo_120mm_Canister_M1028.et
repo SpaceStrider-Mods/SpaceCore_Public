@@ -1,0 +1,29 @@
+Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "476AE74C1F2F140D"
+ components {
+  TimerTriggerComponent "{5DA03AE59B548EC4}" {
+   PROJECTILE_EFFECTS {
+    SubmunitionEffect "{6164A7C1707A9525}" {
+     Prefab "{A4E070505C87AD42}Prefabs/Weapons/Ammo/Ammo_127x99_Ball_M33.et"
+     Count 100
+    }
+   }
+   TIMER 0.001
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 1575
+   Mass 0.1
+   TimeToLive 0
+   TriggerWhenTimeout 1
+   AirDrag 0.00021
+   Diameter 0.2
+   PenetrationDepth 15
+   PenetrationSpeed 1568
+  }
+ }
+ coords -2.863 -1.668 0.904
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{3D2DFC533F142E11}Assets/Weapons/Ammo/Bullets/9x18/Bullet_9x18.xob"
+ CartridgeModel "{D18EB2B18C2F895F}Assets/Weapons/Ammo/120mm/M1028_Cartridge.xob"
+ CartridgeLayerPreset "ItemFireView"
+}

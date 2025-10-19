@@ -1,0 +1,47 @@
+MetaFileClass {
+ Name "{18B98EDA283BCEC2}Assets/Weapons/Ammo/Rocket_M26.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5DF6244352500B09}" {
+     SourceMaterial "mlrs_rocket_pods"
+     AssignedMaterial "{53C2B383E848B9BA}Assets/Weapons/Magazines/MLRS/Data/mlrs_rocket_pods.emat"
+    }
+   }
+   MeshParams {
+    MeshParam m26_missile {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCL_M26 {
+     LayerPreset "Projectile"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5DF624434ACE29E1}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5DF624434ACE2AB4}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5DF624434ACE2AD3}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5DF624434ACE2AF4}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5DF624434ACE2B0D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

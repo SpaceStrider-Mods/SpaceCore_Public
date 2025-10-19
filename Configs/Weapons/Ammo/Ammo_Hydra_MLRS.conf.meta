@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FD1E3BF6E4BC5BBB}Configs/Weapons/Ammo/Ammo_Hydra_MLRS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

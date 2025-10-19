@@ -1,0 +1,13 @@
+EjectableProjectile : "{CB3C0B576E04C9AC}Prefabs/Weapons/Ammo/Ammo_Rocket_MLRS2.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  TimerTriggerComponent "{64D357FD4C35F8E8}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{64D357FD4C35F8FB}" {
+     EffectPrefab "{01A11A10B9BE03EE}Prefabs/Weapons/Warheads/Warhead_M26_Cluster.et"
+    }
+   }
+   TIMER 15
+  }
+ }
+}

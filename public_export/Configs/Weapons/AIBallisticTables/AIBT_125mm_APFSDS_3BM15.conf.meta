@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A437613D7B94AF43}Configs/Weapons/AIBallisiticTables/AIBT_125mm_APFSDS_3BM15.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,61 @@
+MetaFileClass {
+ Name "{D18EB2B18C2F895F}Assets/Weapons/Ammo/120mm/M1028_Cartridge.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5DA01AF766B03EEA}" {
+     SourceMaterial "Brass"
+     AssignedMaterial "{9455435EA980C31A}Assets/Weapons/Ammo/120mm/Data/Brass.emat"
+    }
+    MaterialAssignClass "{5DA01AF766B03EF6}" {
+     SourceMaterial "BlackMetal"
+     AssignedMaterial "{38B6729EABA55C5E}Assets/Weapons/Ammo/120mm/Data/BlackMetal.emat"
+    }
+    MaterialAssignClass "{5DA01AF766B03EF4}" {
+     SourceMaterial "Aluminum"
+     AssignedMaterial "{74839D2D3781CBDE}Assets/Weapons/Ammo/120mm/Data/Aluminum.emat"
+    }
+    MaterialAssignClass "{5DA01AF766B03EF2}" {
+     SourceMaterial "OliveMetal"
+     AssignedMaterial "{BE005A3B8196FAE7}Assets/Weapons/Ammo/120mm/Data/OliveMetal.emat"
+    }
+    MaterialAssignClass "{5DA01AF766B03EF0}" {
+     SourceMaterial "MattWhite"
+     AssignedMaterial "{2FC4094752436FCF}Assets/Weapons/Ammo/120mm/Data/MattWhite.emat"
+    }
+   }
+   MeshParams {
+    MeshParam M1028 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCL_Cartridge {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5DA01AF766B4C12B}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5DA01AF766B4C2E7}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5DA01AF766B4C2DD}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5DA01AF766B4C23B}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5DA01AF766B4C201}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

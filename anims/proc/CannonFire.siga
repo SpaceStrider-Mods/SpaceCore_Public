@@ -1,0 +1,106 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPItemInputClass {
+   id 1
+   name "Firing"
+   tl -437 0
+   children {
+    3
+   }
+  }
+  IOPInputValueClass {
+   id 4
+   name "Value 4"
+   tl -430 -127.5
+   children {
+    3
+   }
+   value -0.2
+  }
+ }
+ Ops {
+  IOPItemOpMulClass {
+   id 3
+   name "Mul 3"
+   tl -196.25 -1.25
+   children {
+    6
+   }
+   inputs {
+    ConnectionClass connection {
+     id 1
+     port 0
+    }
+    ConnectionClass connection {
+     id 4
+     port 0
+    }
+   }
+  }
+  IOPItemOpSmootherClass {
+   id 6
+   name "Smoother 6"
+   tl 97 -8
+   children {
+    2
+   }
+   inputs {
+    ConnectionClass connection {
+     id 3
+     port 0
+    }
+   }
+   "Fade In Time" 100
+   "Fade Out Time" 100
+  }
+ }
+ Outputs {
+  IOPItemOutputClass {
+   id 2
+   name "Fire_Out"
+   tl 385 -5
+   input 6
+  }
+ }
+ compiled IOPCompiledClass {
+  visited {
+   133 5 11 135 6
+  }
+  ins {
+   IOPCompiledIn {
+    data {
+     1 3
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 3
+    }
+   }
+  }
+  ops {
+   IOPCompiledOp {
+    data {
+     1 65539 4 0 0 65536 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 2 2 1 0
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+  }
+  processed 5
+  version 2
+  ops_reeval_list {
+   1
+  }
+ }
+}

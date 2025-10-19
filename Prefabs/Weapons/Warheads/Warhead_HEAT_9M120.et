@@ -1,0 +1,20 @@
+GenericEntity : "{8C3C62C58D2DBEDA}Prefabs/Weapons/Warheads/Warhead_HEAT.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{567CBC1D0F5B4AEA}" {
+     ChargeWeight 4520
+     TntEquivalent 1.6
+    }
+    SubmunitionEffect "{567CB8E002C26D97}" {
+     Prefab "{2B965D7A9AA0DC21}Prefabs/Weapons/Ammo/Ammo_Rocket_9M120_Penetrator.et"
+    }
+    SpawnDecalEffect "{5E24CB0410DA8EC3}" {
+     Scale 7
+    }
+   }
+   TriggerOffset -0.2
+  }
+ }
+}

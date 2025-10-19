@@ -1,0 +1,11 @@
+Turret : "{A43CF2F4D1E3CB17}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/CROWS_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -0.1401 -0.2167 0.0891
+   }
+   WeaponTemplate "{CACD32CD0BC64B41}Prefabs/Weapons/HeavyWeapons/MK19/HMG_Mk19_CROWS.et"
+  }
+ }
+}

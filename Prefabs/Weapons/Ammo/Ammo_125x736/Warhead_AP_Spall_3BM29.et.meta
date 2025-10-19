@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D241C96D81B44095}Prefabs/Weapons/Ammo/Ammo_125x736/Warhead_AP_Spall_3BM29.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

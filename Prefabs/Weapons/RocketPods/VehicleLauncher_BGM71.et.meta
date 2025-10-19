@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FE37DBE1A4CE9C4B}Prefabs/Weapons/RocketPods/VehicleLauncher_BGM71.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

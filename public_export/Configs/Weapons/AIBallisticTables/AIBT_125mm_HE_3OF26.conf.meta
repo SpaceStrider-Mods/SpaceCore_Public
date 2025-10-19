@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0699BB12344776F3}Configs/Weapons/AIBallisiticTables/AIBT_125mm_HE_3OF26.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

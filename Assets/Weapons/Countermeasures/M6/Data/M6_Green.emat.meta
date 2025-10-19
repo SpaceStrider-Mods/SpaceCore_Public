@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{53CCD67B58C87270}Assets/Weapons/Countermeasures/M6/Data/M6_Green.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

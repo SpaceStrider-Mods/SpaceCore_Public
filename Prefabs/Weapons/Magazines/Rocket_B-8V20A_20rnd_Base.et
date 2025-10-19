@@ -1,0 +1,38 @@
+GenericEntity : "{7389EEB43FC3386B}Prefabs/Weapons/Core/Rocket_RPG_1rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellSPC_9K11 "{655611870F17E8EF}" {
+   }
+   ItemModel "{670F36600529D92D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Launcher_01.xob"
+   MaxAmmo 20
+   AmmoConfig "{2D1AC37537D54B72}Configs/Weapons/Ammo/Ammo_S-8.conf"
+   AmmoMapping {
+    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{E456C18BFCA95E0D}Assets/Weapons/RocketPods/B-8B20A/B-8V20A_Magazine.xob"
+   ObjectHeightmapBias 0
+  }
+  RigidBody "{571B0382401B1385}" {
+   Enabled 0
+  }
+  MagazineAnimationComponent "{6102078596D1FA49}" {
+   AnimGraph "{5680EE9C607C5E17}Assets/Weapons/Magazines/workspaces/pkm_Magazine_100.agr"
+   AnimInstance "{247BEE6036CFCD02}Assets/Weapons/Magazines/workspaces/pkm_Magazine_100rnd.asi"
+   AnimCommandsToBind {
+    ""
+   }
+   AutoVariablesBind 1
+   AnimVariablesToBind {
+    ""
+   }
+   DeactivationDelay 0
+   AnimatedMesh "{2A708F985E4F6036}Assets/Weapons/RocketPods/LAU-68/LAU-68_Rockets.xob"
+   BulletMeshesToHide {
+    "hydra_70_missile_body_1" "hydra_70_missile_body_2" "hydra_70_missile_body_3" "hydra_70_missile_body_4" "hydra_70_missile_body_5" "hydra_70_missile_body_6" "hydra_70_missile_body_7" "hydra_70_missile_body_8" "hydra_70_missile_body_9" "hydra_70_missile_body_10" "hydra_70_missile_body_11" "hydra_70_missile_body_12" "hydra_70_missile_body_13" "hydra_70_missile_body_14" "hydra_70_missile_body_15" "hydra_70_missile_body_16" "hydra_70_missile_body_17" "hydra_70_missile_body_18" "hydra_70_missile_body_19"
+   }
+  }
+ }
+}

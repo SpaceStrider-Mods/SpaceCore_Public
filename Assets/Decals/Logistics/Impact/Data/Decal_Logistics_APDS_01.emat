@@ -1,0 +1,16 @@
+MatPBRDecal {
+ SortBias 7
+ AlphaTest 0.9
+ AlphaMul 1.161
+ BlendMode AlphaBlend
+ AtlasLayout "2x2"
+ BCRMap "{2973450945BA642A}Assets/Decals/Logistics/Impact/Data/Decal_Logistics_RPG_01_BCR.edds"
+ OpacityMap "{4F88EDF25C464331}Assets/Decals/Logistics/Impact/Data/Decal_Logistics_RPG_01_A.edds"
+ NMOMap "{11ABFE9B9CCD36B4}Assets/Decals/Logistics/Impact/Data/Decal_Logistics_RPG_01_NMO.edds"
+ GBufferNormal 1
+ NormalCombinePower 1.2
+ GBufferAO 1
+ HeightMap "{95E0D2D3CB0CDF8F}Assets/Decals/Logistics/Impact/Data/Decal_Logistics_RPG_01_H.edds"
+ ParallaxScale 0.03
+ ParallaxMidlePlane 0.6
+}

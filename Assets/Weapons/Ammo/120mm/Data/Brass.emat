@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 0.292 0.255 0.189 1
+ RoughnessScale 0.7
+ BCRMap "{884C38B4DD0DD84A}Assets/_SharedData/Metal/ST_Metal_Worn_01_BCR.edds"
+ NMOMap "{E522A07425E30E8C}Assets/_SharedData/Metal/ST_Metal_Stainles01_1m_NMO.edds"
+ GlobalMapsUVTransform MatUVTransform "{5DA01AF4776B86E9}" {
+  TilingU 3
+  TilingV 3
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BCC269C099CD1B52}Assets/Decals/Logistics/Impact/Data/Decal_Logistics_APDS_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

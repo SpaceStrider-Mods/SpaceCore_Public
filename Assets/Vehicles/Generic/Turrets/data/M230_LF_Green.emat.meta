@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E0DFE06AC83281DD}Assets/Vehicles/Generic/Turrets/data (1)/M230_LF_Green.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+ }
+}

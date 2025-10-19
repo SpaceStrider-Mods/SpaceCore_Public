@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4D9BBED15121CF30}Prefabs/Weapons/Ammo/Ammo_73x385/Ammo_Rocket_PG9_Spall.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}
