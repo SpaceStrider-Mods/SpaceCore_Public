@@ -1,0 +1,12 @@
+MatPBRBasic {
+ ZWrite 0
+ Sort translucent
+ ReceiveShadow 0
+ OccludeRain 0
+ OccludeWetness 0
+ AlphaMul 0.1
+ BlendMode AlphaBlend
+ MetalnessScale 0
+ OpacityMap "{47C82E58F62E698F}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_rotorblur_circle_A.edds"
+ NormalPower 0.1
+}

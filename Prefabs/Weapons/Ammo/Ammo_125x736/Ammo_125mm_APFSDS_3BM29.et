@@ -1,0 +1,37 @@
+TracerProjectile : "{F4A09B4A53606BCB}Prefabs/Weapons/Ammo/Ammo_APFSDS_HighCalibre_base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{65B54151E7C9F87A}" {
+   PROJECTILE_EFFECTS {
+    SpawnPrefabEffect "{65D744DA4DE161F6}" {
+     EffectPrefab "{D241C96D81B44095}Prefabs/Weapons/Ammo/Ammo_125x736/Warhead_AP_Spall_3BM29.et"
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 1780
+   Mass 3.88
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 28700
+    }
+    ProjectileDamage "{65A76C8143FF5417}" {
+    }
+   }
+   BallisticTableConfig "{A437613D7B94AF43}Configs/Weapons/AIBallisticTables/AIBT_125mm_APFSDS_3BM15.conf"
+   SonicCracks "{911B8A52417F1E62}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_100mm.acp"
+   SubsonicFlybys "{FD5AFE7E151777B2}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_100mm.acp"
+   AirDrag 0.0009
+   Diameter 37
+   Length 450
+   PenetrationDepth 500
+   PenetrationSpeed 1780
+  }
+ }
+ coords 1.028 0 0
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{141B6A1F89173504}Assets/Weapons/Ammo/Tracers/Tracer_green.xob"
+ CartridgeModel "{516D246AE4CA774C}Assets/Weapons/Ammo/125mm/Cartridge_125_APFSDS_BM9.xob"
+ CartridgeLayerPreset "ItemFireView"
+ "Tracer Burn Start After" 0.001
+}

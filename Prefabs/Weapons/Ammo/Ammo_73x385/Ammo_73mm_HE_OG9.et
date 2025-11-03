@@ -1,0 +1,37 @@
+TracerProjectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  CollisionTriggerComponent "{5E52C1C40564AE98}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5E52C1C40564AEA8}" {
+     EffectPrefab "{A3D501B973B16ECE}Prefabs/Weapons/Warheads/Warhead_Shell_HE_OG9.et"
+     ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+    AIExplosionEffect "{611C9EA59B39FD75}" {
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 290
+   Mass 3.7
+   TimeToLive 60
+   TriggerWhenTimeout 1
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 400
+    }
+   }
+   BallisticTableConfig "{B45CD59173777381}Configs/Weapons/AIBallisticTables/AIBT_73mm_HE_OG9.conf"
+   SonicCracks "{911B8A52417F1E62}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_100mm.acp"
+   SubsonicFlybys "{FD5AFE7E151777B2}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_100mm.acp"
+   AirDrag 0.0024
+   Diameter 73
+  }
+ }
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{141B6A1F89173504}Assets/Weapons/Ammo/Tracers/Tracer_green.xob"
+ CartridgeModel "{CA305BDAD273478A}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM_item.xob"
+ CartridgeLayerPreset "ItemFireView"
+ "Tracer Burn Start After" 0
+}

@@ -1,0 +1,16 @@
+MatPBRDecal {
+ Color 0.105 0.105 0.105 1
+ SurfaceProperties "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+ BlendMode AlphaBlend
+ RoughnessScale 1.5
+ MetalnessScale 0.8
+ BCRMap "{FA742FE6A11B2766}Assets/_SharedData/Metal/ST_Steel_Base_01_BCR.edds"
+ OpacityMap "{1319DF9837F550C1}Assets/_SharedData/VehicleParts/Bolts/bolt_decal_A.edds"
+ NMOMap "{047B7B07BE46CD9E}Assets/_SharedData/VehicleParts/Bolts/bolt_decal_NMO.edds"
+ GlobalMapsUVTransform MatUVTransform "{66C54515D9824CD5}" {
+  OffsetU 0.511
+ }
+ GBufferAO 1
+ HeightMap "{C971E0B9A0BFCC7F}Assets/_SharedData/VehicleParts/Bolts/bolt_decal_H.edds"
+ ParallaxScale 0.02
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{637250F7327DC1B9}Assets/Vehicles/Tracked/T-72A/anim/proc/Tracks_T72A.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

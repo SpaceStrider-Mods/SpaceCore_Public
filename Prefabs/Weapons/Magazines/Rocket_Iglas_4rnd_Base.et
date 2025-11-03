@@ -1,0 +1,38 @@
+GenericEntity : "{7389EEB43FC3386B}Prefabs/Weapons/Core/Rocket_RPG_1rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWellSPC_FIM92 "{6556118771E6347D}" {
+   }
+   ItemModel "{670F36600529D92D}Assets/Props/Military/AmmoBox/EquipmentBoxWooden_01/EquipmentBoxWooden_Launcher_01.xob"
+   MaxAmmo 4
+   AmmoConfig "{6E8042E481B631C1}Configs/Weapons/Ammo/Ammo_Iglas.conf"
+   AmmoMapping {
+    0 0 0 0
+   }
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{C86B680C8B92DF82}Assets/Weapons/MissileRacks/Igla/Igla_Magazine.xob"
+   ObjectHeightmapBias 0
+  }
+  RigidBody "{571B0382401B1385}" {
+   Enabled 0
+  }
+  MagazineAnimationComponent "{60FE345D87ACDDD7}" {
+   AnimGraph "{6E94E275C76E7E3C}Assets/Weapons/Magazines/workspaces/M249_magazine.agr"
+   AnimInstance "{83FEB7AEDB672CD2}Assets/Weapons/Magazines/workspaces/M249_Magazine.asi"
+   AnimCommandsToBind {
+    ""
+   }
+   AutoVariablesBind 1
+   AnimVariablesToBind {
+    ""
+   }
+   DeactivationDelay 0
+   AnimatedMesh "{C86B680C8B92DF82}Assets/Weapons/MissileRacks/Igla/Igla_Magazine.xob"
+   BulletMeshesToHide {
+    "igla_cap_1_02" "igla_cap_2_02" "igla_cap_3_02" "igla_cap_4_02"
+   }
+  }
+ }
+}

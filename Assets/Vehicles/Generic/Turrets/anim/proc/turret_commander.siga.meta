@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4BD94BA5EB6F33A1}Assets/Vehicles/Tracked/T-72A/anim/proc/turret_commander.siga"
+ Configurations {
+  ProcAnimSignalResourceClass PC {
+  }
+  ProcAnimSignalResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimSignalResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimSignalResourceClass PS4 : PC {
+  }
+  ProcAnimSignalResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5DA51F20414A39E1}Prefabs/Weapons/HeavyWeapons/MK19/HMG_Mk19_pintle_Armored.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

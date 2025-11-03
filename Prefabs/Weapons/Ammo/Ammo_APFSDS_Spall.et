@@ -1,0 +1,25 @@
+Projectile : "{16F3F5C6467D43DE}Prefabs/Weapons/Core/Ammo_Spall_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 100
+   ParentSpeedMultiplier 0.8
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 250
+    }
+    ProjectileDamage "{65A76C8C8EE2C969}" {
+     DamageValue 2
+     DamageType Incendiary
+     DamageEffects {
+      SCR_IncendiaryBulletDamageEffect "{65A76C8CE5F7F943}" {
+      }
+     }
+    }
+   }
+   PenetratorType Kinetic
+   PenetrationDepth 450
+   PenetrationSpeed 1500
+  }
+ }
+}

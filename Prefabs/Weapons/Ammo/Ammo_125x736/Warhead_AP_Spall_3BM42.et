@@ -1,0 +1,12 @@
+GenericEntity : "{1E29CFA773A85605}Prefabs/Weapons/Ammo/Warhead_AP_Spall_Base.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    SubmunitionEffect "{65D744DB44382968}" {
+     Prefab "{B6F2C9D556725BFC}Prefabs/Weapons/Ammo/Ammo_125x736/Ammo_APFSDS_3BM42_Spall.et"
+    }
+   }
+  }
+ }
+}

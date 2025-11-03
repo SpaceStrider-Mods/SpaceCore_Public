@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C1948C7DC2E45F20}Sounds/Vehicles/Wheeled/BTR70/Vehicles_T72_Track_r.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

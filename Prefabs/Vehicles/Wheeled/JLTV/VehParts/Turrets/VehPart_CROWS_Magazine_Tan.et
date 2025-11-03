@@ -1,0 +1,14 @@
+GenericEntity : "{22234681D85DA4B7}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/VehPart_CROWS_Magazine.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{64F4699DA6356C11}" {
+     SourceMaterial "STYKER_base_exterior_Turret"
+     AssignedMaterial "{A1E725BC4E6C777A}Assets/Vehicles/Wheeled/SPC_Stryker/data/STYKER_base_exterior_Turret_Tan.emat"
+    }
+   }
+  }
+ }
+ coords -2.358 4.555 3.359
+}

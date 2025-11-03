@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0E54E5E51AF0B8A7}Assets/Vehicles/Generic/Turrets/Data/CROWS_Monitor.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

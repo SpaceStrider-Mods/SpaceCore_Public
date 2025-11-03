@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D14EC0B3BFCE1A8D}Prefabs/Weapons/HeavyWeapons/VehicleLauncher_Base_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{07B88F7B9A24BAC0}UI/layouts/HUD/MortarInfo/TankWeaponAzimuthInfo.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass PS5 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

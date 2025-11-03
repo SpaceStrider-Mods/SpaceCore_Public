@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5D7DDA86F9AC9505}Prefabs/Weapons/Ammo/Ammo_120x570/Ammo_120mm_APFSDS-T_M829A1.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

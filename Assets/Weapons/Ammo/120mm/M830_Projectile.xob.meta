@@ -1,0 +1,47 @@
+MetaFileClass {
+ Name "{5481680FA3AB539B}Assets/Weapons/Ammo/120mm/M830_Projectile.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5DA6316036BE0158}" {
+     SourceMaterial "BlackMetal"
+     AssignedMaterial "{38B6729EABA55C5E}Assets/Weapons/Ammo/120mm/Data/BlackMetal.emat"
+    }
+    MaterialAssignClass "{5DA6316036BE0176}" {
+     SourceMaterial "MattOrange"
+     AssignedMaterial "{6A21E90F3F37EEE3}Assets/Weapons/Ammo/120mm/Data/MattOrange.emat"
+    }
+    MaterialAssignClass "{648B474238E71707}" {
+     SourceMaterial "ShockCone"
+     AssignedMaterial "{7E01BDB5AA93C85F}Assets/Weapons/Ammo/120mm/Data/ShockCone.emat"
+    }
+   }
+   MeshParams {
+    MeshParam M830_Projectile {
+    }
+    MeshParam Projectile_Shockcone {
+    }
+   }
+   Common TXOCommonClass "{5DA6316036BA61EE}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5DA6316036BA0813}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5DA6316036BA08C6}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5DA6316036BA0914}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5DA6316036BA0957}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+  }
+ }
+}

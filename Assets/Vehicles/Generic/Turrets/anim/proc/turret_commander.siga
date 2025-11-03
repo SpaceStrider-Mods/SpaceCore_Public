@@ -1,0 +1,69 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPItemInputClass {
+   id 1
+   name "AimTurnCommanderTurret"
+   tl -4 34.667
+   children {
+    2
+   }
+   valueMin -360
+   valueMax 360
+  }
+  IOPItemInputClass {
+   id 3
+   name "AimElevationCommanderTurret"
+   tl -4 -38.333
+   children {
+    4
+   }
+   valueMin -360
+   valueMax 360
+  }
+ }
+ Outputs {
+  IOPItemOutputClass {
+   id 2
+   name "Traverse"
+   tl 344 34.667
+   input 1
+  }
+  IOPItemOutputClass {
+   id 4
+   name "Elevation"
+   tl 344 -38.333
+   input 3
+  }
+ }
+ compiled IOPCompiledClass {
+  visited {
+   133 134 5 6
+  }
+  ins {
+   IOPCompiledIn {
+    data {
+     1 2
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 65538
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+  }
+  processed 4
+  version 2
+ }
+}

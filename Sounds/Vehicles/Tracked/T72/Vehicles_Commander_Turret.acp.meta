@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BCEC9D164B7A7184}Sounds/Vehicles/Tracked/T72/Vehicles_T72A_Commander_Turret.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

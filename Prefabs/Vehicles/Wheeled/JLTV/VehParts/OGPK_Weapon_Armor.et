@@ -1,0 +1,22 @@
+GenericEntity {
+ ID "5C8881729E7FAF5A"
+ components {
+  MeshObject "{5C8881729E7FAF54}" {
+   Object "{0C10E9D82D3B9089}Assets/Vehicles/Common/Turrets/OGPK/JLTV_WeaponShield.xob"
+   Materials {
+    MaterialAssignClass "{63395E5280B92F1F}" {
+     SourceMaterial "Windows"
+     AssignedMaterial "{F5FACE064A61EF7C}Assets/Vehicles/Common/Turrets/OGPK/data/Windows.emat"
+    }
+   }
+  }
+  RigidBody "{5C8881729E7FA8AC}" {
+   Mass 100
+   ModelGeometry 1
+  }
+  RplComponent "{5C8881729E7FA8A9}" {
+  }
+  Hierarchy "{5C8881729E7FA8AE}" {
+  }
+ }
+}

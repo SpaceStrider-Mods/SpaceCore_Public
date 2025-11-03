@@ -1,0 +1,36 @@
+GenericEntity : "{D584F2FFFDC7DE49}Prefabs/Weapons/Warheads/Warhead_Shell_HE.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{6FC67D2C9BF229AB}Sounds/Weapons/Ammo/RPG7/Explosion/Weapons_Ammo_Rocket_RPG7.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5D38C8F8C6A477C7}" : "{0CE1927888BD98BA}Prefabs/Weapons/Core/Damage/ExplosionContainer_HEF.conf" {
+     ExplosionEffects {
+      BaseExplosionDamage "{5D8D1EB3EBB36077}" {
+       DamageValue 10
+      }
+      ExplosionFragmentationEffect "{567CBC1D7AB652C7}" {
+       DamageFragmentCount 1500
+       GurneyConstant 2600
+       CaseWeight 4000
+      }
+     }
+     ChargeWeight 730
+     TntEquivalent 1.54
+    }
+    SpawnDecalEffect "{5D5727F06F70F2E3}" {
+     FarPlane 2.7
+     Scale 2.7
+    }
+   }
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+  }
+ }
+ coords 94.327 1 1267.07
+}

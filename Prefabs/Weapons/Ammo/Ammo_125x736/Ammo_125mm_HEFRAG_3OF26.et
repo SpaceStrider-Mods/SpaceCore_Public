@@ -1,0 +1,37 @@
+Projectile : "{67FED88E5085F63F}Prefabs/Weapons/Core/Ammo_Bullet_Base.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 850
+   Mass 23
+   TimeToLive 100
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 1600
+    }
+   }
+   BallisticTableConfig "{0699BB12344776F3}Configs/Weapons/AIBallisticTables/AIBT_125mm_HE_3OF26.conf"
+   SonicCracks "{911B8A52417F1E62}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_100mm.acp"
+   SubsonicFlybys "{FD5AFE7E151777B2}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_100mm.acp"
+   AirDrag 0.016
+   Diameter 125
+   PenetrationDepth 35
+   PenetrationSpeed 1750
+  }
+  CollisionTriggerComponent "{5E157C72B894FAC1}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5E157C720BC471DB}" {
+     EffectPrefab "{5809AF2FCA592F19}Prefabs/Weapons/Warheads/Warhead_Shell_HE_3OF26.et"
+     ParticleEffect "{318510C6FB1633D9}Particles/Weapon/Explosion_Mortar_Base.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+    AIExplosionEffect "{611CB637FE549592}" {
+    }
+   }
+  }
+ }
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{264FD5A5B656489B}Assets/Weapons/Ammo/125mm/Projectile_125_HE_OF19.xob"
+ CartridgeModel "{33BD787620C4E7D6}Assets/Weapons/Ammo/125mm/Cartridge_125_HE_OF19.xob"
+ CartridgeLayerPreset "ItemFireView"
+}

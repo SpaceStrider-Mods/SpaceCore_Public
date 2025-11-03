@@ -1,0 +1,13 @@
+MatPBRBasicGlass {
+ Color 0.06 0 0 1
+ Emissive 1 0 0 1
+ EmissiveAbsoluteLV 0
+ ApplyAlbedoToEmissive 1
+ OpacityMap "{1E699F2D0D5EEAFB}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_lights_A.edds"
+ NMOMap "{D1965E5C2A8D8E8F}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_lights_NMO.edds"
+ FresnelPower 2
+ Backscatterig 0
+ RefractionIntensity 0.15
+ RefractionColor 1 0.921 0.784 1
+ AlbedoRefractionTint 1
+}

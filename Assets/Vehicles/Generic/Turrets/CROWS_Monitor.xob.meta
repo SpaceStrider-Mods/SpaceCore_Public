@@ -1,0 +1,63 @@
+MetaFileClass {
+ Name "{A141AB0B0083CAF6}Assets/Vehicles/Generic/Turrets/CROWS_Monitor.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{66C54517278917CC}" {
+     SourceMaterial "Crows_Bolts"
+     AssignedMaterial "{DAB30F1B9E4F3903}Assets/Vehicles/Generic/Turrets/data/Crows_Bolts.emat"
+    }
+    MaterialAssignClass "{66C54517278917BC}" {
+     SourceMaterial "CROWS_Monitor"
+     AssignedMaterial "{0E54E5E51AF0B8A7}Assets/Vehicles/Generic/Turrets/data/CROWS_Monitor.emat"
+    }
+    MaterialAssignClass "{66C54517278917B8}" {
+     SourceMaterial "CROWS_Monitor_Display"
+     AssignedMaterial "{0E5A1DB3975A2565}Assets/Vehicles/Generic/Turrets/data/CROWS_Monitor_Display.emat"
+    }
+    MaterialAssignClass "{66C54517278917A6}" {
+     SourceMaterial "Crows_Monitor_Glass"
+     AssignedMaterial "{E96BD257E823EC35}Assets/Vehicles/Generic/Turrets/data/Crows_Monitor_Glass.emat"
+    }
+   }
+   MeshParams {
+    MeshParam CROWS_Decals {
+    }
+    MeshParam CROWS_Main {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_Monitor {
+     LayerPreset "PropFireView"
+     SurfaceProperties {
+      "{BC12BF6AC97F2458}Common/Materials/Game/Metal/metal_2mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{66C5451727801FC0}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{66C545172781C196}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{66C545172781C2B1}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{66C545172781C246}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{66C545172781C3FE}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{66C545172781C38D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

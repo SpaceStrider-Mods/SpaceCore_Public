@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F9D2E0F111B114EC}Prefabs/Weapons/Ammo/Ammo_105x617/Ammo_105mm_APFSDS_MGS_M900.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7C8C838AF134E4BC}Sounds/Weapons/_SharedData/ProjectileTravelling/Weapons_ProjectileTravelling_Cluster_Generic.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass PS5 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

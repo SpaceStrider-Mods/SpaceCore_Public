@@ -1,0 +1,72 @@
+FrameWidgetClass "{64DC3419E878046E}" {
+ Name "MortarInfo"
+ components {
+  SCR_WidgetExportRuleRoot "{5DA0E2E1CF09FB42}" {
+   DestinationPath "{E8C55F819D1FD8D0}scripts/Game/UI/HUD/MortarInfo"
+   ScriptAddon "$Mortars:"
+  }
+ }
+ {
+  FrameWidgetClass "{64DC3419E878046F}" {
+   Name "Overlay"
+   Slot FrameWidgetSlot "{5DA0E2E515F386B2}" {
+    Anchor 0.5 0.5 0.5 0.5
+    OffsetLeft 0
+    OffsetTop 0
+    SizeX 1920
+    OffsetRight -1920
+    SizeY 1080
+    OffsetBottom -1080
+    Alignment 0.5 0.5
+   }
+   {
+    OverlayWidgetClass "{64DC3419E878046A}" {
+     Name "m_Elevation"
+     Slot FrameWidgetSlot "{5DA0E2E7C6D6111A}" {
+      Anchor 0.5 0.5 0.5 0.5
+      PositionX -200
+      OffsetLeft -200
+      OffsetTop 0
+      SizeX 200
+      OffsetRight 0
+      SizeY 200
+      OffsetBottom -200
+      Alignment 0.5 0.5
+      SizeToContent 1
+     }
+    }
+    OverlayWidgetClass "{64DC3419E87BA23F}" {
+     Name "m_Azimuth"
+     Slot FrameWidgetSlot "{5DA0E2E7C6D611F5}" {
+      Anchor 0.5 0.5 0.5 0.5
+      PositionX 0
+      OffsetLeft 0
+      PositionY -200
+      OffsetTop -200
+      SizeX 200
+      OffsetRight -200
+      SizeY 200
+      OffsetBottom 0
+      Alignment 0.5 0
+      SizeToContent 1
+     }
+    }
+    OverlayWidgetClass "{64DC3419E87BA23E}" {
+     Name "m_Range"
+     Slot FrameWidgetSlot "{5DA0E2E7C6D611F8}" {
+      Anchor 0.5 0.5 0.5 0.5
+      PositionX 200
+      OffsetLeft 200
+      OffsetTop 0
+      SizeX 200
+      OffsetRight -400
+      SizeY 200
+      OffsetBottom -200
+      Alignment 0.5 0.5
+      SizeToContent 1
+     }
+    }
+   }
+  }
+ }
+}

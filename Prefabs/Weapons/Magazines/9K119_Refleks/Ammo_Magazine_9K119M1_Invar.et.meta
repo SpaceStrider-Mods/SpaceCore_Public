@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{67EE9620ADCD764C}Prefabs/Weapons/Magazines/9K119_Refleks/Ammo_Magazine_9M119M1_Invar.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

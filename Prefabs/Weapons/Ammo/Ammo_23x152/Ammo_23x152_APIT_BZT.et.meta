@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CB9F67F1D033D4D1}Prefabs/Weapons/Ammo/Ammo_23x152/Ammo_23x152_APIT_BZT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

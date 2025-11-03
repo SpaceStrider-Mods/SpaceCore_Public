@@ -1,0 +1,456 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 6157
+   name "Weapons_BulletFlybys"
+   tl -716.274 -167.375
+   res "{31E2E676DF950437}Sounds/Weapons/_SharedData/BulletFlybys/Weapons_BulletFlybys.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 11
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 15372
+         port 1
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 12
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 15372
+         port 2
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 20
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 15372
+         port 3
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    7 11 12 15 20 22 33
+   }
+   outputsport {
+    2 9 19 23
+   }
+   inputvalues {
+    200 0 0 0 0 0 0
+   }
+   inputvaluesmin {
+    0 0 0 0 0 0 0
+   }
+   inputvaluesmax {
+    10000 1 1 1 1 1 1
+   }
+   path "{31E2E676DF950437}Sounds/Weapons/_SharedData/BulletFlybys/Weapons_BulletFlybys.sig"
+  }
+ }
+ sounds {
+  SoundClass {
+   id 3081
+   name "SOUND_FLYBY"
+   version 5
+   tl -136 -231.625
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 2066
+       port 65
+      }
+      ConnectionClass connection {
+       id 17426
+       port 65
+      }
+     }
+    }
+   }
+   volume_dB 1
+   priority 60
+   outState 5131
+   outStatePort 184327
+   static 1
+  }
+ }
+ mixers {
+  MixerClass {
+   id 5131
+   name "OutputState"
+   version 4
+   tl 42.143 -229.238
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 184327
+     links {
+      ConnectionClass connection {
+       id 3081
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    5242880 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin"
+   }
+  }
+ }
+ constants {
+  ConstantClass {
+   id 15372
+   name "Pitch via speed"
+   version 5
+   tl -881.513 -163
+   "Constant values" {
+    IOPConstantsValueClass P_SPEED_MIN {
+     Key "P_SPEED_MIN"
+     Value 40
+     Port 1
+    }
+    IOPConstantsValueClass P_SPEED_MAX {
+     Key "P_SPEED_MAX"
+     Value 343
+     Port 2
+    }
+    IOPConstantsValueClass DEF_MAX_O {
+     Key "DEF_MAX_O"
+     Value 190
+     Port 3
+    }
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 2066
+   name "FlyBy Shader"
+   version 5
+   tl -334 -231
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 7196
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 4115
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 10261
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 1028
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+  ShaderClass {
+   id 17426
+   name "Deflected Shader"
+   version 5
+   tl -334 -9.667
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 7196
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 18451
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 10261
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 16388
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass : "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf" {
+   id 4115
+   comment ""
+   version 5
+   tl -334 -355.375
+   parent "{2D5607FF1ED3F5D3}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-35LUFS_to_-30LUFS.conf"
+  }
+  AmplitudeClass {
+   id 18451
+   name "Amplitude 2"
+   version 5
+   tl -334 -73.802
+   curve "1/r"
+   innerRange 3
+   outerRange 120
+   slopeFactor 4
+  }
+ }
+ frequency {
+  FrequencyClass : "{CA912C59A9267045}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_Base.conf" {
+   id 10261
+   version 5
+   tl -334 -291.778
+   parent "{CA912C59A9267045}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_Base.conf"
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 1028
+   name "BulletFlyby 25mm"
+   version 7
+   tl -536.375 -165.619
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 6157
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 6157
+       port 9
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   Volume 3
+   "Volume variance" 4
+   Pitch -1
+   "Pitch variance" 2
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{938B7E5F22FE6A33}Sounds/Weapons/_SharedData/BulletFlybys/25mm/Samples/BulletFlyby_25mm_01.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{0A95C7C63F195BA3}Sounds/Weapons/_SharedData/BulletFlybys/25mm/Samples/BulletFlyby_25mm_02.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{7D9FAF4ECBBBB4D3}Sounds/Weapons/_SharedData/BulletFlybys/25mm/Samples/BulletFlyby_25mm_03.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{7A58551FAD3D0E10}Sounds/Weapons/_SharedData/BulletFlybys/25mm/Samples/BulletFlyby_25mm_04.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{0D523D97599FE160}Sounds/Weapons/_SharedData/BulletFlybys/25mm/Samples/BulletFlyby_25mm_05.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{944C840E4478D0F0}Sounds/Weapons/_SharedData/BulletFlybys/25mm/Samples/BulletFlyby_25mm_06.wav"
+     Index 5
+    }
+    AudioBankSampleClass Sample {
+     Filename "{E346EC86B0DA3F80}Sounds/Weapons/_SharedData/BulletFlybys/25mm/Samples/BulletFlyby_25mm_07.wav"
+     Index 6
+    }
+    AudioBankSampleClass Sample {
+     Filename "{9BC370AC8975A576}Sounds/Weapons/_SharedData/BulletFlybys/25mm/Samples/BulletFlyby_25mm_08.wav"
+     Index 7
+    }
+    AudioBankSampleClass Sample {
+     Filename "{ECC918247DD74A06}Sounds/Weapons/_SharedData/BulletFlybys/25mm/Samples/BulletFlyby_25mm_09.wav"
+     Index 8
+    }
+    AudioBankSampleClass Sample {
+     Filename "{1089514FDB81ED37}Sounds/Weapons/_SharedData/BulletFlybys/25mm/Samples/BulletFlyby_25mm_10.wav"
+     Index 9
+    }
+   }
+  }
+  BankLocalClass {
+   id 16388
+   name "Deflected 25mm"
+   version 7
+   tl -536.375 -19.667
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 6157
+       port 19
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 6157
+       port 9
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 4
+     links {
+      ConnectionClass connection {
+       id 6157
+       port 23
+      }
+     }
+    }
+   }
+   pi {
+    19 0
+   }
+   Volume 5
+   "Volume variance" 4
+   Pitch -5
+   "Pitch variance" 2.5
+   "Fade in time" 10
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{720D55FAA19503C5}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_01.wav"
+    }
+    AudioBankSampleClass Sample {
+     Filename "{EB13EC63BC723255}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_02.wav"
+     Index 1
+    }
+    AudioBankSampleClass Sample {
+     Filename "{9C1984EB48D0DD25}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_03.wav"
+     Index 2
+    }
+    AudioBankSampleClass Sample {
+     Filename "{9BDE7EBA2E5667E6}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_04.wav"
+     Index 3
+    }
+    AudioBankSampleClass Sample {
+     Filename "{ECD41632DAF48896}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_05.wav"
+     Index 4
+    }
+    AudioBankSampleClass Sample {
+     Filename "{75CAAFABC713B906}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_06.wav"
+     Index 5
+    }
+    AudioBankSampleClass Sample {
+     Filename "{02C0C72333B15676}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_07.wav"
+     Index 6
+    }
+    AudioBankSampleClass Sample {
+     Filename "{7A455B090A1ECC80}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_08.wav"
+     Index 7
+    }
+    AudioBankSampleClass Sample {
+     Filename "{0D4F3381FEBC23F0}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_09.wav"
+     Index 8
+    }
+    AudioBankSampleClass Sample {
+     Filename "{F10F7AEA58EA84C1}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_10.wav"
+     Index 9
+    }
+    AudioBankSampleClass Sample {
+     Filename "{86051262AC486BB1}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_11.wav"
+     Index 10
+    }
+    AudioBankSampleClass Sample {
+     Filename "{1F1BABFBB1AF5A21}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_12.wav"
+     Index 11
+    }
+    AudioBankSampleClass Sample {
+     Filename "{6811C373450DB551}Sounds/Weapons/_SharedData/BulletFlybys/_SharedData/Smallarms_Deflected/BulletFlyby_Smallarms_Deflected_13.wav"
+     Index 12
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 7196
+   name "Spatiality 7"
+   version 5
+   tl -334 -420
+   spatialFactor 1
+  }
+ }
+ version 1
+ sourcesLimit 2
+}

@@ -1,0 +1,12 @@
+GenericEntity : "{BB35A8E1403CDE4B}Prefabs/Weapons/HeavyWeapons/HMG_M2HB.et" {
+ ID "620EF62A9CAB099B"
+ components {
+  RigidBody "{572AF6B736F67B4F}" {
+   SimState Collision
+   Static 0
+  }
+  RplComponent "{E052E71DCB007AF2}" {
+   "Parent Node From Parent Entity" 1
+  }
+ }
+}

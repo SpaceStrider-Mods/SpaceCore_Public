@@ -1,0 +1,35 @@
+Projectile : "{F4A09B4A53606BCB}Prefabs/Weapons/Ammo/Ammo_APFSDS_HighCalibre_base.et" {
+ ID "70242781DB2FDA8A"
+ components {
+  CollisionTriggerComponent "{65B54151E7C9F87A}" {
+   PROJECTILE_EFFECTS {
+    SpawnPrefabEffect "{65D744DA4DE161F6}" {
+     EffectPrefab "{50064EAAC6ABC191}Prefabs/Weapons/Ammo/Ammo_105x617/Warhead_AP_Spall_M900.et"
+    }
+   }
+  }
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   InitSpeed 1505
+   Mass 3.8
+   ProjectileEffects {
+    ProjectileDamage "{5168BBF3DBD79134}" {
+     DamageValue 26000
+    }
+   }
+   BallisticTableConfig "{E463819FB3FD8C7C}Configs/Weapons/AIBallisticTables/AIBT_105mm_APFSDS_M900.conf"
+   SonicCracks "{911B8A52417F1E62}Sounds/Weapons/_SharedData/BulletSonicCracks/HMG/Weapons_BulletSonicCracks_100mm.acp"
+   SubsonicFlybys "{FD5AFE7E151777B2}Sounds/Weapons/_SharedData/BulletFlybys/HMG/Weapons_BulletFlybys_100mm.acp"
+   AirDrag 0.001
+   Diameter 23
+   Length 603
+   DeflectionCriticalAngle 5
+   DeflectionDirDistribution 0.1
+   PenetrationDepth 522
+   PenetrationSpeed 1500
+   PenetrationDirDistribution 0.005
+  }
+ }
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{917152B9509B6118}Assets/Weapons/Ammo/120mm/M829A3_Projectile.xob"
+ CartridgeModel "{AEFCDCB3A4882310}Assets/Weapons/Ammo/120mm/M829A3_Cartridge.xob"
+}

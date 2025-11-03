@@ -1,0 +1,210 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 11268
+   name "Signal 11"
+   tl -282 226
+   res "{4BD94BA5EB6F33A1}Assets/Vehicles/Tracked/T-72A/anim/proc/turret_commander.siga"
+   inputsport {
+    1 3
+   }
+   outputsport {
+    2 4
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    -360 -360
+   }
+   inputvaluesmax {
+    360 360
+   }
+  }
+ }
+ funcs {
+  BoneClass {
+   id 1030
+   name "v_turret_01"
+   version 0
+   tl -3.111 -94.667
+   outs {
+    3078
+   }
+   bone "v_turret_02"
+   updatebbox 1
+  }
+  RotationMakeClass {
+   id 2054
+   name "Traverse"
+   tl 0.667 140
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 11268
+         port 2
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    3078
+   }
+  }
+  RotationSetClass {
+   id 3078
+   name "RotationSet 3078"
+   tl 226.778 -62.444
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 2054
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 1030
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  BoneClass {
+   id 4102
+   name "v_gun_02"
+   version 0
+   tl -0.667 288
+   outs {
+    6150
+   }
+   bone "v_gun_02"
+   updatebbox 1
+  }
+  RotationMakeClass {
+   id 5126
+   name "Elevation"
+   tl 2 384
+   iops {
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 11268
+         port 4
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    6150
+   }
+  }
+  RotationSetClass {
+   id 6150
+   name "RotationSet 6150"
+   tl 233.111 351.444
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 5126
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 4102
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+ }
+ model "{24BCE9A581367807}Assets/Vehicles/Wheeled/BTR70/BTR70_turret.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   513 385 641 129 1 257
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 131072 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 65536 0 0 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 262144 0 196608 0
+    }
+   }
+  }
+  version 2
+  argsize 10
+ }
+}

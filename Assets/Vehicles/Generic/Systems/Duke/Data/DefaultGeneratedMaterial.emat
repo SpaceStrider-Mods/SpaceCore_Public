@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{ED59205117CE9FB8}Assets/Vehicles/Generic/DUKE/DukeDisplay/Duke2_Duke_BCR.edds"
+ NMOMap "{D5819BC3CEB9CD26}Assets/Vehicles/Generic/DUKE/DukeDisplay/Duke2_Duke_NMO.edds"
+}

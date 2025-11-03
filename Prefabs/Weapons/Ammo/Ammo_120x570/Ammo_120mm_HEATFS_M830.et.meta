@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{99D8089D5136965A}Prefabs/Weapons/Ammo/Ammo_120x570/Ammo_120mm_HEATFS_M830.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

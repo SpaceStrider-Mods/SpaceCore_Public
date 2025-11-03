@@ -1,0 +1,35 @@
+GenericEntity : "{1126AD9D919F82FF}Prefabs/Weapons/Warheads/Warhead_Explosive_HE.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{D1F1826155C70273}Sounds/Particles/Logistics/Explosion/TNT/Particles_Explosions_FAB250.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{5F10B4D8DC73BB97}" : "{0CE1927888BD98BA}Prefabs/Weapons/Core/Damage/ExplosionContainer_HEF.conf" {
+     ExplosionEffects {
+      ExplosionFragmentationEffect "{567CBC1D7AB652C7}" {
+       DamageFragmentCount 4800
+       GurneyConstant 2600
+       CaseWeight 6000
+      }
+     }
+     ChargeWeight 91000
+    }
+    SpawnDecalEffect "{5F10B4D8DC73BB9A}" {
+     FarPlane 0.5
+     Scale 5
+     Lifetime 300
+     Material "{039FA43299C7980D}Assets/Decals/Miscellaneous/Mortar/Decal_Impact_Mortar_01.emat"
+    }
+   }
+   TriggerOffset -1
+   HAS_VALID_DIRECTION 1
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{FE8B42631A7827B3}Particles/Weapon/Explosion_Fab250.ptc"
+  }
+ }
+}

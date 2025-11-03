@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DAB30F1B9E4F3903}Assets/Vehicles/Generic/Turrets/Data/Crows_Bolts.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

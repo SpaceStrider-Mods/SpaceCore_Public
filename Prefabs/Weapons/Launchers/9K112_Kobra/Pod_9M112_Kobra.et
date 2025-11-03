@@ -1,0 +1,9 @@
+GenericEntity : "{CD897795FA0188DE}Prefabs/Weapons/Launchers/Pod_ATGM_Tank_Base.et" {
+ ID "629D11C8BD6AE717"
+ components {
+  WCS_Armament_WeaponComponent "{629D11C992611C79}" {
+   m_sName "#SPC-Weapon_9M112_Name"
+  }
+ }
+ coords 66.385 1 1286.767
+}

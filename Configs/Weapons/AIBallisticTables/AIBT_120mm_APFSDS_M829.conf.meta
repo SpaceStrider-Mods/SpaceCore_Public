@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1479C633B2ACB132}Configs/Weapons/AIBallisticTables/AIBT_120mm_APFSDS_M829.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

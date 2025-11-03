@@ -1,0 +1,23 @@
+Projectile : "{D93DAC8D6AE1572D}Prefabs/Weapons/Core/Armament_Ammo_Smoke.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  TimerTriggerComponent "{62EC37ED708C1AAB}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{62EC37ED7DB11E53}" {
+     EffectPrefab "{AF385E5DFF5A5A6E}Prefabs/Weapons/Warheads/Smoke/Warhead_Smoke_US.et"
+     ParticleEffect "{A41F67E64A6F615B}Particles/Weapon/Smoke_3D17_Impact.ptc"
+     SoundEvent "SOUND_DEPLOY"
+     ExitEffectPrefab "{4E168888868FE6C7}Prefabs/Weapons/Core/ExitEffect.et"
+    }
+   }
+   TIMER 1
+  }
+  ShellMoveComponent "{20FB66C5FA209A29}" {
+   InitSpeed 40
+   TimeToLive 1
+  }
+  RplComponent "{5188CD84136622B4}" {
+   Enabled 0
+  }
+ }
+}

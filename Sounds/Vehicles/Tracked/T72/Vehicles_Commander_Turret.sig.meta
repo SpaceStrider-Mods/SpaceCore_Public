@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EC6D6268EF1A3E96}Sounds/Vehicles/Wheeled/BTR70/Vehicles_Commander_Turret.sig"
+ Configurations {
+  AudioSignalResourceClass PC {
+  }
+  AudioSignalResourceClass XBOX_ONE : PC {
+  }
+  AudioSignalResourceClass XBOX_SERIES : PC {
+  }
+  AudioSignalResourceClass PS4 : PC {
+  }
+  AudioSignalResourceClass HEADLESS : PC {
+  }
+ }
+}

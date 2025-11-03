@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E463819FB3FD8C7C}Configs/Weapons/AIBallisiticTables/AIBT_105mm_APFSDS_M900.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,58 @@
+GenericEntity : "{CD609D6F3A054B14}Prefabs/Weapons/Core/Armament_Pod_Base.et" {
+ ID "629D11C8BD6AE717"
+ components {
+  MeshObject "{629D11CADAD0C383}" {
+   Object "{B7D433C2313590DF}Assets/Weapons/Launchers/FGM148_Javelin/Javelin_Launcher.xob"
+   Materials {
+    MaterialAssignClass "{644A6033BEE36EEC}" {
+     SourceMaterial "Javelin_CLU"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{644A6033BEE36E08}" {
+     SourceMaterial "PIP_Sight"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  WCS_Armament_WeaponComponent "{629D11C992611C79}" {
+   Enabled 1
+   m_sName "#WCS-Weapon_FGM148_Name"
+   m_DefaultProjectile "{42B53D25572C17E9}Prefabs/Weapons/Ammo/Ammo_Missile_FGM-148_JLTV.et"
+   m_fLaunchOffset 2
+  }
+  SlotManagerComponent "{629D11C99AEE634A}" {
+   Enabled 1
+   Slots {
+    WCS_Armament_ProjectileSlotInfo W_0 {
+     PivotID "missile"
+     Offset 0 0 0
+     Angles 90 0 0
+    }
+   }
+  }
+  ActionsManagerComponent "{629D11CAB6B28AE6}" {
+   ActionContexts {
+    UserActionContext "{629D11D46C8F2AA6}" {
+     ContextName "rearm_pod_01"
+     Position PointInfo "{6152B772E6638695}" {
+      Offset 0.012 0.2846 -0.6329
+     }
+    }
+    UserActionContext "{633A3752B33B6C9B}" {
+     ContextName "rearm_pod_02"
+     Position PointInfo "{633A3752B33B6C91}" {
+      Offset -0.004 0.2856 0.6
+     }
+    }
+   }
+   additionalActions {
+    WCS_RearmPodAtRepairStationAction "{629D11D464DEC282}" {
+     ParentContextList {
+      "rearm_pod_01" "rearm_pod_02"
+     }
+     m_sProjectileToRearm "{42B53D25572C17E9}Prefabs/Weapons/Ammo/Ammo_Missile_FGM-148_JLTV.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,29 @@
+Projectile : "{550AEC277DBCCB33}Prefabs/Weapons/Ammo/Ammo_Missile_FGM-148.et" {
+ ID "629D11C7F7353F80"
+ components {
+  WCS_Armament_LaserGroundMissileFlightComputerComponent "{62B2E3867BF1C8DA}" {
+  }
+  WCS_Armament_LaserSeekerComponent "{644ABAFB75808BB4}" {
+   m_fTargetCheckInterval 0.1
+  }
+  WCS_Armament_MWSInfoComponent "{644C100F61674CFF}" {
+   m_eThreatSize SMALL
+  }
+  WCS_Armament_MissileMovementComponent "{62AD4D5A3AF5CA6C}" {
+   m_fMaxDeflection 0.01
+   m_fDisplacementFactor 0
+  }
+  WCS_Armament_RocketTraceEffectComponent "{62AEDD8D49C3AA13}" {
+   m_Phases {
+    WCS_Armament_RocketTracePhase "{62AEDD8D4E4C647C}" {
+     m_Particles {
+      WCS_Armament_RocketTracePhaseParticle "{62B0CEF140B084CB}" {
+       m_vPosition 0 0 -0.58
+      }
+     }
+    }
+   }
+   m_ExitParticle ""
+  }
+ }
+}

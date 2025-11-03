@@ -1,0 +1,12 @@
+GenericEntity : "{98199CE9129841ED}Prefabs/Weapons/HeavyWeapons/M2HB/HMG_M2HB_pintle_Armored.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  SlotManagerComponent "{5C888172C28FADDA}" {
+   Slots {
+    EntitySlotInfo Armor {
+     Prefab "{AE06A9AD31E3FA2A}Prefabs/Vehicles/Wheeled/JLTV/VehParts/JLTV_Weapon_Armor_Black.et"
+    }
+   }
+  }
+ }
+}

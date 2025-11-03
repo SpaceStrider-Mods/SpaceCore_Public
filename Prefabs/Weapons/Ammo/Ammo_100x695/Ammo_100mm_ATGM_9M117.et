@@ -1,0 +1,27 @@
+Projectile : "{C0BDA86B5AA5648C}Prefabs/Weapons/Core/Ammo_Rocket_Base.et" {
+ ID "5CC64231B5D97742"
+ components {
+  CollisionTriggerComponent "{5CC6423125E7C5F1}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5CC642312CBDD060}" {
+     EffectPrefab "{D649A52C2A1A29FF}Prefabs/Weapons/Warheads/Warhead_HEAT_PG7VM.et"
+     ParticleEffect "{B6275B6B9E29E9ED}Particles/Weapon/Explosion_RPG7V1.ptc"
+     SoundEvent "SOUND_EXPLOSION"
+    }
+   }
+   ArmingTime 0.05
+  }
+  MissileMoveComponent "{0EF36690881261EF}" {
+   InitSpeed 370
+   Mass 18.8
+  }
+  RocketTraceEffectComponent "{5CC6423114F46D26}" {
+   ParticleEffect "{0F364F4CD1D72350}Particles/Weapon/Trail_PG7VL.ptc"
+  }
+ }
+ SpawnAsCartridge 1
+ ProjectileVisibleTimeScale 2
+ ProjectileModel "{BB3F99FC7223DDC5}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM.xob"
+ CartridgeModel "{CA305BDAD273478A}Assets/Weapons/Magazines/RPG7/Rocket_PG7VM_item.xob"
+ CartridgeLayerPreset "ItemFireView"
+}

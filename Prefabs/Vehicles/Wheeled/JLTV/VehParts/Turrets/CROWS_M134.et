@@ -1,0 +1,38 @@
+Turret : "{A43CF2F4D1E3CB17}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/CROWS_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  TurretComponent "{5B24B3A9B2859837}" {
+   components {
+    SCR_2DSightsComponent "{5B24B3A9B2859831}" {
+     SightsPosition PointInfo "{5B24B3A9B2859832}" {
+      Angles -0.6 0 0
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{62F2DDF02D357EBB}" {
+   Slots {
+    WCS_Armament_DispenserSlotInfo M6_Dischargers {
+     Enabled 0
+    }
+    EntitySlotInfo Magazine {
+     PivotID "v_turret_01"
+     Offset -0.3924 1.0272 -0.7748
+     Angles 0 180 -90
+     MergePhysics 0
+     Prefab "{1EA31D3584A0731E}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/VehPart_CROWS_Magazine_M134.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   obstructionTestCharacterOffset 0 0 0
+   obstructionTestAddedLength 0
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -0.2359 0.0224 0.1313
+    Angles 0 0 -90.2858
+   }
+   WeaponTemplate "{08EDAC148773828A}Prefabs/Weapons/HeavyWeapons/M134/M134_Weapon_M151_CROWS.et"
+  }
+ }
+ coords 89.733 1 1221.484
+}

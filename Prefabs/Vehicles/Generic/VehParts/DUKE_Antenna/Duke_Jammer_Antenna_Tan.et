@@ -1,0 +1,13 @@
+GenericEntity : "{C3C8DC6BDF5C6C3C}Prefabs/Vehicles/Generic/VehParts/DUKE_Antenna/Duke_Jammer_Antenna.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{659B1D2FCC8F839A}" {
+     SourceMaterial "M1A2Additions"
+     AssignedMaterial "{5B33C29621DA6C5E}Assets/Vehicles/Generic/DUKE/Data/Duke_Body_Tan.emat"
+    }
+   }
+  }
+ }
+}

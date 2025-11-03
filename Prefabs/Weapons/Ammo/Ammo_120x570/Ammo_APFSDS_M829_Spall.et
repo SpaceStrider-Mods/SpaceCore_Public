@@ -1,0 +1,9 @@
+Projectile : "{C0502DFC863E64AE}Prefabs/Weapons/Ammo/Ammo_APFSDS_Spall.et" {
+ ID "DA5C6308000CDEF2"
+ components {
+  ShellMoveComponent "{851AA4A2AE0A5691}" {
+   PenetrationDepth 491
+   PenetrationSpeed 1670
+  }
+ }
+}

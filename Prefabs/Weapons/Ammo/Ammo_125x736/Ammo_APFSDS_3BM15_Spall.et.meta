@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B77EA33FD42B994F}Prefabs/Weapons/Ammo/Ammo_125x736/Ammo_APFSDS_3BM15_Spall.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+ }
+}

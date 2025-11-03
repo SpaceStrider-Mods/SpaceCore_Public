@@ -1,0 +1,36 @@
+GenericEntity : "{9B5FF7EECAD376FA}Prefabs/Weapons/Warheads/Warhead_Base.et" {
+ ID "9D9BE68EA2672F76"
+ components {
+  SoundComponent "{D092A75ECEFAE456}" {
+   Filenames {
+    "{2C8441BB6650F88B}Sounds/Weapons/Ammo/Weapons_AP_Generic_NoShrapnell.acp"
+   }
+  }
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    SubmunitionEffect "{612616B8D135234C}" {
+     TriggerOnce 1
+     Prefab "{16F3F5C6467D43DE}Prefabs/Weapons/Core/Ammo_Spall_Base.et"
+     Count 12
+     Dispersion 60
+     InitSpeedCoef 1
+    }
+    SubmunitionEffect "{65D744DB44382968}" {
+     TriggerOnce 1
+     Prefab "{C0502DFC863E64AE}Prefabs/Weapons/Ammo/Ammo_APFSDS_Spall.et"
+     Count 6
+     Dispersion 15
+     InitSpeedCoef 1
+    }
+    SpawnDecalEffect "{66776D9FF7CD1243}" {
+     Scale 2
+     Material "{BCC269C099CD1B52}Assets/Decals/Logistics/Impact/Data/Decal_Logistics_APDS_01.emat"
+    }
+   }
+   TriggerOffset -0.2
+  }
+  HitEffectComponent "{9D9BE68D6F65A10F}" {
+   ParticleEffect "{0CFB985286C5AC91}Particles/Weapons/Impact_APFSDS.ptc"
+  }
+ }
+}

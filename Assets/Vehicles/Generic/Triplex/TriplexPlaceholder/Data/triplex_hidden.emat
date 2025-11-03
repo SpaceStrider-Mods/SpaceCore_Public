@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.231 0.231 0.231 1
+ AlphaTest 3
+ AlphaMul 0
+}

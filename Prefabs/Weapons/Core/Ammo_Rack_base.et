@@ -1,0 +1,37 @@
+GenericEntity : "{CD00FFBAFD036BE2}Prefabs/Weapons/Core/Explosives_base.et" {
+ ID "5968D2B6A82C6019"
+ components {
+  SignalsManagerComponent "{60FA6425914C5ADE}" {
+  }
+  BaseTriggerComponent "{60FA6425914C5AE4}" {
+   PROJECTILE_EFFECTS {
+    AIExplosionEffect "{60FA6425914C5AE6}" {
+    }
+   }
+  }
+  MeshObject "{5968D9C73C08706E}" {
+   PixelSizeScale 3
+  }
+  RigidBody "{5968D9C731425A95}" {
+   LinearSleepingThreashold 0.5
+   AngularSleepingThreashold 0.5
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_MineDamageManager "{60FA6425914C5AE3}" {
+   "Additional hit zones" {
+    SCR_MineHitZone Main {
+     HZDefault 1
+     MaxHealth 20
+     "Explosive multiplier" 0.001
+    }
+   }
+  }
+  RplComponent "{60FA6425914D316F}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{60FA6425914D316B}" {
+  }
+ }
+}

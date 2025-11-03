@@ -1,0 +1,12 @@
+GenericEntity : "{7DA2AFFC7B4BE844}Prefabs/Weapons/Warheads/Warhead_Grenade_HE.et" {
+ ID "520EA1D2A9E0B759"
+ components {
+  BaseTriggerComponent "{55129E81CBAA1390}" {
+   PROJECTILE_EFFECTS {
+    ExplosionDamageContainer "{567CBC1CFBB064A8}" {
+     ChargeWeight 520
+    }
+   }
+  }
+ }
+}

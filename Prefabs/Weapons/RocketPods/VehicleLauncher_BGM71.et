@@ -1,0 +1,125 @@
+GenericEntity : "{D14EC0B3BFCE1A8D}Prefabs/Weapons/Core/VehicleLauncher_Base_01.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{8996D21F29043D06}Assets/Weapons/MissileRacks/BGM-71/BGM-71_Launcher.xob"
+  }
+  RigidBody "{60967159F53F2609}" {
+   Mass 100
+   ModelGeometry 1
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB047B845168}" {
+     Name "BGM71"
+     Description "#AR-Weapon_RPG7V1_Description"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5534C502CAF4F519}" {
+     Weight 6
+     SizeSetupStrategy Manual
+     ItemDimensions 30 30 30
+     ItemVolume 4000
+     DimensionScaler 1
+     RestingUP Right
+     RestingAdditiveRotationLS 0 1.8 -12.2
+     RestingAdditiveOffsetLS 0.075 0 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960DAA53DDFC}" {
+     IkSettings {
+      ItemIKSettings "{5284960DA9B88634}" {
+      }
+      ItemIKSettings "{5284960DA9EA45EA}" {
+      }
+      ItemIKSettings "{5284960DA87282B4}" {
+      }
+      ItemIKSettings "{5526E345D0462B03}" {
+       Lowered 1
+       InAds 0
+       OutAds 0
+       MovementSpeedRange 0 0
+      }
+     }
+     AnimationInstance "{81E91C367B2A22D6}anims/workspaces/player/player_main_rpg.asi"
+     AnimationIKPose "{9DFCB6A3FD16B13D}Assets/Weapons/Launchers/RPG7/anims/anm/p_rpg7_ik.anm"
+     AllowInspection 1
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+      CrouchLimitsVertical -50 50
+      ProneLimitsVertical -10 20
+      DeploymentAimSpeedMultiplier 1 1
+      DeploymentHorizontalAimSensitivityMax 120
+     }
+     ItemMovementSwayAttributes "{58B9009CD03086A9}" {
+      BobDamper 0.95 0.95 1
+      BobMagnitudeAngular -6.25 10 0
+      BobSpeed 16
+      MaxMagnitude 1
+      DefaultMagnitudeLinear 0 0.04 0
+      DefaultMagnitudeAngular 35 3 -40
+      LoweredMagnitudeLinear 0 0.125 0
+      LoweredMagnitudeAngular 90 7.5 -45
+      OneHandMagnitudeLinear 0 0.065 0
+      OneHandMagnitudeAngular 35 5 -40
+      ADSMagnitudeLinear -0.023 0 0
+      ADSMagnitudeAngular 8.84 10.6 20
+      InjuredMagnitudeLinear 0 0.065 0
+      InjuredMagnitudeAngular 35 5 -40
+      TargetVelocityLimit 3
+      MaxVelocity 2
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+      m_fRecoilTarget 0.038
+     }
+     PreviewRenderAttributes "{5534C502CAF4F506}" {
+      CameraPreset Right
+      CameraDistanceToItem 1.4
+      FOV 30
+      AspectRatio 1
+      AnimationInstance "{C6CE144E13008635}anims/workspaces/player/player_inventory_launcher.asi"
+     }
+     CharacterModifierAttributes "{5A1074AAB7ECB883}" {
+      AllowReloadingWithRoll 0
+     }
+    }
+   }
+   Priority 2
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{5E5833608CBE399E}" {
+     components {
+      CaseEjectingEffectComponent "{5E58B4534C658B62}" {
+       EffectPosition EntitySlotInfo Muzzle {
+        Offset 0 -0.239 0.79
+       }
+      }
+      SCR_MuzzleEffectComponent "{5E5833608CBE3998}" {
+       EffectPosition EntitySlotInfo Muzzle {
+        Offset 0 -0.239 -1.1329
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{5E5833606476A7F9}" {
+       PivotID "tow_bgm_71_xm65_missiles_dummy_01"
+       Offset 0 0 -1
+       Angles 0 180 0
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{5E5833606B7819A8}" {
+       PivotID "tow_bgm_71_xm65_missiles_dummy_01"
+       Offset 0 0 -0.5
+       Angles 0 180 -0.5
+      }
+     }
+     MagazineWell MagazineWellSPC_BGM71TOW "{65561187EC035E4F}" {
+     }
+     MagazineTemplate "{C8974529DF90CF3A}Prefabs/Weapons/Magazines/Rocket_BGM71_4rnd_Base.et"
+    }
+   }
+   shouldHandleObstruction 0
+  }
+ }
+}

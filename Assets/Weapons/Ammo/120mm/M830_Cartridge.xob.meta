@@ -1,0 +1,57 @@
+MetaFileClass {
+ Name "{62CE86C408FE8A42}Assets/Weapons/Ammo/120mm/M830_Cartridge.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5DA01AF767C8AD05}" {
+     SourceMaterial "Brass"
+     AssignedMaterial "{9455435EA980C31A}Assets/Weapons/Ammo/120mm/Data/Brass.emat"
+    }
+    MaterialAssignClass "{5DA01AF767C8AD12}" {
+     SourceMaterial "BlackMetal"
+     AssignedMaterial "{38B6729EABA55C5E}Assets/Weapons/Ammo/120mm/Data/BlackMetal.emat"
+    }
+    MaterialAssignClass "{5DA01AF767C8AD6F}" {
+     SourceMaterial "Aluminum"
+     AssignedMaterial "{74839D2D3781CBDE}Assets/Weapons/Ammo/120mm/Data/Aluminum.emat"
+    }
+    MaterialAssignClass "{5DA01AF767C8AD6C}" {
+     SourceMaterial "MattOrange"
+     AssignedMaterial "{6A21E90F3F37EEE3}Assets/Weapons/Ammo/120mm/Data/MattOrange.emat"
+    }
+   }
+   MeshParams {
+    MeshParam M830 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCL_Cartridge {
+     LayerPreset "ItemFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5DA01AF767B5B545}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5DA01AF767B5B6CE}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5DA01AF767B5B62F}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5DA01AF767B5B631}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5DA01AF767B5B618}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

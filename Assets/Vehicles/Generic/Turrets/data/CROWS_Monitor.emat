@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{B89291FE0D4C6BD2}Assets/Vehicles/Generic/Turrets/data/Textures/CROWS_Monitor_BCR.edds"
+ NMOMap "{804A2A6CD43B394C}Assets/Vehicles/Generic/Turrets/data/Textures/CROWS_Monitor_NMO.edds"
+}

@@ -1,0 +1,6 @@
+MatPBRBasicGlass {
+ AlphaMul 0.5
+ MetalnessScale 0
+ BCRMap "{5DF75BD2997302BC}Assets/_SharedData/Glass/ST_Glass_Dirt_02_BCR.edds"
+ OpacityMap "{9DF068B59770CC29}Assets/_SharedData/Glass/ST_Glass_Dirt_02_A.edds"
+}

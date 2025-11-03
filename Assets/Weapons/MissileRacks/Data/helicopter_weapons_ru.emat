@@ -1,0 +1,5 @@
+MatPBRBasic {
+ RoughnessScale 1.5
+ BCRMap "{C4A878011396902F}Assets/Weapons/MissileRacks/Data/Textures/helicopter_weapons_ru_base_BCR.edds"
+ NMOMap "{FC70C393CAE1C2B1}Assets/Weapons/MissileRacks/Data/Textures/helicopter_weapons_ru_base_NMO.edds"
+}

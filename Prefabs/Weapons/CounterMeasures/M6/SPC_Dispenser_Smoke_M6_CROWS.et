@@ -1,0 +1,71 @@
+GenericEntity : "{2BAC695816860421}Prefabs/Weapons/Core/Armament_Dispenser_Smoke.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{3FC883C6EC6A385F}Assets/Vehicles/Wheeled/SPC_Stryker/STRYKER_Turret_Smoke.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Dispenser {
+    }
+   }
+  }
+  WCS_Armament_SmokeDispenserComponent "{62DB0A13234C2E8C}" {
+   m_Projectile "{55C7FB182B04C654}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_M6.et"
+   m_FirePosition PointInfo "{62E81A5F2F276566}" {
+    Offset -0.2927 0.2721 0.25
+    Angles 14.5916 -11.2981 3.5147
+   }
+   m_iNumProjectiles 4
+  }
+  WCS_Armament_SmokeDispenserComponent "{6332604AB1CCD071}" {
+   m_Projectile "{55C7FB182B04C654}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_M6.et"
+   m_IdlePosition PointInfo "{6332604AA4738155}" {
+   }
+   m_FirePosition PointInfo "{6332604ADD5FC7BA}" {
+    Offset -0.4144 0.2388 0.1244
+    Angles 15 -35 0
+   }
+   m_vDispersion 2 2 2
+   m_iNumProjectiles 4
+   m_iShakeAmount 1
+   m_iId 1
+  }
+  WCS_Armament_SmokeDispenserComponent "{6332604ABD16209B}" {
+   m_Projectile "{55C7FB182B04C654}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_M6.et"
+   m_IdlePosition PointInfo "{6332604AA7C4F743}" {
+   }
+   m_FirePosition PointInfo "{6332604ADC1548E0}" {
+    Offset 0.2753 0.2793 0.2239
+    Angles 14.5228 10.1863 -3.7942
+   }
+   m_vDispersion 2 2 2
+   m_iNumProjectiles 4
+   m_iShakeAmount 1
+   m_iId 2
+  }
+  WCS_Armament_SmokeDispenserComponent "{6332604ABFC77752}" {
+   m_Projectile "{55C7FB182B04C654}Prefabs/Weapons/Ammo/Ammo_Smoke_Vehicle_M6.et"
+   m_IdlePosition PointInfo "{6332604AA6AA5BD9}" {
+   }
+   m_FirePosition PointInfo "{6332604ADF3BB09C}" {
+    Offset 0.3938 0.2001 0.101
+    Angles 15 35 0
+   }
+   m_vDispersion 2 2 2
+   m_iNumProjectiles 4
+   m_iShakeAmount 1
+   m_iId 3
+  }
+  ActionsManagerComponent "{62A957B2374C324C}" {
+   ActionContexts {
+    UserActionContext "{62A957B22D79F4B1}" {
+     Radius 0.3
+     Omnidirectional 0
+     VisibilityAngle 75
+    }
+   }
+  }
+ }
+ coords 63.117 1.717 1215.641
+}
